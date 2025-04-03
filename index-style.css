@@ -156,6 +156,12 @@ body.fill {
     background-color: rgb(57, 214, 193);
 }
 
+@media screen and (max-width: 458px) {
+    .info_area {
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width: 422px) {
     .main .title h1 {
         font-size: 1.5rem;
