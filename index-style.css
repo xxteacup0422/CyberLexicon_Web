@@ -1,3 +1,7 @@
+* {
+    font-family: "Noto Sans SC", sans-serif;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -109,24 +113,47 @@ body.fill {
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
 }
 
-.main .button_area .info_button {
+.main .button_area img {
     width: 32px;
     height: 32px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.main .button_area .info_button:hover {
+.main .button_area img:hover {
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease;
 }
 
 .info_area {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
     display: none;
 }
 
 .info_area.show {
     display: block;
+}
+
+.info_area a {
+    text-decoration: none;
+}
+
+.info_area button {
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(72, 255, 231);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.info_area button:hover {
+    background-color: rgb(57, 214, 193);
 }
 
 @media screen and (max-width: 422px) {

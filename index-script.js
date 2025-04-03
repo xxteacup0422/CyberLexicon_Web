@@ -1,10 +1,15 @@
-const main_area = document.querySelector(".main");
-const info_button = main_area.querySelector(".button_area .info_button");
-
-const info_area = document.querySelector(".info_area");
-
-info_button.addEventListener("click", () => {
-    document.body.classList.toggle("fill");
-    main_area.classList.toggle("invisible");
-    info_area.classList.toggle("show");
+setInterval(() => {
+    if (window.location.hash == "#about") {
+        document.body.classList.add("fill");
+        document.querySelector(".main").classList.add("invisible");
+        document.querySelector(".info_area").classList.add("show");
+    }
 });
+
+function showInfo() {
+    window.location.hash = "#about";
+}
+
+function backMain() {
+    window.location.href = "";
+}

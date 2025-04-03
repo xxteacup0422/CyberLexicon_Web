@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-    <html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CyberLexicon WEB</title>
         <link rel="stylesheet" href="index-style.css">
         <link rel="icon" href="logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
         <script src="index-script.js"></script>
     </head>
     <body>
@@ -19,11 +21,18 @@
                 <li>mengenal</li>
             </ol>
             <div class="button_area">
-                <img src="svg/info.svg" alt="Info" class="info_button">
+                <img class="info_button" src="svg/info.svg" alt="Info" onclick="showInfo()">
             </div>  
         </div>
         <div class="info_area">
-            <p>test</p>
+            <button onclick="backMain()">Back</button>
+            <h2>About</h2>
+            <p><strong>CyberLexicon Web</strong> is a Malay Dictionary, add Annontate English and Chinese Simpifield.</p>
+            <p>It is a web-based application that allows users to search for Malay words and their meanings.</p>
+            <p>It is designed to be user-friendly and easy to navigate.</p>
+            <p>It is a useful tool for anyone who wants to learn or improve their Malay language skills.</p>
+            <h3>Repositories Github:</h3>
+            <a href="https://github.com/xxteacup0422/CyberLexicon_Web">https://github.com/xxteacup0422/CyberLexicon_Web</a>
         </div>
     </body>
 </html>
