@@ -1,0 +1,149 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d1d1d1;
+    overflow: hidden;
+}
+
+body.fill {
+    overflow-y: auto;
+}
+
+.main {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+
+.main.invisible {
+    display: none;
+}
+
+.main .title {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(84, 182, 238);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+
+.main .title img {
+    width: 90px;
+    height: 90px;
+}
+
+.main .title h1 {
+    font-size: 2.5rem;
+    margin: 13px;
+    color: white;
+}
+
+.main .search {
+    display: flex;
+    align-items: center;
+    outline: none;
+    width: 98%;
+    height: 35px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+}
+
+.main .search:focus {
+    border: 1px solid #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.main .search_area {
+    height: 185px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(130, 84, 238);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+.main .search_area::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 0 10px 10px 0;
+}
+
+.main .search_area::-webkit-scrollbar-thumb {
+    background: #bebebe;
+    border-radius: 10px;
+}
+
+.main .search_area::-webkit-scrollbar-thumb {
+    background: #bebebe;
+    border-radius: 10px;
+}
+
+
+.main .search_area::-webkit-scrollbar {
+    width: 10px;
+}
+.main .search_area li {
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer
+}
+
+.main .search_area li:hover {
+    background-color: rgba(248, 248, 248, 0.801);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 100);
+}
+
+.main .button_area {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 176, 84);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+
+.main .button_area .info_button {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main .button_area .info_button:hover {
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+
+.info_area {
+    display: none;
+}
+
+.info_area.show {
+    display: block;
+}
+
+@media screen and (max-width: 422px) {
+    .main .title h1 {
+        font-size: 1.5rem;
+    }
+    .main .search {
+        font-size: 1rem;
+    }
+    .main .search_area {
+        height: 150px;
+    }
+    .main .search_area li {
+        font-size: 0.8rem;
+    }
+    .main .title img {
+        width: 64px;
+        height: 64px;
+    }
+}
