@@ -1,0 +1,108 @@
+[
+  {
+    "id": "ms-MY~GUCV6",
+    "name": "a",
+    "pronounce": [
+      "a"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "huruf pertama abjad Rumi"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~tV9EO",
+    "name": "a",
+    "pronounce": [
+      "a"
+    ],
+    "means": [
+      {
+        "type": "intrj",
+        "mean": "untuk melahirkan kegirangan atau menyatakan persetujuan"
+      },
+      {
+        "type": "intrj",
+        "mean": "untuk menunjukkan terlupa akan sesuatu"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~H0he9",
+    "name": "AA",
+    "pronounce": [
+      "A.A"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "singkatan \"Asia-Afrika\"",
+        "tag": [
+          "abbr"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~FHBXg",
+    "name": "AB",
+    "pronounce": [
+      "A.B"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "singkatan \"Anggaran Belanja\"",
+        "tag": [
+          "abbr"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~iZqIp",
+    "name": "aba",
+    "pronounce": [
+      "a.ba"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "kata perintah dalam latihan tentera dan lain-lain",
+        "source": "id"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Rbt5W",
+    "name": "aba-aba",
+    "pronounce": [
+      "a.ba.a.ba"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "kata-kata perintah dalam latihan tentera senaman dan lain-lain",
+        "source": "id"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~WvKCQ",
+    "name": "Abd.",
+    "pronounce": [
+      "Ab.d"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "singkatan \"Abdul\"",
+        "tag": [
+          "abbr"
+        ]
+      }
+    ]
+  }
+]

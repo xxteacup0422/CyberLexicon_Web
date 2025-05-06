@@ -113,14 +113,14 @@ body.fill {
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
 }
 
-.main .button_area img {
-    width: 32px;
-    height: 32px;
+.main .button_area span {
+    user-select: none;
+    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.main .button_area img:hover {
+.main .button_area span:hover {
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
     transition: all 0.5s ease;
 }
