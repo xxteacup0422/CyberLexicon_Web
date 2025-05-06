@@ -91,6 +91,7 @@ body.fill {
     width: 10px;
 }
 .main .search_area li {
+    user-select: none;
     margin-bottom: 5px;
     border-radius: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
@@ -181,6 +182,25 @@ body.fill {
 
 .dictionary_area .backButton:hover {
     background-color: rgb(57, 214, 193);
+}
+
+.dictionary_area .word {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.dictionary_area .pronounce span {
+    font-size: 0.9rem;
+}
+
+.dictionary_area .means {
+    overflow-y: auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(230, 229, 229);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 458px) {

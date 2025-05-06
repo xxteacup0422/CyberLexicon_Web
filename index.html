@@ -9,14 +9,13 @@
         <script src="index-script.js"></script>
     </head>
     <body>
-        <div class="main invisible">
+        <div class="main">
             <div class="title">
                 <img src="logo.png" alt="">
                 <h1>CyberLexicon</h1>
             </div>
             <input type="text" class="search" placeholder="Search Malay Word"/>
             <ol class="search_area">
-                <li>mengenal</li>
             </ol>
             <div class="button_area">
                 <span class="info_button material-symbols-outlined" onclick="showInfo()">info</span>
@@ -29,8 +28,18 @@
             <p> - Currently only supports Malay Dictionary.</p>
             <a href="https://github.com/xxteacup0422/CyberLexicon_Web">Repositories Github Link</a>
         </div>
-        <div class="dictionary_area show">
+        <div class="dictionary_area">
             <button class="backButton" onclick="backMain()">Back</button>
+            <h2 class="word"></h2>
+            <div class="pronounce"></div>
+            <ol class="means">
+                <li>
+                    <span class="type">abj</span>
+                    <span class="mean">as</span>
+                    <span class="source">ar</span>
+                    <div class="tag">cl</div>
+                </li>
+            </ol>
         </div>
     </body>
 </html>

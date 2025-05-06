@@ -2,6 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.querySelector(".search");
     const searchArea = document.querySelector(".search_area");
 
+    const dictionaryArea = document.querySelector(".dictionary_area");
+    const dictionaryWord = dictionaryArea.querySelector(".word");
+    const dictionaryPronounce = dictionaryArea.querySelector(".pronounce");
+
+    const params = new URLSearchParams(window.location.search);
+
     searchInput.addEventListener("input", () => {
         fetch("dictionary/ms-MY.json")
         .then((response) => response.json())
@@ -17,30 +23,42 @@ document.addEventListener("DOMContentLoaded", () => {
                 const wordElement = document.createElement("li");
                 wordElement.innerHTML = word.name;
                 searchArea.appendChild(wordElement);
+                wordElement.addEventListener("click", () => {
+                    window.location.href = `?id=${word.id}`;
+                });
             });
         });
     });
 
-    setInterval(() => {
-        if (window.location.hash == "#about") {
-            document.body.classList.add("fill");
-            document.querySelector(".main").classList.add("invisible");
-            document.querySelector(".info_area").classList.add("show");
-        }
-    });
-    setInterval(() => {
-        if (window.location.port == "") {
-            document.body.classList.add("fill");
-            document.querySelector(".main").classList.add("invisible");
-            document.querySelector(".info_area").classList.add("show");
-        }
-    });
-
-    function showInfo() {
-        window.location.hash = "#about";
+    if (window.location.hash == "#about") {
+        document.body.classList.add("fill");
+        document.querySelector(".main").classList.add("invisible");
+        document.querySelector(".info_area").classList.add("show");
     }
+    if (params.get("id")) {
+        document.body.classList.add("fill");
+        document.querySelector(".main").classList.add("invisible");
+        document.querySelector(".dictionary_area").classList.add("show");
+        fetch("dictionary/ms-MY.json")
+        .then((response) => response.json())
+        .then((data) => {
+            const filteredWords = data.filter((word) => word.id.includes(params.get("id")));
 
-    function backMain() {
-        window.location.href = "";
+            let word = filteredWords[0]
+            dictionaryWord.innerHTML = word.name;
+            word.pronounce.forEach((pronounce) => {
+                const spanPronounce = document.createElement("span");
+                spanPronounce.innerHTML = `[${pronounce}]`;
+                dictionaryPronounce.appendChild(spanPronounce);
+            });
+        });
     }
 });
+
+function showInfo() {
+    window.location.hash = "#about";
+}
+
+function backMain() {
+    window.location.href = "/";
+}
