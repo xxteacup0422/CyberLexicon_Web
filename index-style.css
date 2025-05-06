@@ -156,6 +156,33 @@ body.fill {
     background-color: rgb(57, 214, 193);
 }
 
+.dictionary_area {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.dictionary_area.show {
+    display: block;
+}
+
+.dictionary_area .backButton {
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(72, 255, 231);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.dictionary_area .backButton:hover {
+    background-color: rgb(57, 214, 193);
+}
+
 @media screen and (max-width: 458px) {
     .info_area {
         padding: 10px;

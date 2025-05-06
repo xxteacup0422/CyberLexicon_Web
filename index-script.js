@@ -28,6 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
             document.querySelector(".info_area").classList.add("show");
         }
     });
+    setInterval(() => {
+        if (window.location.port == "") {
+            document.body.classList.add("fill");
+            document.querySelector(".main").classList.add("invisible");
+            document.querySelector(".info_area").classList.add("show");
+        }
+    });
 
     function showInfo() {
         window.location.hash = "#about";
