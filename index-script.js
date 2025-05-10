@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dictionaryArea = document.querySelector(".dictionary_area");
     const dictionaryWord = dictionaryArea.querySelector(".word");
     const dictionaryPronounce = dictionaryArea.querySelector(".pronounce");
+    const dictionaryMeans = dictionaryArea.querySelector(".means");
 
     const params = new URLSearchParams(window.location.search);
 
@@ -51,12 +52,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 spanPronounce.innerHTML = `[${pronounce}]`;
                 dictionaryPronounce.appendChild(spanPronounce);
             });
+
+            word.means.forEach((means) => {
+                let type = means.type;
+                let source = means.source;
+                let tag = means.tag;
+                let meansList = means.mean;
+                let meansElement = document.createElement("li");
+                meansElement.innerHTML = `${type}. ${source ? `[${source}]` : ""} ${tag ? `(${tag})` : ""} ${meansList}`;
+                dictionaryMeans.appendChild(meansElement);
+            });
         });
     }
 });
 
 function showInfo() {
     window.location.hash = "#about";
+    location.reload();
 }
 
 function backMain() {
