@@ -72,5 +72,5 @@ function showInfo() {
 }
 
 function backMain() {
-    window.location.href = "/";
+    window.location.search = "?";
 }
