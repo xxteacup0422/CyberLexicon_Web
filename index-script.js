@@ -72,6 +72,5 @@ function showInfo() {
 }
 
 function backMain() {
-    window.location.hash = "";
-    window.location.href = "index.html";
+    window.location.href = "/";
 }
