@@ -3,7 +3,7 @@
 </p>
 
 # CyberLexicon Web [Beta]
-**CyberLexicon Web** is a Malay Dictionary, add Annontate of English and Chinese Simpifield.
+**CyberLexicon Web** is a Malay Dictionary, ~~add Annontate of English and Chinese Simpifield~~.
 
 > [!Tip]
 > 
