@@ -72,5 +72,10 @@ function showInfo() {
 }
 
 function backMain() {
+<<<<<<< HEAD
     window.location.href.substr(0, window.location.href.indexOf('#'))
 }
+=======
+    window.location.href = "/";
+}
+>>>>>>> 80ad283c7c81015fa827a91eddd53a9080683941
