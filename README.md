@@ -5,7 +5,7 @@
 # CyberLexicon Web [Beta]
 **CyberLexicon Web** is a Malay Dictionary, add Annontate of English and Chinese Simpifield.
 
-> [!Tips]
+> [!Tip]
 > 
 > Currently, **the JSON dictionary repository** and **this repository** are not perfect, so the current version is Beta.
 > 目前，**JSON字典仓库**和**此仓库**并不完善，所以目前版本为Beta。
