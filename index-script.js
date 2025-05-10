@@ -72,5 +72,5 @@ function showInfo() {
 }
 
 function backMain() {
-    window.location.search = "?";
+    window.location.href.substr(0, window.location.href.indexOf('#'))
 }
