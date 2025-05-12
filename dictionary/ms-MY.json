@@ -113,6 +113,83 @@
     ]
   },
   {
+    "id": "ms-MY~hESyT",
+    "name": "abad",
+    "pronounce": [
+      "a.bad"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "jangka masa seratus tahun (atau satu daripada jangka masa seratus tahun yang berurutan yang dimulai dengan kejadian yang terpenting, iaitu Hihrah Nabi Muhammad SAW bagi Tahun Hijrah atau kelahiran Nabi Isa bagi Tahun Masihi), kurun"
+      },
+      {
+        "type": "nm",
+        "mean": "beberapa abad yang lampay beberapa ratus tahun yang lalu"
+      }
+    ],
+    "example": [
+      "Dalam abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) Melaka berkuasa di Asia Tenggara."
+    ]
+  },
+  {
+    "id": "ms-MY~9LuP9",
+    "name": "abad al-abid",
+    "pronounce": [
+      "a.bad al.ʕa.bid",
+      "a.bad al.a.bid"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "kekal selama-lamanya."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Uo1yz",
+    "name": "abad emas",
+    "pronounce": [
+      "a.bad e.mas"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "zaman sesuatu bangsa atau negara mencapai puncak kejayaan, zaman kegemilangan (gemilang)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~ELdC8",
+    "name": "abad kedua puluh",
+    "pronounce": [
+      "a.bad ke.dua pu.luh"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "jangka masa daripada tahun 1901 hingga ke tahun 2000"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~iZhGQ",
+    "name": "abad pertengahan",
+    "pronounce": [
+      "a.bad per.te.nga.han"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "abad tengah zaman dalam sejarah Eropah antara zaman purbakala dan zaman baru (meliputi jangka masa antara kira-kira tahun 476 hingga 1453M)",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": []
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -126,6 +203,23 @@
           "abbr"
         ]
       }
+    ]
+  },
+  {
+    "id": "ms-MY~CFHrP",
+    "name": "berabad-abad",
+    "pronounce": [
+      "be.ra.bad.ra.bad",
+      "ber.a.bad.a.bad"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "beratus-ratus tahun"
+      }
+    ],
+    "example": [
+      "Sudah berabad-abad lamanya beratus-ratus tahun lamanya."
     ]
   }
 ]
