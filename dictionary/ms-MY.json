@@ -27,6 +27,10 @@
         "type": "intrj",
         "mean": "untuk menunjukkan terlupa akan sesuatu"
       }
+    ],
+    "example": [
+      "Itu dia, a,macam itulah caranya!",
+      "Nama bukunya ... a, nanti saya cuba ingatkan!"
     ]
   },
   {
@@ -73,6 +77,9 @@
         "mean": "kata perintah dalam latihan tentera dan lain-lain",
         "source": "id"
       }
+    ],
+    "example": [
+      "\"Satu ...,\" aba Wit daripada kerusinya."
     ]
   },
   {
@@ -87,6 +94,9 @@
         "mean": "kata-kata perintah dalam latihan tentera senaman dan lain-lain",
         "source": "id"
       }
+    ],
+    "example": [
+      "\"Satu ...,\" aba-aba Wit daripada kerusinya."
     ]
   },
   {

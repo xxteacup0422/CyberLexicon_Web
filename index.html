@@ -5,7 +5,7 @@
         <title>CyberLexicon WEB</title>
         <link rel="stylesheet" href="index-style.css">
         <link rel="icon" href="logo.png">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=info" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <script src="index-script.js"></script>
     </head>
     <body>
@@ -22,17 +22,21 @@
             </div>  
         </div>
         <div class="info_area">
-            <button onclick="backMain()">Back</button>
+            <span class="backButton material-symbols-outlined" onclick="backMain()">arrow_back_ios</span>
             <h2>About</h2>
             <p><strong>CyberLexicon Web</strong> is a Malay Dictionary, add Annontate of English and Chinese Simpifield.</p>
             <p> - Currently only supports Malay Dictionary.</p>
             <a href="https://github.com/xxteacup0422/CyberLexicon_Web">Repositories Github Link</a>
         </div>
         <div class="dictionary_area">
-            <button class="backButton" onclick="backMain()">Back</button>
+            <span class="backButton material-symbols-outlined" onclick="backMain()">arrow_back_ios</span>
             <h2 class="word"></h2>
             <div class="pronounce"></div>
+            <h3>Mean:</h3>
             <ol class="means">
+            </ol>
+            <h3 class="label_example">Example:</h3>
+            <ol class="example">
             </ol>
         </div>
     </body>

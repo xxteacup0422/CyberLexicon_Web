@@ -142,19 +142,16 @@ body.fill {
     text-decoration: none;
 }
 
-.info_area button {
-    font-size: 1.1rem;
+.info_area .backButton {
+    user-select: none;
     padding: 10px;
-    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(72, 255, 231);
-    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    transition: all 0.5s ease;
 }
 
-.info_area button:hover {
-    background-color: rgb(57, 214, 193);
+.info_area .backButton:hover {
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
 }
 
 .dictionary_area {
@@ -170,18 +167,15 @@ body.fill {
 }
 
 .dictionary_area .backButton {
-    font-size: 1.1rem;
+    user-select: none;
     padding: 10px;
-    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(72, 255, 231);
-    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    transition: all 0.5s ease;
 }
 
 .dictionary_area .backButton:hover {
-    background-color: rgb(57, 214, 193);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
 }
 
 .dictionary_area .word {
@@ -193,14 +187,51 @@ body.fill {
     font-size: 0.9rem;
 }
 
+.dictionary_area h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: none;
+}
+
+.dictionary_area h3.show {
+    display: block;
+}
+
 .dictionary_area .means {
     overflow-y: auto;
     list-style: none;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(230, 229, 229);
+    background-color: rgb(155, 227, 255);
     margin-bottom: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+
+.dictionary_area .example {
+    overflow-y: auto;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(187, 239, 255);
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.dictionary_area .example.show {
+    display: block;
+}
+
+.dictionary_area .means li,
+.dictionary_area .example li {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dictionary_area .means li:hover,
+.dictionary_area .example li:hover {
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 458px) {

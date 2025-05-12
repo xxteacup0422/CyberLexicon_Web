@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const dictionaryWord = dictionaryArea.querySelector(".word");
     const dictionaryPronounce = dictionaryArea.querySelector(".pronounce");
     const dictionaryMeans = dictionaryArea.querySelector(".means");
+    const dictionaryExample = dictionaryArea.querySelector(".example");
+    const labelExample = dictionaryArea.querySelector(".label_example");
 
     const params = new URLSearchParams(window.location.search);
 
@@ -61,6 +63,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 let meansElement = document.createElement("li");
                 meansElement.innerHTML = `${type}. ${source ? `[${source}]` : ""} ${tag ? `(${tag})` : ""} ${meansList}`;
                 dictionaryMeans.appendChild(meansElement);
+            });
+
+            word.example.forEach((item) => {
+                dictionaryExample.classList.add("show");
+                labelExample.classList.add("show");
+                let itemElement = document.createElement("li");
+                itemElement.innerHTML = `${item}`;
+                dictionaryExample.appendChild(itemElement);
             });
         });
     }
