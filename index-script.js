@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector(".info_area").classList.add("show");
     }
     if (params.get("id")) {
-        document.body.classList.add("fill");
         document.querySelector(".main").classList.add("invisible");
         document.querySelector(".dictionary_area").classList.add("show");
         fetch("dictionary/ms-MY.json")
@@ -180,69 +179,71 @@ document.addEventListener("DOMContentLoaded", () => {
                     full_text.innerHTML = fullText;
                 });
 
-                meansTag.querySelector("span").addEventListener("click", () => {
-                    blackground.classList.add("show");
-                    abbr_box.classList.add("show");
-                    document.body.classList.remove("fill");
-                    const abbr_text = document.querySelector(".abbr-text");
-                    const full_text = document.querySelector(".full-text");
-                    abbr_text.innerHTML = meansTag.querySelector("span").innerText;
-                    let fullText = "";
-                    if (tag == "abbr") {
-                        fullText = "缩写 | Abbreviation | Kependekan";
-                    } else if (tag == "cl") {
-                        fullText = "古典文字 | Classical Literature | Sastera Lama";
-                    } else if (tag == "egl") {
-                        fullText = "优雅的语文 | Elegant Language | Bahasa Halus";
-                    } else if (tag == "ful") {
-                        fullText = "粗鲁的语文 | Foul Language | Bahasa Kasar";
-                    } else if (tag == "ous") {
-                        fullText = "口语 | Oral Usage | Bahasa Percakapan";
-                    } else if (tag == "prov") {
-                        fullText = "谚语 | Proverb | Peribahasa";
-                    } else if (tag == "rus") {
-                        fullText = "宫廷用语 | Royal Usage | Bahasa Istana/Dalam";
-                    } else if (tag == "ant") {
-                        fullText = "人类学 | Anthropology | Antropologi";
-                    } else if (tag == "bio") {
-                        fullText = "生物学 | Biology | Biologi";
-                    } else if (tag == "econ") {
-                        fullText = "经济 | Economy | Ekonomi";
-                    } else if (tag == "phys") {
-                        fullText = "物理学 | Physics | Fizik";
-                    } else if (tag == "geol") {
-                        fullText = "地质学 | Geology | Geologi";
-                    } else if (tag == "geogr") {
-                        fullText = "地理学 | Geography | Geografi";
-                    } else if (tag == "for") {
-                        fullText = "林业 | Forestry | Perhutanan";
-                    } else if (tag == "eng") {
-                        fullText = "工程学 | Engineering | Kejuruteraan";
-                    } else if (tag == "chem") {
-                        fullText = "化学 | Chemistry | Kimia";
-                    } else if (tag == "ling") {
-                        fullText = "语言学 | Linguistics | Linguistik";
-                    } else if (tag == "math") {
-                        fullText = "数学 | Mathematics | Matematik";
-                    } else if (tag == "mus") {
-                        fullText = "音乐 | Music | Muzik";
-                    } else if (tag == "psy") {
-                        fullText = "心理学 | Psychology | Psikologi";
-                    } else if (tag == "liter") {
-                        fullText = "文学 | Literature | Kesusasteraan";
-                    } else if (tag == "arch") {
-                        fullText = "建筑学 | Architecture | Seni Bina";
-                    } else if (tag == "hs") {
-                        fullText = "历史 | History | Sejarah";
-                    } else if (tag == "ag") {
-                        fullText = "农业 | Agriculture | Pertanian";
-                    } else if (tag == "law") {
-                        fullText = "法律 | Law | Undang-Undang";
-                    } else if (tag == "med") {
-                        fullText = "医学 | Medical | Perubatan";
-                    }
-                    full_text.innerHTML = fullText;
-                });
+                if (tag) {
+                    meansTag.querySelector("span").addEventListener("click", () => {
+                        blackground.classList.add("show");
+                        abbr_box.classList.add("show");
+                        document.body.classList.remove("fill");
+                        const abbr_text = document.querySelector(".abbr-text");
+                        const full_text = document.querySelector(".full-text");
+                        abbr_text.innerHTML = meansTag.querySelector("span").innerText;
+                        let fullText = "";
+                        if (tag == "abbr") {
+                            fullText = "缩写 | Abbreviation | Kependekan";
+                        } else if (tag == "cl") {
+                            fullText = "古典文字 | Classical Literature | Sastera Lama";
+                        } else if (tag == "egl") {
+                            fullText = "优雅的语文 | Elegant Language | Bahasa Halus";
+                        } else if (tag == "ful") {
+                            fullText = "粗鲁的语文 | Foul Language | Bahasa Kasar";
+                        } else if (tag == "ous") {
+                            fullText = "口语 | Oral Usage | Bahasa Percakapan";
+                        } else if (tag == "prov") {
+                            fullText = "谚语 | Proverb | Peribahasa";
+                        } else if (tag == "rus") {
+                            fullText = "宫廷用语 | Royal Usage | Bahasa Istana/Dalam";
+                        } else if (tag == "ant") {
+                            fullText = "人类学 | Anthropology | Antropologi";
+                        } else if (tag == "bio") {
+                            fullText = "生物学 | Biology | Biologi";
+                        } else if (tag == "econ") {
+                            fullText = "经济 | Economy | Ekonomi";
+                        } else if (tag == "phys") {
+                            fullText = "物理学 | Physics | Fizik";
+                        } else if (tag == "geol") {
+                            fullText = "地质学 | Geology | Geologi";
+                        } else if (tag == "geogr") {
+                            fullText = "地理学 | Geography | Geografi";
+                        } else if (tag == "for") {
+                            fullText = "林业 | Forestry | Perhutanan";
+                        } else if (tag == "eng") {
+                            fullText = "工程学 | Engineering | Kejuruteraan";
+                        } else if (tag == "chem") {
+                            fullText = "化学 | Chemistry | Kimia";
+                        } else if (tag == "ling") {
+                            fullText = "语言学 | Linguistics | Linguistik";
+                        } else if (tag == "math") {
+                            fullText = "数学 | Mathematics | Matematik";
+                        } else if (tag == "mus") {
+                            fullText = "音乐 | Music | Muzik";
+                        } else if (tag == "psy") {
+                            fullText = "心理学 | Psychology | Psikologi";
+                        } else if (tag == "liter") {
+                            fullText = "文学 | Literature | Kesusasteraan";
+                        } else if (tag == "arch") {
+                            fullText = "建筑学 | Architecture | Seni Bina";
+                        } else if (tag == "hs") {
+                            fullText = "历史 | History | Sejarah";
+                        } else if (tag == "ag") {
+                            fullText = "农业 | Agriculture | Pertanian";
+                        } else if (tag == "law") {
+                            fullText = "法律 | Law | Undang-Undang";
+                        } else if (tag == "med") {
+                            fullText = "医学 | Medical | Perubatan";
+                        }
+                        full_text.innerHTML = fullText;
+                    });
+                }
             });
 
             word.example.forEach((item) => {
@@ -268,5 +269,4 @@ function backMain() {
 function removeBox() {
     const blackground = document.querySelector(".blackground");
     blackground.classList.remove("show");
-    document.body.classList.add("fill");
 }
