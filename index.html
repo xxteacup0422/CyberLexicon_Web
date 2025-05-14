@@ -5,6 +5,9 @@
         <title>CyberLexicon WEB</title>
         <link rel="stylesheet" href="index-style.css">
         <link rel="icon" href="logo.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <script src="index-script.js"></script>
     </head>
@@ -18,18 +21,19 @@
             <ol class="search_area">
             </ol>
             <div class="button_area">
-                <span class="info_button material-symbols-outlined" onclick="showInfo()">info</span>
+                <span class="info_button material-symbols-outlined" onclick="showInfo()"></span>
             </div>  
         </div>
         <div class="info_area">
-            <span class="backButton material-symbols-outlined" onclick="backMain()">arrow_back_ios</span>
+            <span class="backButton material-symbols-outlined" onclick="backMain()"></span>
             <h2>About</h2>
             <p><strong>CyberLexicon Web</strong> is a Malay Dictionary, add Annontate of English and Chinese Simpifield.</p>
             <p> - Currently only supports Malay Dictionary.</p>
+            <p><strong>Version: </strong>0.2-beta</p>
             <a href="https://github.com/xxteacup0422/CyberLexicon_Web">Repositories Github Link</a>
         </div>
         <div class="dictionary_area">
-            <span class="backButton material-symbols-outlined" onclick="backMain()">arrow_back_ios</span>
+            <span class="backButton material-symbols-outlined" onclick="backMain()"></span>
             <h2 class="word"></h2>
             <div class="pronounce"></div>
             <h3>Mean:</h3>
@@ -38,6 +42,15 @@
             <h3 class="label_example">Example:</h3>
             <ol class="example">
             </ol>
+        </div>
+        <div class="blackground">
+            <div class="abbr-box">
+                <span class="backButton material-symbols-outlined" onclick="removeBox()"></span>
+                <h2>Abbreviation</h2>
+                <p class="abbr-text"></p>
+                <span class="south_arrow material-symbols-outlined"></span>
+                <p class="full-text"></p>
+            </div>
         </div>
     </body>
 </html>
