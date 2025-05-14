@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector(".info_area").classList.add("show");
     }
     if (params.get("id")) {
+        document.body.classList.add("fill");
         document.querySelector(".main").classList.add("invisible");
         document.querySelector(".dictionary_area").classList.add("show");
         fetch("dictionary/ms-MY.json")
@@ -269,4 +270,5 @@ function backMain() {
 function removeBox() {
     const blackground = document.querySelector(".blackground");
     blackground.classList.remove("show");
+    document.body.classList.add("fill");
 }
