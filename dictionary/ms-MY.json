@@ -190,6 +190,30 @@
     "example": []
   },
   {
+    "id": "ms-MY~2KJwU",
+    "name": "abadi",
+    "pronounce": [
+      "a.ba.di"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "ada permulaan yang tiada pengakhiran (berkenaan dengan masa, kehidupan, kenangan dan sebagainya)",
+        "source": "ar"
+      },
+      {
+        "type": "adj",
+        "mean": "wujud atau berterusan untuk selama-lamanya (sepanjang hayat dan sebagainya), tidak berkesudahan, kekal",
+        "source": "ar"
+      }
+    ],
+    "example": [
+      "Kehidupan akhirat adalah kehidupan yang abadi.",
+      "Keamanan yang abadi.",
+      "Kasih sayang yang abadi."
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -220,6 +244,80 @@
     ],
     "example": [
       "Sudah berabad-abad lamanya beratus-ratus tahun lamanya."
+    ]
+  },
+  {
+    "id": "ms-MY~5F5Jh",
+    "name": "keabadian",
+    "pronounce": [
+      "ke.a.ba.dian"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "kewujudan yang abadi, kekekalan",
+        "source": "ar"
+      }
+    ],
+    "example": [
+      "Keabadian kasih sayang seorang ibu.",
+      "Keabadian perdamaian dan keamanan."
+    ]
+  },
+  {
+    "id": "ms-MY~Hb2Vz",
+    "name": "mengabadikan",
+    "pronounce": [
+      "me.nga.ba.di.kan"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "menjadikan abadi, mengekalkan",
+        "source": "ar"
+      },
+      {
+        "type": "v",
+        "mean": "menjadikan peringatan (kenangan) yang kekal",
+        "source": "ar"
+      }
+    ],
+    "example": [
+      "Kasih sayangnya terhadap gadis itu tidak dapat diabadikannya.",
+      "Hasil-hasil sastera itu diabadikan melalui percetakan.",
+      "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban"
+    ]
+  },
+  {
+    "id": "ms-MY~fdbTZ",
+    "name": "pengabadian",
+    "pronounce": [
+      "pe.nga.ba.dian"
+    ],
+    "means": [
+      {
+        "type": "nm",
+        "mean": "perihal mengabadikan, pengekalan",
+        "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~xDErg",
+    "name": "terabadi",
+    "pronounce": [
+      "te.ra.ba.di",
+      "ter.a.ba.di"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "dapat diabadikan (dikekalkan)",
+        "source": "ar"
+      }
+    ],
+    "example": [
+      "Dengan usahanya itu terabadi terus cerita-cerita rakyat"
     ]
   }
 ]
