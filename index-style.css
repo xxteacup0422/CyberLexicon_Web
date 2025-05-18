@@ -304,6 +304,7 @@ body.fill {
 
 .blackground.show {
     display: flex;
+    transition: all 0.5s ease;
 }
 
 .blackground .abbr-box {
@@ -315,6 +316,7 @@ body.fill {
 }
 
 .blackground .abbr-box.show {
+    transition: all 0.5s ease;
     display: block;
 }
 
@@ -351,6 +353,12 @@ body.fill {
     background-color: rgb(56, 238, 71);
     margin-bottom: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 565px) {
+    .dictionary_area {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 458px) {
