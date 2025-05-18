@@ -36,6 +36,28 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    searchInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            fetch("dictionary/ms-MY.json")
+            .then((response) => response.json())
+            .then((data) => {
+                const searchValue = searchInput.value.toLowerCase();
+                const filteredWords = data.filter((word) => word.name.toLowerCase() == searchValue);
+
+                if (filteredWords.length == 1) {
+                    filteredWords.forEach((word) => {
+                        window.location.href = `?id=${word.id}`;
+                    });
+                } else if (filteredWords.length > 1) {
+                    alert("The system found two identical word names. Please click on the word in the purple area.")
+                } else {
+                    alert("No Find The Word.")
+                }
+            });
+        }
+    })
+
     if (window.location.hash == "#about") {
         document.body.classList.add("fill");
         document.querySelector(".main").classList.add("invisible");
