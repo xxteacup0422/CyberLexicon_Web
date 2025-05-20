@@ -130,8 +130,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         fullText = "介词 | Preposition | Kata Sendi";
                     } else if (type == "conj") {
                         fullText = "连词 | Conjunction | Kata Hubung";
-                    } else if (type == "nm") {
-                        fullText = "名词 | Noum | Kata Nama";
+                    } else if (type == "n") {
+                        fullText = "名词 | Noun | Kata Nama";
                     } else if (type == "syn") {
                         fullText = "同义词 | Synonym | Kata Sinonim";
                     } else if (type == "ant") {

@@ -7,7 +7,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "huruf pertama abjad Rumi"
       }
     ]
@@ -41,7 +41,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "singkatan \"Asia-Afrika\"",
         "tag": [
           "abbr"
@@ -57,7 +57,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "singkatan \"Anggaran Belanja\"",
         "tag": [
           "abbr"
@@ -73,7 +73,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "kata perintah dalam latihan tentera dan lain-lain",
         "source": "id"
       }
@@ -90,7 +90,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "kata-kata perintah dalam latihan tentera senaman dan lain-lain",
         "source": "id"
       }
@@ -107,7 +107,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "hama, kuman"
       }
     ]
@@ -120,11 +120,11 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "jangka masa seratus tahun (atau satu daripada jangka masa seratus tahun yang berurutan yang dimulai dengan kejadian yang terpenting, iaitu Hihrah Nabi Muhammad SAW bagi Tahun Hijrah atau kelahiran Nabi Isa bagi Tahun Masihi), kurun"
       },
       {
-        "type": "nm",
+        "type": "n",
         "mean": "beberapa abad yang lampau beberapa ratus tahun yang lalu"
       }
     ],
@@ -141,7 +141,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "kekal selama-lamanya."
       }
     ]
@@ -154,7 +154,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "zaman sesuatu bangsa atau negara mencapai puncak kejayaan, zaman kegemilangan (gemilang)"
       }
     ]
@@ -167,7 +167,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "jangka masa daripada tahun 1901 hingga ke tahun 2000"
       }
     ]
@@ -180,7 +180,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "abad tengah zaman dalam sejarah Eropah antara zaman purbakala dan zaman baru (meliputi jangka masa antara kira-kira tahun 476 hingga 1453M)",
         "tag": [
           "cl"
@@ -221,7 +221,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "singkatan \"Abdul\"",
         "tag": [
           "abbr"
@@ -254,7 +254,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "kewujudan yang abadi, kekekalan",
         "source": "ar"
       }
@@ -296,7 +296,7 @@
     ],
     "means": [
       {
-        "type": "nm",
+        "type": "n",
         "mean": "perihal mengabadikan, pengekalan",
         "source": "ar"
       }
