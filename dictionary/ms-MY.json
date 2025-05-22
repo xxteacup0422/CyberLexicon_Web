@@ -1,6 +1,6 @@
 [
   {
-    "id": "ms-MY~GUCV6",
+    "id": "ms-MY~tV9EO",
     "name": "a",
     "pronounce": [
       "a"
@@ -9,16 +9,7 @@
       {
         "type": "n",
         "mean": "huruf pertama abjad Rumi"
-      }
-    ]
-  },
-  {
-    "id": "ms-MY~tV9EO",
-    "name": "a",
-    "pronounce": [
-      "a"
-    ],
-    "means": [
+      },
       {
         "type": "intrj",
         "mean": "untuk melahirkan kegirangan atau menyatakan persetujuan"
