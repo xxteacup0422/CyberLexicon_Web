@@ -134,10 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             fullText = "连词 | Conjunction | Kata Hubung";
                         } else if (type == "n") {
                             fullText = "名词 | Noun | Kata Nama";
-                        } else if (type == "syn") {
-                            fullText = "同义词 | Synonym | Kata Sinonim";
-                        } else if (type == "ant") {
-                            fullText = "反义词 | Antonym | Kata Antonim";
                         } else if (type == "adv") {
                             fullText = "副词 | Adverb | Kata Keterangan";
                         } else if (type == "pron") {
