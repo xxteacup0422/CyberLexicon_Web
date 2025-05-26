@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         } else if (source == "idnl") {
                             fullText = "印尼-荷属 | Indonesia-Netherlands | Indonesia-Belanda";
                         } else if (source == "id") {
-                            fullText = "印尼 | Indonesian | Indonesia";
+                            fullText = "印尼 | Indonesia | Indonesia";
                         } else if (source == "jh") {
                             fullText = "柔佛 | Johor | Johor";
                         } else if (source == "jk") {
