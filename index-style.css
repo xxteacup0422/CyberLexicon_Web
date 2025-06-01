@@ -433,4 +433,11 @@ body.fill {
     .dictionary_area .example {
         background-color: rgb(48, 207, 255);
     }
+    .blackground .abbr-box {
+        background-color: #1b1b1b;
+        color: white;
+    }
+    .blackground .abbr-box .full-text {
+        background-color: rgb(49, 206, 62);
+    }
 }
