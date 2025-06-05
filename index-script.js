@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const dictionaryArea = document.querySelector(".dictionary_area");
     const dictionaryWord = dictionaryArea.querySelector(".word");
+    const dictionaryBasic = dictionaryArea.querySelector(".basic");
+    const labelBasic = dictionaryArea.querySelector(".label_basic");
     const dictionaryPronounce = dictionaryArea.querySelector(".pronounce");
     const dictionaryMeans = dictionaryArea.querySelector(".means");
     const dictionaryExample = dictionaryArea.querySelector(".example");
@@ -76,6 +78,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 let word = filteredWords[0]
                 dictionaryWord.innerHTML = word.name;
+                if (word.basic) {
+                    dictionaryBasic.classList.add("show");
+                    labelBasic.classList.add("show");
+                    fetch("dictionary/ms-MY.json")
+                    .then((response) => response.json())
+                    .then((data) => {
+                        const basicWords = data.filter((item) => item.id == word.basic);
+                        dictionaryBasic.innerHTML = basicWords[0].name;
+                        dictionaryBasic.addEventListener("click", () => {
+                            window.location.href = `?id=${basicWords[0].id}`;
+                        });
+                    });
+                }
                 word.pronounce.forEach((pronounce) => {
                     const spanPronounce = document.createElement("span");
                     spanPronounce.innerHTML = `[${pronounce}]`;

@@ -180,6 +180,25 @@ body.fill {
     margin-bottom: 10px;
 }
 
+.dictionary_area .basic {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(92, 142, 250);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+.dictionary_area .basic.show {
+    display: block;
+}
+
+.dictionary_area .basic:hover {
+    background-color: rgb(62, 122, 250);
+}
+
 .dictionary_area .pronounce span {
     font-size: 0.9rem;
 }
