@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     searchInput.addEventListener("keyup", () => {
         searchInput_clearButton.classList.add("show");
-        fetch("../dictionary/ms-MY.json")
+        fetch("dictionary/ms-MY.json")
         .then((response) => response.json())
         .then((data) => {
             const searchValue = searchInput.value.toLowerCase();
