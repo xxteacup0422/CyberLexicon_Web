@@ -68,10 +68,11 @@ body {
     list-style: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     margin-left: 10px;
     padding: 0 10px;
     height: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.267);
 }
 
 .menu-bar .button-list #about-button:hover {
@@ -102,88 +103,17 @@ body {
     color: #ececec;
 }
 
-.main .search-input {
-    margin-top: 30px;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    display: flex;
-    align-self: start;
+.about {
+    color: white;
 }
 
-.main .search-input span {
-    user-select: none;
-    font-size: 1.9rem;
+@media screen and (max-width: 1043px) {
+    .about {
+        font-size: 0.9rem;
+    }
 }
 
-.main .search-input .clear-button {
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: none;
-}
-
-.main .search-input .clear-button.show {
-    display: block;
-}
-
-.main .search-input .clear-button:hover {
-    color: #969696;
-}
-
-.main .search-input input {
-    width: 90%;
-    border: none;
-    outline: none;
-    font-size: 1.5rem;
-}
-
-.main .search-input input::placeholder {
-    color: #ccc;
-}
-
-.main .search-list {
-    max-height: 150px;
-    overflow-y: auto;
-    list-style: none;
-    background: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    display: none;
-}
-
-.main .search-list.show {
-    display: block;
-    transition: all 1s ease;
-}
-
-.main .search-list::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 0 10px 10px 0;
-}
-
-.main .search-list::-webkit-scrollbar-thumb {
-    background: #bebebe;
-    border-radius: 10px;
-}
-
-.main .search-list::-webkit-scrollbar {
-    width: 10px;
-}
-
-.main .search-list li {
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.main .search-list li:hover {
-    background: #d6d6d6;
-}
-
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 927px) {
     .main img {
         width: 90px;
         height: 90px;
@@ -192,6 +122,24 @@ body {
     .main h1 {
         font-size: 2rem;
         color: #ececec;
+    }
+    .about {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .main img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .main h1 {
+        font-size: 1.8rem;
+        color: #ececec;
+    }
+    .about {
+        font-size: 0.7rem;
     }
 }
 
@@ -205,35 +153,5 @@ body {
         font-size: 1.3rem;
         color: white;
         margin-left: 5px;
-    }
-}
-
-@media screen and (max-width: 431px) {
-    .menu-bar .title img {
-        width: 44px;
-        height: 44px;
-    }
-
-    .menu-bar .title h1 {
-        font-size: 1rem;
-        color: white;
-        margin-left: 5px;
-    }
-    .main img {
-        width: 64px;
-        height: 64px;
-    }
-
-    .main h1 {
-        font-size: 1.3rem;
-        color: #ececec;
-    }
-
-    .main .search-input input {
-        font-size: 1.3rem;
-    }
-
-    .main .search-input span {
-        font-size: 1.5rem;
     }
 }

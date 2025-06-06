@@ -4,12 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CyberLexicon WEB</title>
-        <link rel="stylesheet" href="index-style.css">
+        <link rel="stylesheet" href="about-style.css">
         <link rel="icon" href="../logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <script src="index-script.js"></script>
     </head>
     <body>
         <div class="menu-bar">
@@ -29,13 +28,27 @@
                 <img src="../logo.png" alt="Logo">
                 <h1>CyberLexicon WEB</h1>
             </div>
-            <div class="search-input">
-                <span class="material-symbols-outlined">search</span>
-                <input type="text" placeholder="Search Malay Word...">
-                <span class="material-symbols-outlined clear-button">close</span>
+            <div class="about">
+                <h2>About</h2>
+                <p>CyberLexicon WEB is a Malay Dictionary, support annontate English United States, English British and Chinese Simpilifed Mandarin.</p>
+                <h3>Features:</h3>
+                <ul>
+                    <li>Search for Malay words</li>
+                    <li>View word meanings</li>
+                </ul>
+                <h3>Contributors:</h3>
+                <p>This project is maintained by the xxteacup0422. For contributions or inquiries, please contact us via our GitHub repository.</p>
+                <a href="https://github.com/xxteacup0422/CyberLexicon_WEB">https://github.com/xxteacup0422/CyberLexicon_WEB</a>
             </div>
-            <ul class="search-list">
-            </ul>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const menu_bar_title = document.querySelector('.menu-bar .title');
+
+                menu_bar_title.addEventListener('click', () => {
+                    window.location.href = 'index.html';
+                });
+            });
+        </script>
     </body>
 </html>
