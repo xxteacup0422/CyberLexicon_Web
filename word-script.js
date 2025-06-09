@@ -268,13 +268,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         });
                     }
                 });
-                word.example.forEach((item) => {
-                    showDictionary.querySelector(".word-example").classList.add("show");
-                    showDictionary.querySelector(".label-example").classList.add("show");
-                    let itemElement = document.createElement("li");
-                    itemElement.innerHTML = `${item}`;
-                    showDictionary.querySelector(".word-example").appendChild(itemElement);
-                });
+                if (word.example) {
+                    word.example.forEach((item) => {
+                        showDictionary.querySelector(".word-example").classList.add("show");
+                        showDictionary.querySelector(".label-example").classList.add("show");
+                        let itemElement = document.createElement("li");
+                        itemElement.innerHTML = `${item}`;
+                        showDictionary.querySelector(".word-example").appendChild(itemElement);
+                    });
+                }
             }
         });
     } else {
