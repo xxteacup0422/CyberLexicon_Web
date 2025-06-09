@@ -210,6 +210,112 @@
     ]
   },
   {
+    "id": "ms-MY~VrpWJ",
+    "name": "abadiah",
+    "pronounce": [
+      "a.ba.diah",
+      "a.ba.diy.yah"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "abadi",
+        "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~5UNPi",
+    "name": "abadiat",
+    "pronounce": [
+      "a.ba.diat",
+      "a.ba.diy.yat"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "abadi",
+        "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~kToQ8",
+    "name": "abah",
+    "pronounce": [
+      "a.bah"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "arah, tuju"
+      },
+      {
+        "type": "n",
+        "mean": "ayah, bapa (biasanya sebagai kata panggilan oleh seorang anak kepada bapanya)"
+      }
+    ],
+    "example": [
+      "Tak tentu abahnya."
+    ]
+  },
+  {
+    "id": "ms-MY~RGdHl",
+    "name": "abah-abah",
+    "pronounce": [
+      "a.bah.a.bah"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "alat, perkakas, tali-temali",
+        "source": "jw"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~6IsBn",
+    "name": "abah-abah kuda",
+    "basic": "ms-MY~RGdHl",
+    "pronounce": [
+      "a.bah.a.bah.ku.da"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "alat kuda (seperti tali kekang, pelana, dan sebagainya)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~OZGqa",
+    "name": "abah-abah perahu",
+    "basic": "ms-MY~RGdHl",
+    "pronounce": [
+      "a.bah.a.bah.pe.ra.hu"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "tali-temali perahu"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~BtiyV",
+    "name": "abah-abah tenun",
+    "basic": "ms-MY~RGdHl",
+    "pronounce": [
+      "a.bah.a.bah.te.nun"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "alat (perkakas) tenun"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -285,6 +391,37 @@
       "Kasih sayangnya terhadap gadis itu tidak dapat diabadikannya.",
       "Hasil-hasil sastera itu diabadikan melalui percetakan.",
       "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban"
+    ]
+  },
+  {
+    "id": "ms-MY~0Z6nn",
+    "name": "mengabah",
+    "basic": "ms-MY~kToQ8",
+    "pronounce": [
+      "me.nga.bah"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "menuju"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~fjKbr",
+    "name": "mengabahkan",
+    "basic": "ms-MY~kToQ8",
+    "pronounce": [
+      "me.nga.bah.kan"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mengarahkan, menujukan"
+      }
+    ],
+    "example": [
+      "Mengabahkan kapal ke tempat yang tertentu."
     ]
   },
   {
