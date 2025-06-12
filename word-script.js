@@ -277,6 +277,23 @@ document.addEventListener("DOMContentLoaded", () => {
                         showDictionary.querySelector(".word-example").appendChild(itemElement);
                     });
                 }
+                if (word.synonym) {
+                    word.synonym.forEach((id) => {
+                        showDictionary.querySelector(".word-synonym").classList.add("show");
+                        showDictionary.querySelector(".label-synonym").classList.add("show");
+                        fetch("dictionary/ms-MY.json")
+                        .then((response) => response.json())
+                        .then((data) => {
+                            const basicWords = data.filter((item) => item.id == id);
+                            let itemElement = document.createElement("li");
+                            itemElement.innerHTML = `${basicWords[0].name}`;
+                            showDictionary.querySelector(".word-synonym").appendChild(itemElement);
+                            itemElement.addEventListener("click", () => {
+                                window.location.href = `?id=${basicWords[0].id}`;
+                            });
+                        });
+                    });
+                }
             }
         });
     } else {
