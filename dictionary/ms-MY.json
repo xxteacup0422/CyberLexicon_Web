@@ -207,6 +207,9 @@
       "Kehidupan akhirat adalah kehidupan yang abadi.",
       "Keamanan yang abadi.",
       "Kasih sayang yang abadi."
+    ],
+    "antonym": [
+      "ms-MY~j0ePF"
     ]
   },
   {
@@ -224,7 +227,10 @@
       }
     ],
     "synonym": [
-      "ms-MY~5UNPi"
+      ""
+    ],
+    "antonym": [
+      "ms-MY~j0ePF"
     ]
   },
   {
@@ -242,7 +248,10 @@
       }
     ],
     "synonym": [
-      "ms-MY~VrpWJ"
+      ""
+    ],
+    "antonym": [
+      "ms-MY~j0ePF"
     ]
   },
   {
@@ -375,6 +384,23 @@
     ]
   },
   {
+    "id": "ms-MY~K9c33",
+    "name": "kesementaraan",
+    "stem": "ms-MY~j0ePF",
+    "pronounce": [
+      "ke.se.men.ta.ra.an"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "perihal (sifat) sementara, keadaan (sifat) tidak kekal"
+      }
+    ],
+    "example": [
+      "Kesedaran terhadap kenyataan bahawa kesementaraan hidupnya akibat peperangan, tidak mungkin dia menyimpan harta."
+    ]
+  },
+  {
     "id": "ms-MY~Hb2Vz",
     "name": "mengabadikan",
     "stem": "ms-MY~2KJwU",
@@ -443,6 +469,96 @@
         "mean": "perihal mengabadikan, pengekalan",
         "source": "ar"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~j0ePF",
+    "name": "sementara",
+    "pronounce": [
+      "se.men.ta.ra"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "type": "adv",
+        "mean": "selama, selagi",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "type": "adv",
+        "mean": "sedang (berlakunya sesuatu dan lain-lain)",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "type": "adv",
+        "mean": "pada ketika itu, dalam pada itu",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "type": "conj",
+        "mean": "di samping",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      "Untuk sementara.",
+      "Bantuan sementara.",
+      "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara belum beraja.",
+      "Pengetahuan orang pada masa itu semuanya berdasarkan kepercayaan, sementara kepercayaan mereka memang tidak mengenali apa-apa batus pun.",
+      "Sementara itu kapal belayar juga, makin lama makin laju.",
+      "Sementara bertindak sebagai Timbalan Perdana Menteri, beliau juga dapat menambah pengalamannya."
+    ]
+  },
+  {
+    "id": "ms-MY~CiDo1",
+    "name": "sementara itu",
+    "stem": "ms-MY~j0ePF",
+    "pronounce": [
+      "se.men.ta.ra.i.tu"
+    ],
+    "means": [
+      {
+        "type": "adv",
+        "mean": "pada ketika itu, dalam pada itu"
+      }
+    ],
+    "example": [
+      "Sementara itu kapal belayar juga, makin lama makin laju."
+    ]
+  },
+  {
+    "id": "ms-MY~qu3b3",
+    "name": "sementaraan",
+    "stem": "ms-MY~j0ePF",
+    "pronounce": [
+      "se.men.ta.ra.an"
+    ],
+    "means": [
+      {
+        "type": "adv",
+        "mean": "selama, selagi",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara itu belum beraja.",
+      "Marilah cucuku yang kedua ini kududukkan sai-sainya sementaraan aku lagi hayat."
     ]
   },
   {
