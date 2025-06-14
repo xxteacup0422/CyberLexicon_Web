@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
     background: #d6d6d6;
 }
 
-.main .dictionary .word-basic {
+.main .dictionary .word-stem {
     border-radius: 5px;
     background: #fabc38;
     padding: 15px;
@@ -174,11 +174,11 @@ body::-webkit-scrollbar {
     user-select: none;
 }
 
-.main .dictionary .word-basic:hover {
+.main .dictionary .word-stem:hover {
     background: #e2a41d;
 }
 
-.main .dictionary .word-basic.show {
+.main .dictionary .word-stem.show {
     display: block;
 }
 

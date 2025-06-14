@@ -76,7 +76,7 @@
   {
     "id": "ms-MY~Rbt5W",
     "name": "aba-aba",
-    "basic": "ms-MY~iZqIp",
+    "stem": "ms-MY~iZqIp",
     "pronounce": [
       "a.ba.a.ba"
     ],
@@ -94,7 +94,7 @@
   {
     "id": "ms-MY~dCTrZ",
     "name": "aba-daba",
-    "basic": "ms-MY~iZqIp",
+    "stem": "ms-MY~iZqIp",
     "pronounce": [
       "a.ba.da.ba"
     ],
@@ -128,7 +128,7 @@
   {
     "id": "ms-MY~9LuP9",
     "name": "abad al-abid",
-    "basic": "ms-MY~hESyT",
+    "stem": "ms-MY~hESyT",
     "pronounce": [
       "a.bad al.ʕa.bid",
       "a.bad al.a.bid"
@@ -143,7 +143,7 @@
   {
     "id": "ms-MY~Uo1yz",
     "name": "abad emas",
-    "basic": "ms-MY~hESyT",
+    "stem": "ms-MY~hESyT",
     "pronounce": [
       "a.bad e.mas"
     ],
@@ -157,7 +157,7 @@
   {
     "id": "ms-MY~ELdC8",
     "name": "abad kedua puluh",
-    "basic": "ms-MY~hESyT",
+    "stem": "ms-MY~hESyT",
     "pronounce": [
       "a.bad ke.dua pu.luh"
     ],
@@ -171,7 +171,7 @@
   {
     "id": "ms-MY~iZhGQ",
     "name": "abad pertengahan",
-    "basic": "ms-MY~hESyT",
+    "stem": "ms-MY~hESyT",
     "pronounce": [
       "a.bad per.te.nga.han"
     ],
@@ -282,7 +282,7 @@
   {
     "id": "ms-MY~6IsBn",
     "name": "abah-abah kuda",
-    "basic": "ms-MY~RGdHl",
+    "stem": "ms-MY~RGdHl",
     "pronounce": [
       "a.bah.a.bah.ku.da"
     ],
@@ -296,7 +296,7 @@
   {
     "id": "ms-MY~OZGqa",
     "name": "abah-abah perahu",
-    "basic": "ms-MY~RGdHl",
+    "stem": "ms-MY~RGdHl",
     "pronounce": [
       "a.bah.a.bah.pe.ra.hu"
     ],
@@ -310,7 +310,7 @@
   {
     "id": "ms-MY~BtiyV",
     "name": "abah-abah tenun",
-    "basic": "ms-MY~RGdHl",
+    "stem": "ms-MY~RGdHl",
     "pronounce": [
       "a.bah.a.bah.te.nun"
     ],
@@ -340,7 +340,7 @@
   {
     "id": "ms-MY~CFHrP",
     "name": "berabad-abad",
-    "basic": "ms-MY~hESyT",
+    "stem": "ms-MY~hESyT",
     "pronounce": [
       "be.ra.bad.ra.bad",
       "ber.a.bad.a.bad"
@@ -358,7 +358,7 @@
   {
     "id": "ms-MY~5F5Jh",
     "name": "keabadian",
-    "basic": "ms-MY~2KJwU",
+    "stem": "ms-MY~2KJwU",
     "pronounce": [
       "ke.a.ba.dian"
     ],
@@ -377,7 +377,7 @@
   {
     "id": "ms-MY~Hb2Vz",
     "name": "mengabadikan",
-    "basic": "ms-MY~2KJwU",
+    "stem": "ms-MY~2KJwU",
     "pronounce": [
       "me.nga.ba.di.kan"
     ],
@@ -402,7 +402,7 @@
   {
     "id": "ms-MY~0Z6nn",
     "name": "mengabah",
-    "basic": "ms-MY~kToQ8",
+    "stem": "ms-MY~kToQ8",
     "pronounce": [
       "me.nga.bah"
     ],
@@ -416,7 +416,7 @@
   {
     "id": "ms-MY~fjKbr",
     "name": "mengabahkan",
-    "basic": "ms-MY~kToQ8",
+    "stem": "ms-MY~kToQ8",
     "pronounce": [
       "me.nga.bah.kan"
     ],
@@ -433,7 +433,7 @@
   {
     "id": "ms-MY~fdbTZ",
     "name": "pengabadian",
-    "basic": "ms-MY~2KJwU",
+    "stem": "ms-MY~2KJwU",
     "pronounce": [
       "pe.nga.ba.dian"
     ],
@@ -448,7 +448,7 @@
   {
     "id": "ms-MY~xDErg",
     "name": "terabadi",
-    "basic": "ms-MY~2KJwU",
+    "stem": "ms-MY~2KJwU",
     "pronounce": [
       "te.ra.ba.di",
       "ter.a.ba.di"

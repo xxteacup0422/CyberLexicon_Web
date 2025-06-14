@@ -83,16 +83,16 @@ document.addEventListener("DOMContentLoaded", () => {
             if (filteredWords.length != 0) {
                 const word = filteredWords[0];
                 showDictionary.querySelector(".word-name").innerHTML = word.name;
-                if (word.basic) {
-                    showDictionary.querySelector(".word-basic").classList.add("show");
-                    showDictionary.querySelector(".label-basic").classList.add("show");
+                if (word.stem) {
+                    showDictionary.querySelector(".word-stem").classList.add("show");
+                    showDictionary.querySelector(".label-stem").classList.add("show");
                     fetch("dictionary/ms-MY.json")
                     .then((response) => response.json())
                     .then((data) => {
-                        const basicWords = data.filter((item) => item.id == word.basic);
-                        showDictionary.querySelector(".word-basic").innerHTML = basicWords[0].name;
-                        showDictionary.querySelector(".word-basic").addEventListener("click", () => {
-                            window.location.href = `?id=${basicWords[0].id}`;
+                        const stemWords = data.filter((item) => item.id == word.stem);
+                        showDictionary.querySelector(".word-stem").innerHTML = stemWords[0].name;
+                        showDictionary.querySelector(".word-stem").addEventListener("click", () => {
+                            window.location.href = `?id=${stemWords[0].id}`;
                         });
                     });
                 }
