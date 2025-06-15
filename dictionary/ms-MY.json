@@ -331,6 +331,19 @@
     ]
   },
   {
+    "id": "ms-MY~ApOCV",
+    "name": "abai",
+    "pronounce": [
+      "a.bai"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "cuai, lalai"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -384,6 +397,20 @@
     ]
   },
   {
+    "id": "ms-MY~TUD05",
+    "name": "keabaian",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "ke.a.baian"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "perihal abai"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~K9c33",
     "name": "kesementaraan",
     "stem": "ms-MY~j0ePF",
@@ -398,6 +425,24 @@
     ],
     "example": [
       "Kesedaran terhadap kenyataan bahawa kesementaraan hidupnya akibat peperangan, tidak mungkin dia menyimpan harta."
+    ]
+  },
+  {
+    "id": "ms-MY~uDwUe",
+    "name": "keterabaian",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "ke.te.ra.baian",
+      "ke.ter.a.baian"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "keadaan terabai"
+      }
+    ],
+    "example": [
+      "Keterabaian sesuatu kelompok."
     ]
   },
   {
@@ -457,6 +502,34 @@
     ]
   },
   {
+    "id": "ms-MY~0zkzC",
+    "name": "mengabaikan",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "me.nga.bai.kan"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "tidak atau sangat sedikit memberikan perhatian kepada (seseorang atau sesuatu), tidak mengendahkan, mencuaikan, melalaikan"
+      },
+      {
+        "type": "v",
+        "mean": "memandang tidak penting, tidak mempedulikan atau mengendahkan, menganggap sepi"
+      },
+      {
+        "type": "adj",
+        "mean": "tidak menggunakan (sesuatu kesempatan, kemudahan yang disediakan, dam lain-lain), membiarkan atau melepaskan, mensia-siakan"
+      }
+    ],
+    "example": [
+      "Mengabaikan anak isteri.",
+      "Mengabaikan tunjuk ajar dan nasihat orang",
+      "Mereka mengabaikan sahaja segala kritik dan cemuhan.",
+      "Sayang sekali peluang keemasan itu kauabaikan."
+    ]
+  },
+  {
     "id": "ms-MY~fdbTZ",
     "name": "pengabadian",
     "stem": "ms-MY~2KJwU",
@@ -468,6 +541,34 @@
         "type": "n",
         "mean": "perihal mengabadikan, pengekalan",
         "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~RLIT0",
+    "name": "pengabai",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "pe.nga.bai"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "(orang yang sifatnya) suka mengabaikan atau sering tidak memberikan perhatian kepada sesuatu (seperti tugas, tanggungjawab dan sebagainya)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~I5cjC",
+    "name": "pengabaian",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "pe.nga.baian"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "perihal atau perbuatan mengabaikan (keluarga, tugas dan tanggungjawab, nasihat dan teguran, peluang dan kemudahan dan lain-lain)"
       }
     ]
   },
@@ -569,6 +670,35 @@
     ],
     "example": [
       "Dengan usahanya itu terabadi terus cerita-cerita rakyat"
+    ]
+  },
+  {
+    "id": "ms-MY~cluIj",
+    "name": "terabai",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "te.ra.bai",
+      "ter.a.bai"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "tidak diberi perhatian (berkenaan dengan seseorang atau sesuatu), tidak dipedulikan (diendahkan atau digunakan), dibiarkan sahaja atau disia-siakan"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~DJNgL",
+    "name": "tidak abai dari",
+    "stem": "ms-MY~ApOCV",
+    "pronounce": [
+      "ti.dak.a.bai.da.ri"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "tidak cuai (lalai) dari"
+      }
     ]
   }
 ]
