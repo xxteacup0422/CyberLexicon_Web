@@ -227,10 +227,10 @@
       }
     ],
     "synonym": [
-      "ms-MY~5UNPi"
+      ""
     ],
     "antonym": [
-      "ms-MY~j0ePF"
+      ""
     ]
   },
   {
@@ -480,19 +480,31 @@
     "means": [
       {
         "type": "adj",
-        "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal"
+        "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal",
+        "tag": [
+          "cl"
+        ]
       },
       {
         "type": "adv",
-        "mean": "selama, selagi"
+        "mean": "selama, selagi",
+        "tag": [
+          "cl"
+        ]
       },
       {
         "type": "adv",
-        "mean": "sedang (berlakunya sesuatu dan lain-lain)"
+        "mean": "sedang (berlakunya sesuatu dan lain-lain)",
+        "tag": [
+          "cl"
+        ]
       },
       {
         "type": "adv",
-        "mean": "pada ketika itu, dalam pada itu"
+        "mean": "pada ketika itu, dalam pada itu",
+        "tag": [
+          "cl"
+        ]
       },
       {
         "type": "conj",
@@ -509,6 +521,9 @@
       "Pengetahuan orang pada masa itu semuanya berdasarkan kepercayaan, sementara kepercayaan mereka memang tidak mengenali apa-apa batus pun.",
       "Sementara itu kapal belayar juga, makin lama makin laju.",
       "Sementara bertindak sebagai Timbalan Perdana Menteri, beliau juga dapat menambah pengalamannya."
+    ],
+    "antonym": [
+      "ms-MY~2KJwU"
     ]
   },
   {
