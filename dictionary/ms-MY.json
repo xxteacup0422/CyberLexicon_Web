@@ -227,10 +227,10 @@
       }
     ],
     "synonym": [
-      ""
+      "ms-MY~5UNPi"
     ],
     "antonym": [
-      ""
+      "ms-MY~j0ePF"
     ]
   },
   {
@@ -480,31 +480,19 @@
     "means": [
       {
         "type": "adj",
-        "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal",
-        "tag": [
-          "cl"
-        ]
+        "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal"
       },
       {
         "type": "adv",
-        "mean": "selama, selagi",
-        "tag": [
-          "cl"
-        ]
+        "mean": "selama, selagi"
       },
       {
         "type": "adv",
-        "mean": "sedang (berlakunya sesuatu dan lain-lain)",
-        "tag": [
-          "cl"
-        ]
+        "mean": "sedang (berlakunya sesuatu dan lain-lain)"
       },
       {
         "type": "adv",
-        "mean": "pada ketika itu, dalam pada itu",
-        "tag": [
-          "cl"
-        ]
+        "mean": "pada ketika itu, dalam pada itu"
       },
       {
         "type": "conj",
