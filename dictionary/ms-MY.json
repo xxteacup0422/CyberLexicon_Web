@@ -373,6 +373,53 @@
     ]
   },
   {
+    "id": "ms-MY~RipaO",
+    "name": "abakteria",
+    "pronounce": [
+      "a.bak.té.ria"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "Keadaan yang bebas daripada bakteria",
+        "tag": [
+          "med",
+          "bio"
+        ]
+      },
+      {
+        "type": "adj",
+        "mean": "Tanpa atau bebas daripada bakteria",
+        "tag": [
+          "med"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~JyPla",
+    "name": "abakus",
+    "pronounce": [
+      "a.ba.kus"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "Sejenis alat hitung lama yang terdiri daripada rod-rod dan manik-manik",
+        "tag": [
+          "math"
+        ]
+      },
+      {
+        "type": "n",
+        "mean": "Bahagian turus dalam seni bina Yunani atau Romawi.",
+        "tag": [
+          "art"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
