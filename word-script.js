@@ -209,63 +209,68 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
 
                     if (tag) {
-                        meansTag.querySelector("span").addEventListener("click", () => {
-                            let fullText = "";
-                            if (tag == "abbr") {
-                                fullText = "缩写 | Abbreviation | Kependekan";
-                            } else if (tag == "cl") {
-                                fullText = "古典文字 | Classical Literature | Sastera Lama";
-                            } else if (tag == "egl") {
-                                fullText = "优雅的语文 | Elegant Language | Bahasa Halus";
-                            } else if (tag == "ful") {
-                                fullText = "粗鲁的语文 | Foul Language | Bahasa Kasar";
-                            } else if (tag == "ous") {
-                                fullText = "口语 | Oral Usage | Bahasa Percakapan";
-                            } else if (tag == "prov") {
-                                fullText = "谚语 | Proverb | Peribahasa";
-                            } else if (tag == "rus") {
-                                fullText = "宫廷用语 | Royal Usage | Bahasa Istana/Dalam";
-                            } else if (tag == "ant") {
-                                fullText = "人类学 | Anthropology | Antropologi";
-                            } else if (tag == "bio") {
-                                fullText = "生物学 | Biology | Biologi";
-                            } else if (tag == "econ") {
-                                fullText = "经济 | Economy | Ekonomi";
-                            } else if (tag == "phys") {
-                                fullText = "物理学 | Physics | Fizik";
-                            } else if (tag == "geol") {
-                                fullText = "地质学 | Geology | Geologi";
-                            } else if (tag == "geogr") {
-                                fullText = "地理学 | Geography | Geografi";
-                            } else if (tag == "for") {
-                                fullText = "林业 | Forestry | Perhutanan";
-                            } else if (tag == "eng") {
-                                fullText = "工程学 | Engineering | Kejuruteraan";
-                            } else if (tag == "chem") {
-                                fullText = "化学 | Chemistry | Kimia";
-                            } else if (tag == "ling") {
-                                fullText = "语言学 | Linguistics | Linguistik";
-                            } else if (tag == "math") {
-                                fullText = "数学 | Mathematics | Matematik";
-                            } else if (tag == "mus") {
-                                fullText = "音乐 | Music | Muzik";
-                            } else if (tag == "psy") {
-                                fullText = "心理学 | Psychology | Psikologi";
-                            } else if (tag == "liter") {
-                                fullText = "文学 | Literature | Kesusasteraan";
-                            } else if (tag == "arch") {
-                                fullText = "建筑学 | Architecture | Seni Bina";
-                            } else if (tag == "hs") {
-                                fullText = "历史 | History | Sejarah";
-                            } else if (tag == "ag") {
-                                fullText = "农业 | Agriculture | Pertanian";
-                            } else if (tag == "law") {
-                                fullText = "法律 | Law | Undang-Undang";
-                            } else if (tag == "med") {
-                                fullText = "医学 | Medical | Perubatan";
-                            }
-                            alert(`Full Text: ${fullText}`);
-                        });
+                        meansTag.querySelectorAll("span").forEach((spanTag) => {
+                            spanTag.addEventListener("click", (text) => {
+                                let tag_abbr = text.target.innerHTML;
+                                let fullText = "";
+                                if (tag_abbr == "abbr") {
+                                    fullText = "缩写 | Abbreviation | Kependekan";
+                                } else if (tag_abbr == "cl") {
+                                    fullText = "古典文字 | Classical Literature | Sastera Lama";
+                                } else if (tag_abbr == "egl") {
+                                    fullText = "优雅的语文 | Elegant Language | Bahasa Halus";
+                                } else if (tag_abbr == "ful") {
+                                    fullText = "粗鲁的语文 | Foul Language | Bahasa Kasar";
+                                } else if (tag_abbr == "ous") {
+                                    fullText = "口语 | Oral Usage | Bahasa Percakapan";
+                                } else if (tag_abbr == "prov") {
+                                    fullText = "谚语 | Proverb | Peribahasa";
+                                } else if (tag_abbr == "rus") {
+                                    fullText = "宫廷用语 | Royal Usage | Bahasa Istana/Dalam";
+                                } else if (tag_abbr == "ant") {
+                                    fullText = "人类学 | Anthropology | Antropologi";
+                                } else if (tag_abbr == "art") {
+                                    fullText = "艺术 | Art | Art";
+                                } else if (tag_abbr == "bio") {
+                                    fullText = "生物学 | Biology | Biologi";
+                                } else if (tag_abbr == "econ") {
+                                    fullText = "经济 | Economy | Ekonomi";
+                                } else if (tag_abbr == "phys") {
+                                    fullText = "物理学 | Physics | Fizik";
+                                } else if (tag_abbr == "geol") {
+                                    fullText = "地质学 | Geology | Geologi";
+                                } else if (tag_abbr == "geogr") {
+                                    fullText = "地理学 | Geography | Geografi";
+                                } else if (tag_abbr == "for") {
+                                    fullText = "林业 | Forestry | Perhutanan";
+                                } else if (tag_abbr == "eng") {
+                                    fullText = "工程学 | Engineering | Kejuruteraan";
+                                } else if (tag_abbr == "chem") {
+                                    fullText = "化学 | Chemistry | Kimia";
+                                } else if (tag_abbr == "ling") {
+                                    fullText = "语言学 | Linguistics | Linguistik";
+                                } else if (tag_abbr == "math") {
+                                    fullText = "数学 | Mathematics | Matematik";
+                                } else if (tag_abbr == "mus") {
+                                    fullText = "音乐 | Music | Muzik";
+                                } else if (tag_abbr == "psy") {
+                                    fullText = "心理学 | Psychology | Psikologi";
+                                } else if (tag_abbr == "liter") {
+                                    fullText = "文学 | Literature | Kesusasteraan";
+                                } else if (tag_abbr == "arch") {
+                                    fullText = "建筑学 | Architecture | Seni Bina";
+                                } else if (tag_abbr == "hs") {
+                                    fullText = "历史 | History | Sejarah";
+                                } else if (tag_abbr == "ag") {
+                                    fullText = "农业 | Agriculture | Pertanian";
+                                } else if (tag_abbr == "law") {
+                                    fullText = "法律 | Law | Undang-Undang";
+                                } else if (tag_abbr == "med") {
+                                    fullText = "医学 | Medical | Perubatan";
+                                }
+                                alert(`Full Text: ${fullText}`);
+                            });
+                        })
                     }
                 });
                 if (word.example) {
