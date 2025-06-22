@@ -230,7 +230,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 } else if (tag_abbr == "ant") {
                                     fullText = "人类学 | Anthropology | Antropologi";
                                 } else if (tag_abbr == "art") {
-                                    fullText = "艺术 | Art | Art";
+                                    fullText = "艺术 | Art | Kesenian";
                                 } else if (tag_abbr == "bio") {
                                     fullText = "生物学 | Biology | Biologi";
                                 } else if (tag_abbr == "econ") {
