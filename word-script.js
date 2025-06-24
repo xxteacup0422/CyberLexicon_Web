@@ -316,6 +316,40 @@ document.addEventListener("DOMContentLoaded", () => {
                         });
                     });
                 }
+                if (word.affix) {
+                    word.affix.forEach((id) => {
+                        showDictionary.querySelector(".word-affix").classList.add("show");
+                        showDictionary.querySelector(".label-affix").classList.add("show");
+                        fetch("dictionary/ms-MY.json")
+                        .then((response) => response.json())
+                        .then((data) => {
+                            const basicWords = data.filter((item) => item.id == id);
+                            let itemElement = document.createElement("li");
+                            itemElement.innerHTML = `${basicWords[0].name}`;
+                            showDictionary.querySelector(".word-affix").appendChild(itemElement);
+                            itemElement.addEventListener("click", () => {
+                                window.location.href = `?id=${basicWords[0].id}`;
+                            });
+                        });
+                    });
+                }
+                if (word.phrase) {
+                    word.phrase.forEach((id) => {
+                        showDictionary.querySelector(".word-phrase").classList.add("show");
+                        showDictionary.querySelector(".label-phrase").classList.add("show");
+                        fetch("dictionary/ms-MY.json")
+                        .then((response) => response.json())
+                        .then((data) => {
+                            const basicWords = data.filter((item) => item.id == id);
+                            let itemElement = document.createElement("li");
+                            itemElement.innerHTML = `${basicWords[0].name}`;
+                            showDictionary.querySelector(".word-phrase").appendChild(itemElement);
+                            itemElement.addEventListener("click", () => {
+                                window.location.href = `?id=${basicWords[0].id}`;
+                            });
+                        });
+                    });
+                }
             }
         });
     } else {
