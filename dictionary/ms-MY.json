@@ -452,6 +452,115 @@
     ]
   },
   {
+    "id": "ms-MY~FKq5T",
+    "name": "abalone",
+    "pronounce": [
+      "a.ba.lo.né"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "sejenis siput daripada genus Haliotis yang boleh dimakan"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Yi3kP",
+    "name": "abang",
+    "pronounce": [
+      "a.bang"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "saudara lelaki yang lebih tua daripada seseorang (biasanya seibu seayah dengannya)"
+      },
+      {
+        "type": "n",
+        "mean": "panggilan khususnya kepada saudara tua laki-laki, adik-beradik"
+      },
+      {
+        "type": "n",
+        "mean": "panggilan kepada seseorang lelaki yang lebih tua sedikit"
+      },
+      {
+        "type": "adj",
+        "mean": "panggilan kepada suami"
+      },
+      {
+        "type": "adj",
+        "mean": "merah",
+        "source": "jw"
+      }
+    ],
+    "affix": [
+      "ms-MY~ArcaE",
+      "ms-MY~rWkuE"
+    ],
+    "phrase": [
+      "ms-MY~E9jgn",
+      "ms-MY~optzn",
+      "ms-MY~VW0mY",
+      "ms-MY~VybM8"
+    ]
+  },
+  {
+    "id": "ms-MY~E9jgn",
+    "name": "abang angkat",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "a.bang.ang.kat"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "orang lelaki yang lebih tua daripada seseorang yang tidak mempunyai hubungan darah dengannya tetapi telah diambil sebagai anak oleh ibu bapanya"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~optzn",
+    "name": "abang ipar",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "a.bang.i.par"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "abang kepada isteri (atau suami) seseorang"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~VW0mY",
+    "name": "abang kandung",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "a.bang.kan.dung"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "abang yang seibu dan seayah dengan seseorang"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~VybM8",
+    "name": "abang tiri",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "a.bang.ti.ri"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "abang kepada seseorang yang merupakan anak kepada ibu atau ayahnya hasil daripada perkahwinan yang terdahulu (dengan suami atau isteri yang lain)"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -483,6 +592,43 @@
     ],
     "example": [
       "Sudah berabad-abad lamanya beratus-ratus tahun lamanya."
+    ]
+  },
+  {
+    "id": "ms-MY~ArcaE",
+    "name": "berabang",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "be.ra.bang",
+      "ber.a.bang"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "mempunyai abang (biasanya abang kandung)"
+      },
+      {
+        "type": "adj",
+        "mean": "memanggil seseorang abang, menggunakan kata (panggilan) abang terhadap seseorang"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~rWkuE",
+    "name": "berabangkan",
+    "stem": "ms-MY~Yi3kP",
+    "pronounce": [
+      "be.ra.bang.kan",
+      "ber.a.bang.kan"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mempunyai seseorang sebagai abang"
+      }
+    ],
+    "example": [
+      "Berabangkan seorang yang pengasih dan bertimbang rasa."
     ]
   },
   {
