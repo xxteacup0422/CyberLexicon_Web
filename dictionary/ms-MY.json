@@ -124,6 +124,9 @@
     "example": [
       "Dalam abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) Melaka berkuasa di Asia Tenggara."
     ],
+    "affix": [
+      "ms-MY~CFHrP"
+    ],
     "phrase": [
       "ms-MY~9LuP9",
       "ms-MY~Uo1yz",
@@ -493,6 +496,9 @@
         "source": "jw"
       }
     ],
+    "antonym": [
+      "ms-MY~9aEDh"
+    ],
     "affix": [
       "ms-MY~ArcaE",
       "ms-MY~rWkuE"
@@ -577,6 +583,245 @@
     ]
   },
   {
+    "id": "ms-MY~9aEDh",
+    "name": "adik",
+    "pronounce": [
+      "a.di/"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "saudara kandung (laki-laki atau perempuan) yang lebih muda"
+      },
+      {
+        "type": "n",
+        "mean": "panggilan (khasnya kepada saudara kandung atau saudara mara yang lebih muda atau kepada isteri dan amnya kepada orang yang lebih muda)"
+      }
+    ],
+    "antonym": [
+      "ms-MY~Yi3kP",
+      "ms-MY~n1yOs"
+    ],
+    "affix": [
+      "ms-MY~Kk0xT",
+      "ms-MY~u6KNJ",
+      "ms-MY~RH6gZ",
+      "ms-MY~sqIWp"
+    ],
+    "phrase": [
+      "ms-MY~5ChFy",
+      "ms-MY~n18lQ",
+      "ms-MY~pbEao",
+      "ms-MY~XkfMH",
+      "ms-MY~GIeKk",
+      "ms-MY~9v5aK",
+      "ms-MY~QkgeZ",
+      "ms-MY~Xnn9W",
+      "ms-MY~A8noR",
+      "ms-MY~Js8EY",
+      "ms-MY~Okkun"
+    ]
+  },
+  {
+    "id": "ms-MY~5ChFy",
+    "name": "adik bongsu",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.bong.su"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "adik yang termuda"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~9v5aK",
+    "name": "adik ipar",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.i.par"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "adik lelaki atau perempuan kepada suami atau isteri seseorang"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Okkun",
+    "name": "adik kakak",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.ka.ka/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "(beberapa orang) yang mempunyai hubungan kekeluargaan (kerana seayah atau seayah dan seibu), bersaudara"
+      },
+      {
+        "type": "v",
+        "mean": "(berlaku) sebagai saudara, antara atau selaku adik dengan abang (atau kakak)"
+      }
+    ],
+    "example": [
+      "Mereka lima adik-beradik mereka lima bersaudara.",
+      "Bergaduh adik-beradik dalam pembahagian harta pusaka.",
+      "Mari kita bicarakan adik-beradik dahulu."
+    ],
+    "synonym": [
+      "ms-MY~u6KNJ"
+    ]
+  },
+  {
+    "id": "ms-MY~n18lQ",
+    "name": "adik kandung",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.kan.dung"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "anak kepada ibu dan bapa seseorang yang lebih muda daripadanya"
+      }
+    ],
+    "synonym": [
+      "ms-MY~pbEao"
+    ]
+  },
+  {
+    "id": "ms-MY~Js8EY",
+    "name": "adik Maulud",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.mau.lud"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "bulan Rabiulakhir"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~QkgeZ",
+    "name": "adik sanak ayah",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.sa.na/.a.yah"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "anak saudara lelaki ayah (yang lebih muda)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Xnn9W",
+    "name": "adik sanak ibu",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.sa.na/.i.bu"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "anak saudara perempuan ibu (yang lebih muda daripadanya)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~XkfMH",
+    "name": "adik seayah",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.se.a.yah"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "adik berlainan ibu"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~GIeKk",
+    "name": "adik seibu",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.se.i.bu"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "adik berlainan ayah"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~pbEao",
+    "name": "adik seibu bapa",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.se.ibu.ba.pa"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "anak kepada ibu dan bapa seseorang yang lebih muda daripadanya"
+      }
+    ],
+    "synonym": [
+      "ms-MY~n18lQ"
+    ]
+  },
+  {
+    "id": "ms-MY~A8noR",
+    "name": "adik sepupu",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.se.pu.pu"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "anak (yang lebih muda) kepada adik atau katak ayah atau emak seseorang"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~u6KNJ",
+    "name": "adik-beradik",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "a.di/.be.ra.di/",
+      "a.di/.ber.a.di/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "(beberapa orang) yang mempunyai hubungan kekeluargaan (kerana seayah atau seayah dan seibu), bersaudara"
+      },
+      {
+        "type": "v",
+        "mean": "(berlaku) sebagai saudara, antara atau selaku adik dengan abang (atau kakak)"
+      }
+    ],
+    "example": [
+      "Mereka lima adik-beradik mereka lima bersaudara.",
+      "Bergaduh adik-beradik dalam pembahagian harta pusaka.",
+      "Mari kita bicarakan adik-beradik dahulu."
+    ],
+    "synonym": [
+      "ms-MY~Okkun"
+    ]
+  },
+  {
     "id": "ms-MY~CFHrP",
     "name": "berabad-abad",
     "stem": "ms-MY~hESyT",
@@ -629,6 +874,130 @@
     ],
     "example": [
       "Berabangkan seorang yang pengasih dan bertimbang rasa."
+    ]
+  },
+  {
+    "id": "ms-MY~Kk0xT",
+    "name": "beradik",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "be.ra.di/",
+      "ber.a.di/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mempunyai atau ada adik"
+      },
+      {
+        "type": "v",
+        "mean": "bersaudara kandung"
+      }
+    ],
+    "example": [
+      "Biarlah dia bermanja sepuas-puasnya sementara belum beradik lagi.",
+      "Kami tinggal tiga beradik di rumah itu selepas pemergian ayah."
+    ]
+  },
+  {
+    "id": "ms-MY~RH6gZ",
+    "name": "beradik kakak",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "be.ra.di/.ka.ka/",
+      "ber.a.di/.ka.ka/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "selaku adik dan kakak"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~BVCx8",
+    "name": "berkakak",
+    "stem": "ms-MY~n1yOs",
+    "pronounce": [
+      "ber.ka.ka/"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "mempunyai kakak"
+      },
+      {
+        "type": "adj",
+        "mean": "memanggil kakak, menggunakan perkataan 'kakak' terhadap orang perempuan yang lebih tua (sebagai menghormati secara mesra)"
+      },
+      {
+        "type": "v",
+        "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
+      },
+      {
+        "type": "adj",
+        "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
+      }
+    ],
+    "example": [
+      "Ia tidak pernah lupa berkakak apabila bercakap dengan perempuan-perempuan yang lebih tua sedikit daripadanya."
+    ],
+    "synonym": [
+      "ms-MY~5SbgS",
+      "ms-MY~jv7p4",
+      "ms-MY~LQkI0",
+      "ms-MY~zBtOq"
+    ]
+  },
+  {
+    "id": "ms-MY~5SbgS",
+    "name": "berkakakan",
+    "stem": "ms-MY~n1yOs",
+    "pronounce": [
+      "ber.ka.ka/.an"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
+      },
+      {
+        "type": "adj",
+        "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
+      }
+    ],
+    "synonym": [
+      "ms-MY~BVCx8",
+      "ms-MY~jv7p4",
+      "ms-MY~LQkI0",
+      "ms-MY~zBtOq"
+    ]
+  },
+  {
+    "id": "ms-MY~n1yOs",
+    "name": "kakak",
+    "pronounce": [
+      "ka.ka/"
+    ],
+    "means": [
+      {
+        "type": "n",
+        "mean": "saudara perempuan yang lebih tua"
+      },
+      {
+        "type": "n",
+        "mean": "saudara lelaki yang tua, abang"
+      },
+      {
+        "type": "n",
+        "mean": "panggilan kepada orang perempuan yang lebih tua"
+      }
+    ],
+    "antonym": [
+      "ms-MY~9aEDh"
+    ],
+    "affix": [
+      "ms-MY~BVCx8"
     ]
   },
   {
@@ -697,6 +1066,21 @@
     ],
     "example": [
       "Keterabaian sesuatu kelompok."
+    ]
+  },
+  {
+    "id": "ms-MY~sqIWp",
+    "name": "memperadik",
+    "stem": "ms-MY~9aEDh",
+    "pronounce": [
+      "mem.pe.ra.di/",
+      "mem.per.a.di/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "memandang (memanggil, menyebut) adik"
+      }
     ]
   },
   {
@@ -781,6 +1165,54 @@
       "Mengabaikan tunjuk ajar dan nasihat orang",
       "Mereka mengabaikan sahaja segala kritik dan cemuhan.",
       "Sayang sekali peluang keemasan itu kauabaikan."
+    ]
+  },
+  {
+    "id": "ms-MY~jv7p4",
+    "name": "mengakak",
+    "stem": "ms-MY~n1yOs",
+    "pronounce": [
+      "me.nga.ka/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
+      },
+      {
+        "type": "adj",
+        "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
+      }
+    ],
+    "synonym": [
+      "ms-MY~BVCx8",
+      "ms-MY~5SbgS",
+      "ms-MY~LQkI0",
+      "ms-MY~zBtOq"
+    ]
+  },
+  {
+    "id": "ms-MY~LQkI0",
+    "name": "mengakak-ngakak",
+    "stem": "ms-MY~n1yOs",
+    "pronounce": [
+      "me.nga.ka/.nga.ka/"
+    ],
+    "means": [
+      {
+        "type": "v",
+        "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
+      },
+      {
+        "type": "adj",
+        "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
+      }
+    ],
+    "synonym": [
+      "ms-MY~BVCx8",
+      "ms-MY~5SbgS",
+      "ms-MY~jv7p4",
+      "ms-MY~zBtOq"
     ]
   },
   {
@@ -944,6 +1376,26 @@
         "type": "v",
         "mean": "tidak diberi perhatian (berkenaan dengan seseorang atau sesuatu), tidak dipedulikan (diendahkan atau digunakan), dibiarkan sahaja atau disia-siakan"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~zBtOq",
+    "name": "terkakak-kakak",
+    "stem": "ms-MY~n1yOs",
+    "pronounce": [
+      "ter.ka.ka/.ka.ka/"
+    ],
+    "means": [
+      {
+        "type": "adj",
+        "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
+      }
+    ],
+    "synonym": [
+      "ms-MY~BVCx8",
+      "ms-MY~5SbgS",
+      "ms-MY~jv7p4",
+      "ms-MY~LQkI0"
     ]
   },
   {
