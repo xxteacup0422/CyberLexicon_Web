@@ -7,21 +7,32 @@
     ],
     "means": [
       {
+        "means_id": "49",
         "type": "n",
         "mean": "huruf pertama abjad Rumi"
       },
       {
+        "means_id": "54",
         "type": "intrj",
         "mean": "untuk melahirkan kegirangan atau menyatakan persetujuan"
       },
       {
+        "means_id": "55",
         "type": "intrj",
         "mean": "untuk menunjukkan terlupa akan sesuatu"
       }
     ],
     "example": [
-      "Itu dia, a,macam itulah caranya!",
-      "Nama bukunya ... a, nanti saya cuba ingatkan!"
+      {
+        "example_id": "30",
+        "meaning_source": "54",
+        "sentence": "Itu dia, a,macam itulah caranya!"
+      },
+      {
+        "example_id": "40",
+        "meaning_source": "55",
+        "sentence": "Nama bukunya ... a, nanti saya cuba ingatkan!"
+      }
     ]
   },
   {
@@ -32,6 +43,7 @@
     ],
     "means": [
       {
+        "means_id": "08",
         "type": "n",
         "mean": "singkatan \"Asia-Afrika\"",
         "tag": [
@@ -48,6 +60,7 @@
     ],
     "means": [
       {
+        "means_id": "32",
         "type": "n",
         "mean": "singkatan \"Anggaran Belanja\"",
         "tag": [
@@ -64,13 +77,18 @@
     ],
     "means": [
       {
+        "means_id": "47",
         "type": "n",
         "mean": "kata perintah dalam latihan tentera dan lain-lain",
         "source": "id"
       }
     ],
     "example": [
-      "\"Satu ...,\" aba Wit daripada kerusinya."
+      {
+        "example_id": "94",
+        "meaning_source": "47",
+        "sentence": "\"Satu ...,\" aba Wit daripada kerusinya."
+      }
     ]
   },
   {
@@ -82,13 +100,18 @@
     ],
     "means": [
       {
+        "means_id": "52",
         "type": "n",
         "mean": "kata-kata perintah dalam latihan tentera senaman dan lain-lain",
         "source": "id"
       }
     ],
     "example": [
-      "\"Satu ...,\" aba-aba Wit daripada kerusinya."
+      {
+        "example_id": "34",
+        "meaning_source": "52",
+        "sentence": "\"Satu ...,\" aba-aba Wit daripada kerusinya."
+      }
     ]
   },
   {
@@ -100,6 +123,7 @@
     ],
     "means": [
       {
+        "means_id": "38",
         "type": "n",
         "mean": "hama, kuman"
       }
@@ -113,16 +137,22 @@
     ],
     "means": [
       {
+        "means_id": "56",
         "type": "n",
         "mean": "jangka masa seratus tahun (atau satu daripada jangka masa seratus tahun yang berurutan yang dimulai dengan kejadian yang terpenting, iaitu Hihrah Nabi Muhammad SAW bagi Tahun Hijrah atau kelahiran Nabi Isa bagi Tahun Masihi), kurun"
       },
       {
+        "means_id": "29",
         "type": "n",
         "mean": "beberapa abad yang lampau beberapa ratus tahun yang lalu"
       }
     ],
     "example": [
-      "Dalam abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) Melaka berkuasa di Asia Tenggara."
+      {
+        "example_id": "11",
+        "meaning_source": "56",
+        "sentence": "Dalam abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) Melaka berkuasa di Asia Tenggara."
+      }
     ],
     "affix": [
       "ms-MY~CFHrP"
@@ -144,6 +174,7 @@
     ],
     "means": [
       {
+        "means_id": "27",
         "type": "n",
         "mean": "kekal selama-lamanya."
       }
@@ -158,6 +189,7 @@
     ],
     "means": [
       {
+        "means_id": "56",
         "type": "n",
         "mean": "zaman sesuatu bangsa atau negara mencapai puncak kejayaan, zaman kegemilangan (gemilang)"
       }
@@ -172,6 +204,7 @@
     ],
     "means": [
       {
+        "means_id": "11",
         "type": "n",
         "mean": "jangka masa daripada tahun 1901 hingga ke tahun 2000"
       }
@@ -186,6 +219,7 @@
     ],
     "means": [
       {
+        "means_id": "29",
         "type": "n",
         "mean": "abad tengah zaman dalam sejarah Eropah antara zaman purbakala dan zaman baru (meliputi jangka masa antara kira-kira tahun 476 hingga 1453M)",
         "tag": [
@@ -202,20 +236,34 @@
     ],
     "means": [
       {
+        "means_id": "13",
         "type": "adj",
         "mean": "ada permulaan yang tiada pengakhiran (berkenaan dengan masa, kehidupan, kenangan dan sebagainya)",
         "source": "ar"
       },
       {
+        "means_id": "54",
         "type": "adj",
         "mean": "wujud atau berterusan untuk selama-lamanya (sepanjang hayat dan sebagainya), tidak berkesudahan, kekal",
         "source": "ar"
       }
     ],
     "example": [
-      "Kehidupan akhirat adalah kehidupan yang abadi.",
-      "Keamanan yang abadi.",
-      "Kasih sayang yang abadi."
+      {
+        "example_id": "31",
+        "meaning_source": "13",
+        "sentence": "Kehidupan akhirat adalah kehidupan yang abadi."
+      },
+      {
+        "example_id": "63",
+        "meaning_source": "54",
+        "sentence": "Keamanan yang abadi."
+      },
+      {
+        "example_id": "65",
+        "meaning_source": "54",
+        "sentence": "Kasih sayang yang abadi."
+      }
     ],
     "antonym": [
       "ms-MY~j0ePF"
@@ -236,6 +284,7 @@
     ],
     "means": [
       {
+        "means_id": "85",
         "type": "adj",
         "mean": "abadi",
         "source": "ar"
@@ -257,6 +306,7 @@
     ],
     "means": [
       {
+        "means_id": "44",
         "type": "adj",
         "mean": "abadi",
         "source": "ar"
@@ -277,16 +327,22 @@
     ],
     "means": [
       {
+        "means_id": "02",
         "type": "n",
         "mean": "arah, tuju"
       },
       {
+        "means_id": "82",
         "type": "n",
         "mean": "ayah, bapa (biasanya sebagai kata panggilan oleh seorang anak kepada bapanya)"
       }
     ],
     "example": [
-      "Tak tentu abahnya."
+      {
+        "example_id": "20",
+        "meaning_source": "02",
+        "sentence": "Tak tentu abahnya."
+      }
     ],
     "affix": [
       "ms-MY~0Z6nn",
@@ -301,6 +357,7 @@
     ],
     "means": [
       {
+        "means_id": "94",
         "type": "n",
         "mean": "alat, perkakas, tali-temali",
         "source": "jw"
@@ -321,6 +378,7 @@
     ],
     "means": [
       {
+        "means_id": "45",
         "type": "n",
         "mean": "alat kuda (seperti tali kekang, pelana, dan sebagainya)"
       }
@@ -335,6 +393,7 @@
     ],
     "means": [
       {
+        "means_id": "28",
         "type": "n",
         "mean": "tali-temali perahu"
       }
@@ -349,6 +408,7 @@
     ],
     "means": [
       {
+        "means_id": "65",
         "type": "n",
         "mean": "alat (perkakas) tenun"
       }
@@ -362,6 +422,7 @@
     ],
     "means": [
       {
+        "means_id": "43",
         "type": "v",
         "mean": "cuai, lalai"
       }
@@ -386,6 +447,7 @@
     ],
     "means": [
       {
+        "means_id": "49",
         "type": "n",
         "mean": "(Sanskrit) dubur, kemaluan",
         "tag": [
@@ -402,6 +464,7 @@
     ],
     "means": [
       {
+        "means_id": "66",
         "type": "n",
         "mean": "sejenis tumbuhan (pokok) yang seratnya dibuat tali nelati"
       }
@@ -415,6 +478,7 @@
     ],
     "means": [
       {
+        "means_id": "31",
         "type": "adj",
         "mean": "Keadaan yang bebas daripada bakteria",
         "tag": [
@@ -423,6 +487,7 @@
         ]
       },
       {
+        "means_id": "14",
         "type": "adj",
         "mean": "Tanpa atau bebas daripada bakteria",
         "tag": [
@@ -439,6 +504,7 @@
     ],
     "means": [
       {
+        "means_id": "12",
         "type": "n",
         "mean": "Sejenis alat hitung lama yang terdiri daripada rod-rod dan manik-manik",
         "tag": [
@@ -446,6 +512,7 @@
         ]
       },
       {
+        "means_id": "01",
         "type": "n",
         "mean": "Bahagian turus dalam seni bina Yunani atau Romawi.",
         "tag": [
@@ -462,6 +529,7 @@
     ],
     "means": [
       {
+        "means_id": "80",
         "type": "n",
         "mean": "sejenis siput daripada genus Haliotis yang boleh dimakan"
       }
@@ -475,22 +543,27 @@
     ],
     "means": [
       {
+        "means_id": "25",
         "type": "n",
         "mean": "saudara lelaki yang lebih tua daripada seseorang (biasanya seibu seayah dengannya)"
       },
       {
+        "means_id": "54",
         "type": "n",
         "mean": "panggilan khususnya kepada saudara tua laki-laki, adik-beradik"
       },
       {
+        "means_id": "68",
         "type": "n",
         "mean": "panggilan kepada seseorang lelaki yang lebih tua sedikit"
       },
       {
+        "means_id": "35",
         "type": "adj",
         "mean": "panggilan kepada suami"
       },
       {
+        "means_id": "33",
         "type": "adj",
         "mean": "merah",
         "source": "jw"
@@ -519,6 +592,7 @@
     ],
     "means": [
       {
+        "means_id": "63",
         "type": "n",
         "mean": "orang lelaki yang lebih tua daripada seseorang yang tidak mempunyai hubungan darah dengannya tetapi telah diambil sebagai anak oleh ibu bapanya"
       }
@@ -533,6 +607,7 @@
     ],
     "means": [
       {
+        "means_id": "45",
         "type": "n",
         "mean": "abang kepada isteri (atau suami) seseorang"
       }
@@ -547,6 +622,7 @@
     ],
     "means": [
       {
+        "means_id": "72",
         "type": "n",
         "mean": "abang yang seibu dan seayah dengan seseorang"
       }
@@ -561,8 +637,92 @@
     ],
     "means": [
       {
+        "means_id": "93",
         "type": "n",
         "mean": "abang kepada seseorang yang merupakan anak kepada ibu atau ayahnya hasil daripada perkahwinan yang terdahulu (dengan suami atau isteri yang lain)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Jt8iR",
+    "name": "abar",
+    "pronounce": [
+      "a.bar"
+    ],
+    "means": [
+      {
+        "means_id": "30",
+        "type": "n",
+        "mean": "dinding"
+      },
+      {
+        "means_id": "62",
+        "type": "n",
+        "mean": "penghalang, penyekat"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "41",
+        "meaning_source": "62",
+        "sentence": "Abar kemajuan masyarakat."
+      }
+    ],
+    "synonym": [
+      "ms-MY~7ZAzR"
+    ],
+    "affix": [
+      "ms-MY~y5g3m",
+      "ms-MY~2O7jO"
+    ]
+  },
+  {
+    "id": "ms-MY~7ZAzR",
+    "name": "abar-abar",
+    "pronounce": [
+      "a.bar.a.bar"
+    ],
+    "means": [
+      {
+        "means_id": "76",
+        "type": "n",
+        "mean": "dinding"
+      },
+      {
+        "means_id": "37",
+        "type": "n",
+        "mean": "penghalang, penyekat"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "79",
+        "meaning_source": "37",
+        "sentence": "Abar-abar kemajuan masyarakat."
+      }
+    ],
+    "synonym": [
+      "ms-MY~Jt8iR"
+    ]
+  },
+  {
+    "id": "ms-MY~iEnUf",
+    "name": "abau",
+    "pronounce": [
+      "a.bau"
+    ],
+    "means": [
+      {
+        "means_id": "15",
+        "type": "n",
+        "mean": "sejenis kura-kura, labi-labi"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "74",
+        "meaning_source": "15",
+        "sentence": "Main abau main tampuk labu."
       }
     ]
   },
@@ -574,6 +734,7 @@
     ],
     "means": [
       {
+        "means_id": "39",
         "type": "n",
         "mean": "singkatan \"Abdul\"",
         "tag": [
@@ -590,10 +751,12 @@
     ],
     "means": [
       {
+        "means_id": "00",
         "type": "n",
         "mean": "saudara kandung (laki-laki atau perempuan) yang lebih muda"
       },
       {
+        "means_id": "24",
         "type": "n",
         "mean": "panggilan (khasnya kepada saudara kandung atau saudara mara yang lebih muda atau kepada isteri dan amnya kepada orang yang lebih muda)"
       }
@@ -631,6 +794,7 @@
     ],
     "means": [
       {
+        "means_id": "45",
         "type": "n",
         "mean": "adik yang termuda"
       }
@@ -645,6 +809,7 @@
     ],
     "means": [
       {
+        "means_id": "10",
         "type": "n",
         "mean": "adik lelaki atau perempuan kepada suami atau isteri seseorang"
       }
@@ -659,18 +824,32 @@
     ],
     "means": [
       {
+        "means_id": "65",
         "type": "v",
         "mean": "(beberapa orang) yang mempunyai hubungan kekeluargaan (kerana seayah atau seayah dan seibu), bersaudara"
       },
       {
+        "means_id": "87",
         "type": "v",
         "mean": "(berlaku) sebagai saudara, antara atau selaku adik dengan abang (atau kakak)"
       }
     ],
     "example": [
-      "Mereka lima adik-beradik mereka lima bersaudara.",
-      "Bergaduh adik-beradik dalam pembahagian harta pusaka.",
-      "Mari kita bicarakan adik-beradik dahulu."
+      {
+        "example_id": "32",
+        "meaning_source": "65",
+        "sentence": "Mereka lima adik-beradik mereka lima bersaudara."
+      },
+      {
+        "example_id": "03",
+        "meaning_source": "65",
+        "sentence": "Bergaduh adik-beradik dalam pembahagian harta pusaka."
+      },
+      {
+        "example_id": "63",
+        "meaning_source": "87",
+        "sentence": "Mari kita bicarakan adik-beradik dahulu."
+      }
     ],
     "synonym": [
       "ms-MY~u6KNJ"
@@ -685,6 +864,7 @@
     ],
     "means": [
       {
+        "means_id": "58",
         "type": "n",
         "mean": "anak kepada ibu dan bapa seseorang yang lebih muda daripadanya"
       }
@@ -702,6 +882,7 @@
     ],
     "means": [
       {
+        "means_id": "46",
         "type": "n",
         "mean": "bulan Rabiulakhir"
       }
@@ -716,6 +897,7 @@
     ],
     "means": [
       {
+        "means_id": "61",
         "type": "n",
         "mean": "anak saudara lelaki ayah (yang lebih muda)"
       }
@@ -730,6 +912,7 @@
     ],
     "means": [
       {
+        "means_id": "91",
         "type": "n",
         "mean": "anak saudara perempuan ibu (yang lebih muda daripadanya)"
       }
@@ -744,6 +927,7 @@
     ],
     "means": [
       {
+        "means_id": "24",
         "type": "n",
         "mean": "adik berlainan ibu"
       }
@@ -758,6 +942,7 @@
     ],
     "means": [
       {
+        "means_id": "63",
         "type": "n",
         "mean": "adik berlainan ayah"
       }
@@ -772,6 +957,7 @@
     ],
     "means": [
       {
+        "means_id": "69",
         "type": "n",
         "mean": "anak kepada ibu dan bapa seseorang yang lebih muda daripadanya"
       }
@@ -789,6 +975,7 @@
     ],
     "means": [
       {
+        "means_id": "75",
         "type": "n",
         "mean": "anak (yang lebih muda) kepada adik atau katak ayah atau emak seseorang"
       }
@@ -804,18 +991,32 @@
     ],
     "means": [
       {
+        "means_id": "69",
         "type": "v",
         "mean": "(beberapa orang) yang mempunyai hubungan kekeluargaan (kerana seayah atau seayah dan seibu), bersaudara"
       },
       {
+        "means_id": "61",
         "type": "v",
         "mean": "(berlaku) sebagai saudara, antara atau selaku adik dengan abang (atau kakak)"
       }
     ],
     "example": [
-      "Mereka lima adik-beradik mereka lima bersaudara.",
-      "Bergaduh adik-beradik dalam pembahagian harta pusaka.",
-      "Mari kita bicarakan adik-beradik dahulu."
+      {
+        "example_id": "32",
+        "meaning_source": "69",
+        "sentence": "Mereka lima adik-beradik mereka lima bersaudara."
+      },
+      {
+        "example_id": "03",
+        "meaning_source": "69",
+        "sentence": "Bergaduh adik-beradik dalam pembahagian harta pusaka."
+      },
+      {
+        "example_id": "63",
+        "meaning_source": "61",
+        "sentence": "Mari kita bicarakan adik-beradik dahulu."
+      }
     ],
     "synonym": [
       "ms-MY~Okkun"
@@ -831,12 +1032,17 @@
     ],
     "means": [
       {
+        "means_id": "52",
         "type": "adj",
         "mean": "beratus-ratus tahun"
       }
     ],
     "example": [
-      "Sudah berabad-abad lamanya beratus-ratus tahun lamanya."
+      {
+        "example_id": "21",
+        "meaning_source": "52",
+        "sentence": "Sudah berabad-abad lamanya beratus-ratus tahun lamanya."
+      }
     ]
   },
   {
@@ -849,10 +1055,12 @@
     ],
     "means": [
       {
+        "means_id": "99",
         "type": "adj",
         "mean": "mempunyai abang (biasanya abang kandung)"
       },
       {
+        "means_id": "67",
         "type": "adj",
         "mean": "memanggil seseorang abang, menggunakan kata (panggilan) abang terhadap seseorang"
       }
@@ -868,12 +1076,40 @@
     ],
     "means": [
       {
+        "means_id": "56",
         "type": "v",
         "mean": "mempunyai seseorang sebagai abang"
       }
     ],
     "example": [
-      "Berabangkan seorang yang pengasih dan bertimbang rasa."
+      {
+        "example_id": "22",
+        "meaning_source": "56",
+        "sentence": "Berabangkan seorang yang pengasih dan bertimbang rasa."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~y5g3m",
+    "name": "berabarkan",
+    "stem": "ms-MY~Jt8iR",
+    "pronounce": [
+      "be.ra.bar.kan",
+      "ber.a.bar.kan"
+    ],
+    "means": [
+      {
+        "means_id": "74",
+        "type": "v",
+        "mean": "mempunyai (sesuatu) sebagai dinding atau penyekat, berdindingkan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "72",
+        "meaning_source": "74",
+        "sentence": "Rumah yang berabarkan buluh."
+      }
     ]
   },
   {
@@ -886,17 +1122,27 @@
     ],
     "means": [
       {
+        "means_id": "36",
         "type": "v",
         "mean": "mempunyai atau ada adik"
       },
       {
+        "means_id": "00",
         "type": "v",
         "mean": "bersaudara kandung"
       }
     ],
     "example": [
-      "Biarlah dia bermanja sepuas-puasnya sementara belum beradik lagi.",
-      "Kami tinggal tiga beradik di rumah itu selepas pemergian ayah."
+      {
+        "example_id": "33",
+        "meaning_source": "36",
+        "sentence": "Biarlah dia bermanja sepuas-puasnya sementara belum beradik lagi."
+      },
+      {
+        "example_id": "64",
+        "meaning_source": "00",
+        "sentence": "Kami tinggal tiga beradik di rumah itu selepas pemergian ayah."
+      }
     ]
   },
   {
@@ -909,6 +1155,7 @@
     ],
     "means": [
       {
+        "means_id": "05",
         "type": "v",
         "mean": "selaku adik dan kakak"
       }
@@ -923,24 +1170,32 @@
     ],
     "means": [
       {
+        "means_id": "54",
         "type": "adj",
         "mean": "mempunyai kakak"
       },
       {
+        "means_id": "93",
         "type": "adj",
         "mean": "memanggil kakak, menggunakan perkataan 'kakak' terhadap orang perempuan yang lebih tua (sebagai menghormati secara mesra)"
       },
       {
+        "means_id": "43",
         "type": "v",
         "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
       },
       {
+        "means_id": "41",
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
     ],
     "example": [
-      "Ia tidak pernah lupa berkakak apabila bercakap dengan perempuan-perempuan yang lebih tua sedikit daripadanya."
+      {
+        "example_id": "34",
+        "meaning_source": "93",
+        "sentence": "Ia tidak pernah lupa berkakak apabila bercakap dengan perempuan-perempuan yang lebih tua sedikit daripadanya."
+      }
     ],
     "synonym": [
       "ms-MY~5SbgS",
@@ -958,10 +1213,12 @@
     ],
     "means": [
       {
+        "means_id": "71",
         "type": "v",
         "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
       },
       {
+        "means_id": "65",
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
@@ -981,14 +1238,17 @@
     ],
     "means": [
       {
+        "means_id": "71",
         "type": "n",
         "mean": "saudara perempuan yang lebih tua"
       },
       {
+        "means_id": "16",
         "type": "n",
         "mean": "saudara lelaki yang tua, abang"
       },
       {
+        "means_id": "17",
         "type": "n",
         "mean": "panggilan kepada orang perempuan yang lebih tua"
       }
@@ -1013,14 +1273,23 @@
     ],
     "means": [
       {
+        "means_id": "09",
         "type": "n",
         "mean": "kewujudan yang abadi, kekekalan",
         "source": "ar"
       }
     ],
     "example": [
-      "Keabadian kasih sayang seorang ibu.",
-      "Keabadian perdamaian dan keamanan."
+      {
+        "example_id": "30",
+        "meaning_source": "09",
+        "sentence": "Keabadian kasih sayang seorang ibu."
+      },
+      {
+        "example_id": "62",
+        "meaning_source": "09",
+        "sentence": "Keabadian perdamaian dan keamanan."
+      }
     ]
   },
   {
@@ -1032,6 +1301,7 @@
     ],
     "means": [
       {
+        "means_id": "98",
         "type": "n",
         "mean": "perihal abai"
       }
@@ -1046,12 +1316,17 @@
     ],
     "means": [
       {
+        "means_id": "12",
         "type": "n",
         "mean": "perihal (sifat) sementara, keadaan (sifat) tidak kekal"
       }
     ],
     "example": [
-      "Kesedaran terhadap kenyataan bahawa kesementaraan hidupnya akibat peperangan, tidak mungkin dia menyimpan harta."
+      {
+        "example_id": "31",
+        "meaning_source": "12",
+        "sentence": "Kesedaran terhadap kenyataan bahawa kesementaraan hidupnya akibat peperangan, tidak mungkin dia menyimpan harta."
+      }
     ]
   },
   {
@@ -1064,12 +1339,17 @@
     ],
     "means": [
       {
+        "means_id": "24",
         "type": "n",
         "mean": "keadaan terabai"
       }
     ],
     "example": [
-      "Keterabaian sesuatu kelompok."
+      {
+        "example_id": "43",
+        "meaning_source": "24",
+        "sentence": "Keterabaian sesuatu kelompok."
+      }
     ]
   },
   {
@@ -1082,6 +1362,7 @@
     ],
     "means": [
       {
+        "means_id": "23",
         "type": "v",
         "mean": "memandang (memanggil, menyebut) adik"
       }
@@ -1096,20 +1377,34 @@
     ],
     "means": [
       {
+        "means_id": "95",
         "type": "v",
         "mean": "menjadikan abadi, mengekalkan",
         "source": "ar"
       },
       {
+        "means_id": "92",
         "type": "v",
         "mean": "menjadikan peringatan (kenangan) yang kekal",
         "source": "ar"
       }
     ],
     "example": [
-      "Kasih sayangnya terhadap gadis itu tidak dapat diabadikannya.",
-      "Hasil-hasil sastera itu diabadikan melalui percetakan.",
-      "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban"
+      {
+        "example_id": "53",
+        "meaning_source": "95",
+        "sentence": "Kasih sayangnya terhadap gadis itu tidak dapat diabadikannya."
+      },
+      {
+        "example_id": "03",
+        "meaning_source": "92",
+        "sentence": "Hasil-hasil sastera itu diabadikan melalui percetakan."
+      },
+      {
+        "example_id": "46",
+        "meaning_source": "92",
+        "sentence": "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban"
+      }
     ]
   },
   {
@@ -1121,6 +1416,7 @@
     ],
     "means": [
       {
+        "means_id": "46",
         "type": "v",
         "mean": "menuju"
       }
@@ -1135,12 +1431,17 @@
     ],
     "means": [
       {
+        "means_id": "49",
         "type": "v",
         "mean": "mengarahkan, menujukan"
       }
     ],
     "example": [
-      "Mengabahkan kapal ke tempat yang tertentu."
+      {
+        "example_id": "44",
+        "meaning_source": "49",
+        "sentence": "Mengabahkan kapal ke tempat yang tertentu."
+      }
     ]
   },
   {
@@ -1152,23 +1453,79 @@
     ],
     "means": [
       {
+        "means_id": "53",
         "type": "v",
         "mean": "tidak atau sangat sedikit memberikan perhatian kepada (seseorang atau sesuatu), tidak mengendahkan, mencuaikan, melalaikan"
       },
       {
+        "means_id": "94",
         "type": "v",
         "mean": "memandang tidak penting, tidak mempedulikan atau mengendahkan, menganggap sepi"
       },
       {
+        "means_id": "79",
         "type": "adj",
         "mean": "tidak menggunakan (sesuatu kesempatan, kemudahan yang disediakan, dam lain-lain), membiarkan atau melepaskan, mensia-siakan"
       }
     ],
     "example": [
-      "Mengabaikan anak isteri.",
-      "Mengabaikan tunjuk ajar dan nasihat orang",
-      "Mereka mengabaikan sahaja segala kritik dan cemuhan.",
-      "Sayang sekali peluang keemasan itu kauabaikan."
+      {
+        "example_id": "45",
+        "meaning_source": "53",
+        "sentence": "Mengabaikan anak isteri."
+      },
+      {
+        "example_id": "54",
+        "meaning_source": "53",
+        "sentence": "Mengabaikan tugas dan tanggungjawab."
+      },
+      {
+        "example_id": "57",
+        "meaning_source": "94",
+        "sentence": "Mengabaikan tunjuk ajar dan nasihat orang"
+      },
+      {
+        "example_id": "75",
+        "meaning_source": "94",
+        "sentence": "Mereka mengabaikan sahaja segala kritik dan cemuhan."
+      },
+      {
+        "example_id": "85",
+        "meaning_source": "79",
+        "sentence": "Sayang sekali peluang keemasan itu kauabaikan."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~2O7jO",
+    "name": "mengabar",
+    "stem": "ms-MY~Jt8iR",
+    "pronounce": [
+      "me.nga.bar"
+    ],
+    "means": [
+      {
+        "means_id": "40",
+        "type": "v",
+        "mean": "mengurangkan, meredakan"
+      },
+      {
+        "means_id": "90",
+        "type": "v",
+        "mean": "menghalang, menyekat"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "61",
+        "meaning_source": "40",
+        "sentence": "Ubat yang dapat mengabar keadaan payah orang sakit."
+      },
+      {
+        "example_id": "07",
+        "meaning_source": "90",
+        "sentence": "Pertempuran-pertempuran mengabar jalanya mesyuarat."
+      }
     ]
   },
   {
@@ -1180,10 +1537,12 @@
     ],
     "means": [
       {
+        "means_id": "77",
         "type": "v",
         "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
       },
       {
+        "means_id": "42",
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
@@ -1204,10 +1563,12 @@
     ],
     "means": [
       {
+        "means_id": "52",
         "type": "v",
         "mean": "mengeluarkan bunyi 'kak, kak' (seperti itik)"
       },
       {
+        "means_id": "65",
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
@@ -1228,6 +1589,7 @@
     ],
     "means": [
       {
+        "means_id": "32",
         "type": "n",
         "mean": "perihal mengabadikan, pengekalan",
         "source": "ar"
@@ -1243,6 +1605,7 @@
     ],
     "means": [
       {
+        "means_id": "22",
         "type": "n",
         "mean": "(orang yang sifatnya) suka mengabaikan atau sering tidak memberikan perhatian kepada sesuatu (seperti tugas, tanggungjawab dan sebagainya)"
       }
@@ -1257,6 +1620,7 @@
     ],
     "means": [
       {
+        "means_id": "88",
         "type": "n",
         "mean": "perihal atau perbuatan mengabaikan (keluarga, tugas dan tanggungjawab, nasihat dan teguran, peluang dan kemudahan dan lain-lain)"
       }
@@ -1270,22 +1634,27 @@
     ],
     "means": [
       {
+        "means_id": "20",
         "type": "adj",
         "mean": "untuk beberapa ketika sahaja (tidak lama), tidak kekal"
       },
       {
+        "means_id": "19",
         "type": "adv",
         "mean": "selama, selagi"
       },
       {
+        "means_id": "48",
         "type": "adv",
         "mean": "sedang (berlakunya sesuatu dan lain-lain)"
       },
       {
+        "means_id": "02",
         "type": "adv",
         "mean": "pada ketika itu, dalam pada itu"
       },
       {
+        "means_id": "72",
         "type": "conj",
         "mean": "di samping",
         "tag": [
@@ -1294,12 +1663,41 @@
       }
     ],
     "example": [
-      "Untuk sementara.",
-      "Bantuan sementara.",
-      "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara belum beraja.",
-      "Pengetahuan orang pada masa itu semuanya berdasarkan kepercayaan, sementara kepercayaan mereka memang tidak mengenali apa-apa batus pun.",
-      "Sementara itu kapal belayar juga, makin lama makin laju.",
-      "Sementara bertindak sebagai Timbalan Perdana Menteri, beliau juga dapat menambah pengalamannya."
+      {
+        "example_id": "01",
+        "meaning_source": "20",
+        "sentence": "Untuk sementara."
+      },
+      {
+        "example_id": "52",
+        "meaning_source": "20",
+        "sentence": "Bantuan sementara."
+      },
+      {
+        "example_id": "63",
+        "meaning_source": "19",
+        "sentence": "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara belum beraja."
+      },
+      {
+        "example_id": "64",
+        "meaning_source": "19",
+        "sentence": "Marilah cucuku yang kedua ini kududukkan sai-sainya sementaraan aku lagi hayat."
+      },
+      {
+        "example_id": "65",
+        "meaning_source": "48",
+        "sentence": "Pengetahuan orang pada masa itu semuanya berdasarkan kepercayaan, sementara kepercayaan mereka memang tidak mengenali apa-apa batus pun."
+      },
+      {
+        "example_id": "66",
+        "meaning_source": "02",
+        "sentence": "Sementara itu kapal belayar juga, makin lama makin laju."
+      },
+      {
+        "example_id": "67",
+        "meaning_source": "72",
+        "sentence": "Sementara bertindak sebagai Timbalan Perdana Menteri, beliau juga dapat menambah pengalamannya."
+      }
     ],
     "antonym": [
       "ms-MY~2KJwU"
@@ -1319,12 +1717,17 @@
     ],
     "means": [
       {
+        "means_id": "31",
         "type": "adv",
         "mean": "pada ketika itu, dalam pada itu"
       }
     ],
     "example": [
-      "Sementara itu kapal belayar juga, makin lama makin laju."
+      {
+        "example_id": "48",
+        "meaning_source": "31",
+        "sentence": "Sementara itu kapal belayar juga, makin lama makin laju."
+      }
     ]
   },
   {
@@ -1336,6 +1739,7 @@
     ],
     "means": [
       {
+        "means_id": "98",
         "type": "adv",
         "mean": "selama, selagi",
         "tag": [
@@ -1344,8 +1748,16 @@
       }
     ],
     "example": [
-      "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara itu belum beraja.",
-      "Marilah cucuku yang kedua ini kududukkan sai-sainya sementaraan aku lagi hayat."
+      {
+        "example_id": "68",
+        "meaning_source": "98",
+        "sentence": "Telah sampai di Pahang, duduklah ia memerintah negeri Pahang, sementara itu belum beraja."
+      },
+      {
+        "example_id": "59",
+        "meaning_source": "98",
+        "sentence": "Marilah cucuku yang kedua ini kududukkan sai-sainya sementaraan aku lagi hayat."
+      }
     ]
   },
   {
@@ -1358,13 +1770,18 @@
     ],
     "means": [
       {
+        "means_id": "10",
         "type": "adj",
         "mean": "dapat diabadikan (dikekalkan)",
         "source": "ar"
       }
     ],
     "example": [
-      "Dengan usahanya itu terabadi terus cerita-cerita rakyat"
+      {
+        "example_id": "47",
+        "meaning_source": "10",
+        "sentence": "Dengan usahanya itu terabadi terus cerita-cerita rakyat"
+      }
     ]
   },
   {
@@ -1377,6 +1794,7 @@
     ],
     "means": [
       {
+        "means_id": "63",
         "type": "v",
         "mean": "tidak diberi perhatian (berkenaan dengan seseorang atau sesuatu), tidak dipedulikan (diendahkan atau digunakan), dibiarkan sahaja atau disia-siakan"
       }
@@ -1391,6 +1809,7 @@
     ],
     "means": [
       {
+        "means_id": "13",
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
@@ -1411,6 +1830,7 @@
     ],
     "means": [
       {
+        "means_id": "56",
         "type": "v",
         "mean": "tidak cuai (lalai) dari"
       }

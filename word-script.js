@@ -278,7 +278,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         showDictionary.querySelector(".word-example").classList.add("show");
                         showDictionary.querySelector(".label-example").classList.add("show");
                         let itemElement = document.createElement("li");
-                        itemElement.innerHTML = `${item}`;
+                        itemElement.innerHTML = `${item["sentence"]}`;
                         showDictionary.querySelector(".word-example").appendChild(itemElement);
                     });
                 }
