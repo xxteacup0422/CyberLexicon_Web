@@ -727,6 +727,32 @@
     ]
   },
   {
+    "id": "ms-MY~b0bnW",
+    "name": "ABC",
+    "pronounce": [
+      "A.B.C"
+    ],
+    "means": [
+      {
+        "means_id": "60",
+        "type": "n",
+        "mean": "abjad Rumi"
+      },
+      {
+        "means_id": "96",
+        "type": "n",
+        "mean": "kep air batu campur"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "39",
+        "meaning_source": "60",
+        "sentence": "Budak itu sudah pandai membaca ABC."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~WvKCQ",
     "name": "Abd.",
     "pronounce": [
@@ -737,6 +763,223 @@
         "means_id": "39",
         "type": "n",
         "mean": "singkatan \"Abdul\"",
+        "tag": [
+          "abbr"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~V4Ujw",
+    "name": "abdas",
+    "pronounce": [
+      "ab.das"
+    ],
+    "means": [
+      {
+        "means_id": "26",
+        "type": "n",
+        "mean": "(Parsi) mandi hadas"
+      }
+    ],
+    "affix": [
+      "ms-MY~mdtvU"
+    ]
+  },
+  {
+    "id": "ms-MY~qvxrl",
+    "name": "abdi",
+    "pronounce": [
+      "ʕab.di",
+      "ab.di"
+    ],
+    "means": [
+      {
+        "means_id": "34",
+        "type": "n",
+        "mean": "orang yang dimiliki oleh seseorang lain dan terpaksa melakukan apa saja yang diperintahkan oleh tuannya (tanpa mempunyai kebebasan atau hak sendiri), hamba, hamba tebusan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "38",
+        "meaning_source": "34",
+        "sentence": "Abdi negara Indonesia pegawai kerajaan."
+      }
+    ],
+    "affix": [
+      "ms-MY~PXqc1",
+      "ms-MY~qAAX9",
+      "ms-MY~lZLjS"
+    ]
+  },
+  {
+    "id": "ms-MY~YxGOq",
+    "name": "abdikasi",
+    "pronounce": [
+      "ab.di.ka.si"
+    ],
+    "means": [
+      {
+        "means_id": "97",
+        "type": "n",
+        "mean": "turun dari takhta kerajaan dengan kehendak (kerelaan) seseorang raja itu sendiri"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~YffI4",
+    "name": "abdomen",
+    "pronounce": [
+      "ab.do.men"
+    ],
+    "means": [
+      {
+        "means_id": "89",
+        "type": "n",
+        "mean": "rangga di bahagian tengah badan vertebrat (yang berisi organ-organ (seperti perut, usus, buah pinggang dan hati)",
+        "tag": [
+          "bio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~35KMz",
+    "name": "abese",
+    "pronounce": [
+      "a.bé.sé"
+    ],
+    "means": [
+      {
+        "means_id": "81",
+        "type": "n",
+        "mean": "abjad tulisan Rumi",
+        "source": "id"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~BKGzw",
+    "name": "abet",
+    "pronounce": [
+      "a.bet"
+    ],
+    "means": [
+      {
+        "means_id": "84",
+        "type": "n",
+        "mean": "tingkah laku",
+        "source": "jk"
+      }
+    ],
+    "affix": [
+      "ms-MY~GoqWy"
+    ],
+    "phrase": [
+      "ms-MY~scJw7"
+    ]
+  },
+  {
+    "id": "ms-MY~fbUEO",
+    "name": "abiad",
+    "pronounce": [
+      "a.biad"
+    ],
+    "means": [
+      {
+        "means_id": "06",
+        "type": "adj",
+        "mean": "putih",
+        "source": "ar",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "51",
+        "meaning_source": "06",
+        "sentence": "Fidah yang abiad perak yang putih."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~MWI6e",
+    "name": "abid",
+    "pronounce": [
+      "ʕa.bid",
+      "a.bid"
+    ],
+    "means": [
+      {
+        "means_id": "59",
+        "type": "n",
+        "mean": "orang yang menghambakan diri kepada Allah dengan beribadat kepada-Nya"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~ZuSE8",
+    "name": "abidin",
+    "pronounce": [
+      "ʕa.bi.din",
+      "a.bi.din"
+    ],
+    "means": [
+      {
+        "means_id": "70",
+        "type": "n",
+        "mean": "jamak bagi abid",
+        "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~iGFYg",
+    "name": "abilah",
+    "pronounce": [
+      "a.bi.lah"
+    ],
+    "means": [
+      {
+        "means_id": "57",
+        "type": "n",
+        "mean": "(Parsi) cacar air, jeluntung"
+      }
+    ],
+    "phrase": [
+      "ms-MY~vB1Yt"
+    ]
+  },
+  {
+    "id": "ms-MY~vB1Yt",
+    "name": "abilah Peringgi",
+    "stem": "ms-MY~iGFYg",
+    "pronounce": [
+      "a.bi.lah.per.ing.gi",
+      "a.bi.lah.pe.ring.gi"
+    ],
+    "means": [
+      {
+        "means_id": "78",
+        "type": "n",
+        "mean": "penyakit sifilis, penyakit raja singa"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~ayP72",
+    "name": "ABIM",
+    "pronounce": [
+      "A.B.I.M"
+    ],
+    "means": [
+      {
+        "means_id": "86",
+        "type": "n",
+        "mean": "singkatan \"Angkatan Belia Islam Malaysia\"",
         "tag": [
           "abbr"
         ]
@@ -1113,6 +1356,22 @@
     ]
   },
   {
+    "id": "ms-MY~mdtvU",
+    "name": "berabdas",
+    "stem": "ms-MY~V4Ujw",
+    "pronounce": [
+      "be.rab.das",
+      "ber.ab.das"
+    ],
+    "means": [
+      {
+        "means_id": "07",
+        "type": "n",
+        "mean": "mandi hadas"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~Kk0xT",
     "name": "beradik",
     "stem": "ms-MY~9aEDh",
@@ -1228,6 +1487,21 @@
       "ms-MY~jv7p4",
       "ms-MY~LQkI0",
       "ms-MY~zBtOq"
+    ]
+  },
+  {
+    "id": "ms-MY~scJw7",
+    "name": "bisa abet",
+    "stem": "ms-MY~BKGzw",
+    "pronounce": [
+      "bi.sa.a.bet"
+    ],
+    "means": [
+      {
+        "means_id": "73",
+        "type": "v",
+        "mean": "tahu bertingkah laku"
+      }
     ]
   },
   {
@@ -1529,6 +1803,92 @@
     ]
   },
   {
+    "id": "ms-MY~PXqc1",
+    "name": "mengabdi",
+    "stem": "ms-MY~qvxrl",
+    "pronounce": [
+      "meng.ʕab.di",
+      "me.ngab.di"
+    ],
+    "means": [
+      {
+        "means_id": "51",
+        "type": "v",
+        "mean": "menjadi abdi (hamba)"
+      },
+      {
+        "means_id": "04",
+        "type": "v",
+        "mean": "berlaku seperti abdi, menumpukan seluruh jiwa dan tenaga (kepada atau untuk kepentingan seseorang atau sesuatu)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "93",
+        "meaning_source": "51",
+        "sentence": "Orang kulit hitam dari Afrika pernah dipaksa mengabdi di Amerika Syarikat."
+      },
+      {
+        "example_id": "99",
+        "meaning_source": "04",
+        "sentence": "Rela mengabdi kepada negara."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~qAAX9",
+    "name": "mengabdikan",
+    "stem": "ms-MY~qvxrl",
+    "pronounce": [
+      "meng.ʕab.dikan",
+      "me.ngab.di.kan"
+    ],
+    "means": [
+      {
+        "means_id": "03",
+        "type": "v",
+        "mean": "menjadi abdi, menghambakan, memperhamba "
+      },
+      {
+        "means_id": "18",
+        "type": "v",
+        "mean": "menggunakan sepenuhnya"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "80",
+        "meaning_source": "03",
+        "sentence": "Mengabdikan tawanan perang."
+      },
+      {
+        "example_id": "73",
+        "meaning_source": "03",
+        "sentence": "Mengabdikan diri kepada negara."
+      },
+      {
+        "example_id": "28",
+        "meaning_source": "18",
+        "sentence": "Tenaganya diabdikannya kepada negara."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~GoqWy",
+    "name": "mengabet",
+    "stem": "ms-MY~BKGzw",
+    "pronounce": [
+      "me.nga.bet"
+    ],
+    "means": [
+      {
+        "means_id": "83",
+        "type": "v",
+        "mean": "bertingkah laku"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~jv7p4",
     "name": "mengakak",
     "stem": "ms-MY~n1yOs",
@@ -1623,6 +1983,39 @@
         "means_id": "88",
         "type": "n",
         "mean": "perihal atau perbuatan mengabaikan (keluarga, tugas dan tanggungjawab, nasihat dan teguran, peluang dan kemudahan dan lain-lain)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~lZLjS",
+    "name": "pengabdian",
+    "stem": "ms-MY~qvxrl",
+    "pronounce": [
+      "peng.ʕab.dian",
+      "pe.ngab.dian"
+    ],
+    "means": [
+      {
+        "means_id": "50",
+        "type": "n",
+        "mean": "perihal (perbuatan dan sebagainya) mengabdi atau mengabdikan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "09",
+        "meaning_source": "50",
+        "sentence": "Tetapi Allah tidak membebani manusia dengan kemestian-kemestian yang banyak untuk melakukan pengabdian."
+      },
+      {
+        "example_id": "29",
+        "meaning_source": "50",
+        "sentence": "Pengabdian seseorang kepada negara sebagai tanda cintanya terhadap negara."
+      },
+      {
+        "example_id": "26",
+        "meaning_source": "50",
+        "sentence": "Pada zaman dahulukala, pengabdian rakyat oleh raja sering berlaku."
       }
     ]
   },
