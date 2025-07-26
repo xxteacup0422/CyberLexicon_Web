@@ -987,6 +987,40 @@
     ]
   },
   {
+    "id": "ms-MY~A0NIg",
+    "name": "abintara",
+    "pronounce": [
+      "a.bin.ta.ra"
+    ],
+    "means": [
+      {
+        "means_id": "64",
+        "type": "n",
+        "mean": "pesuruh raja",
+        "tag": [
+          "cl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~RLT64",
+    "name": "abiogenesis",
+    "pronounce": [
+      "a.bio.gé.ne.sis"
+    ],
+    "means": [
+      {
+        "means_id": "68",
+        "type": "n",
+        "mean": "penjanaan (secara hipotesis) benda hidup daripada benda bukan hidup",
+        "tag": [
+          "bio"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ms-MY~9aEDh",
     "name": "adik",
     "pronounce": [
@@ -1263,6 +1297,98 @@
     ],
     "synonym": [
       "ms-MY~Okkun"
+    ]
+  },
+  {
+    "id": "ms-MY~I1ZPO",
+    "name": "bentara",
+    "pronounce": [
+      "ben.ta.ra"
+    ],
+    "means": [
+      {
+        "means_id": "57",
+        "type": "n",
+        "mean": "pesuruh raja (yang menyampaikan titah atau membawa alat kerajaan)",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "means_id": "37",
+        "type": "n",
+        "mean": "pegawai tidak bertauliah (tentera)",
+        "source": "id"
+      }
+    ],
+    "synonym": [
+      "ms-MY~A0NIg"
+    ],
+    "phrase": [
+      "ms-MY~QPb7q",
+      "ms-MY~4GgLR",
+      "ms-MY~Hauhf",
+      "ms-MY~aiZ43"
+    ]
+  },
+  {
+    "id": "ms-MY~QPb7q",
+    "name": "bentara dewan",
+    "stem": "ms-MY~I1ZPO",
+    "pronounce": [
+      "ben.ta.ra.dé.wan"
+    ],
+    "means": [
+      {
+        "means_id": "14",
+        "type": "n",
+        "mean": "pegawai yang ditugaskan untuk menunjukkan tempat kepada orang awam dalam dewan"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~4GgLR",
+    "name": "bentara kanan",
+    "stem": "ms-MY~I1ZPO",
+    "pronounce": [
+      "ben.ta.ra.ka.nan"
+    ],
+    "means": [
+      {
+        "means_id": "74",
+        "type": "n",
+        "mean": "bentara yang berdiri di kanan raja"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Hauhf",
+    "name": "bentara kiri",
+    "stem": "ms-MY~I1ZPO",
+    "pronounce": [
+      "ben.ta.ra.ki.ri"
+    ],
+    "means": [
+      {
+        "means_id": "08",
+        "type": "n",
+        "mean": "bentera yang berdiri di kiri raja"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~aiZ43",
+    "name": "bentara mahkamah",
+    "stem": "ms-MY~I1ZPO",
+    "pronounce": [
+      "ben.ta.ra.mah.ka.mah"
+    ],
+    "means": [
+      {
+        "means_id": "91",
+        "type": "n",
+        "mean": "pegawai yang ditugaskan untuk menunjukkan tempat kepada orang awam dalam mahkamah"
+      }
     ]
   },
   {
