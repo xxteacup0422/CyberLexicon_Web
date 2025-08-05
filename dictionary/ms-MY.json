@@ -1024,6 +1024,49 @@
     ]
   },
   {
+    "id": "ms-MY~tQKM7",
+    "name": "abjad",
+    "pronounce": [
+      "ab.jad"
+    ],
+    "means": [
+      {
+        "means_id": "74",
+        "type": "n",
+        "mean": "huruf-huruf dalam sesuatu bahasa yang disusun mengikut urutan yang tertentu (seperti A, B, C hingga Z bagi tulisan Rumi dan alif, ba, ta hingga nya bagi tulisan Jawi)"
+      },
+      {
+        "means_id": "45",
+        "type": "n",
+        "mean": "urutan atau susunan huruf Arab (dengan setiap huruf mempunyai nilai angka untuk menyatakan tahun dan lain-lain, mis alif = 1, ba = 2, jim = 3, dal = 4, dan lain-lain)"
+      }
+    ],
+    "affix": [
+      "ms-MY~Cfi90",
+      "ms-MY~X6ISK"
+    ],
+    "phrase": [
+      "ms-MY~Jnm9C"
+    ]
+  },
+  {
+    "id": "ms-MY~V9mlX",
+    "name": "ablasi",
+    "pronounce": [
+      "ab.la.si"
+    ],
+    "means": [
+      {
+        "means_id": "32",
+        "type": "adj",
+        "mean": "pembuangan tisu atau organ tubuh secara pembedahan",
+        "tag": [
+          "bio"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ms-MY~9aEDh",
     "name": "adik",
     "pronounce": [
@@ -2018,6 +2061,28 @@
     ]
   },
   {
+    "id": "ms-MY~Cfi90",
+    "name": "mengabjadkan",
+    "stem": "ms-MY~tQKM7",
+    "pronounce": [
+      "me.ngab.jad.kan"
+    ],
+    "means": [
+      {
+        "means_id": "70",
+        "type": "v",
+        "mean": "menyusun (perkataan dan lain-lain) menurut abjad"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "93",
+        "meaning_source": "70",
+        "sentence": "Mengabjadkan nama semua peserta."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~jv7p4",
     "name": "mengakak",
     "stem": "ms-MY~n1yOs",
@@ -2067,6 +2132,21 @@
       "ms-MY~5SbgS",
       "ms-MY~jv7p4",
       "ms-MY~zBtOq"
+    ]
+  },
+  {
+    "id": "ms-MY~Jnm9C",
+    "name": "menurut (urutan) abjad",
+    "stem": "ms-MY~tQKM7",
+    "pronounce": [
+      "me.nu.rut.(u.ru.tan).ab.jad"
+    ],
+    "means": [
+      {
+        "means_id": "01",
+        "type": "n",
+        "mean": "menurut urutan huruf dalam abjad"
+      }
     ]
   },
   {
@@ -2145,6 +2225,21 @@
         "example_id": "26",
         "meaning_source": "50",
         "sentence": "Pada zaman dahulukala, pengabdian rakyat oleh raja sering berlaku."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~X6ISK",
+    "name": "pengabjadan",
+    "stem": "ms-MY~tQKM7",
+    "pronounce": [
+      "pe.ngab.ja.dan"
+    ],
+    "means": [
+      {
+        "means_id": "50",
+        "type": "n",
+        "mean": "perihal mengabjadkan, penyusunan perkataan (senarai nama dan lain-lain) mengikut urutan abjad"
       }
     ]
   },
