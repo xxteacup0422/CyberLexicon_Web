@@ -1067,6 +1067,86 @@
     ]
   },
   {
+    "id": "ms-MY~M7oDU",
+    "name": "abnormal",
+    "pronounce": [
+      "ab.nor.mal"
+    ],
+    "means": [
+      {
+        "means_id": "10",
+        "type": "adj",
+        "mean": "tidak seperti yang biasanya terdapat (berlaku dan sebagainya), luar biasa"
+      },
+      {
+        "means_id": "84",
+        "type": "adj",
+        "mean": "agak gila",
+        "source": "id"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "66",
+        "sentence": "keadaan yang abnormal."
+      }
+    ],
+    "antonym": [
+      "ms-MY~AuvSa"
+    ],
+    "affix": [
+      "ms-MY~Wynej"
+    ]
+  },
+  {
+    "id": "ms-MY~0iUCK",
+    "name": "abnus",
+    "pronounce": [
+      "ab.nus"
+    ],
+    "means": [
+      {
+        "means_id": "77",
+        "type": "n",
+        "mean": "kayu hitam",
+        "source": "ar",
+        "tag": [
+          "cl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~dD4mO",
+    "name": "aboi",
+    "pronounce": [
+      "a.boi"
+    ],
+    "means": [
+      {
+        "means_id": "27",
+        "type": "n",
+        "mean": "panggilan kepada kepala atau pembesar orang Cina",
+        "source": "cn"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~IWkl2",
+    "name": "abon",
+    "pronounce": [
+      "a.bon"
+    ],
+    "means": [
+      {
+        "means_id": "46",
+        "type": "n",
+        "mean": "sayatan daging yang dibubuh rempah dan digoreng",
+        "source": "jw"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~9aEDh",
     "name": "adik",
     "pronounce": [
@@ -1677,6 +1757,21 @@
     ]
   },
   {
+    "id": "ms-MY~HoAbP",
+    "name": "guru normal",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "gu.ru.nor.mal"
+    ],
+    "means": [
+      {
+        "means_id": "89",
+        "type": "n",
+        "mean": "guru yang terlatih dengan cara menghadiri kursus tertentu (tidak memasuki maktab latihan tertentu)"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~n1yOs",
     "name": "kakak",
     "pronounce": [
@@ -1754,6 +1849,58 @@
     ]
   },
   {
+    "id": "ms-MY~Wynej",
+    "name": "keabnormalan",
+    "stem": "ms-MY~M7oDU",
+    "pronounce": [
+      "ke.ab.nor.ma.lan"
+    ],
+    "means": [
+      {
+        "means_id": "78",
+        "type": "n",
+        "mean": "keadaan yang menyimpang daripada kebiasaan, keadaan tidak normal, keadaan luar biasa"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~92Led",
+    "name": "keadaan normal",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "ke.a.da.an.nor.mal"
+    ],
+    "means": [
+      {
+        "means_id": "87",
+        "type": "n",
+        "mean": "keadaan biasa"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~swosp",
+    "name": "kenormalan",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "ke.nor.ma.lan"
+    ],
+    "means": [
+      {
+        "means_id": "73",
+        "type": "n",
+        "mean": "keadaan normal"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "68",
+        "meaning_source": "73",
+        "sentence": "Kenormalan fungsi jantung."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~K9c33",
     "name": "kesementaraan",
     "stem": "ms-MY~j0ePF",
@@ -1772,6 +1919,28 @@
         "example_id": "31",
         "meaning_source": "12",
         "sentence": "Kesedaran terhadap kenyataan bahawa kesementaraan hidupnya akibat peperangan, tidak mungkin dia menyimpan harta."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~nrVpd",
+    "name": "ketaknormalan",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "ke.ta/.nor.ma.lan"
+    ],
+    "means": [
+      {
+        "means_id": "46",
+        "type": "n",
+        "mean": "keadaan tidak normal"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "88",
+        "meaning_source": "46",
+        "sentence": "Sekiranya ketaknormalan berlaku, lawatan ke klinik atau hospital adalah perlu."
       }
     ]
   },
@@ -2135,6 +2304,26 @@
     ]
   },
   {
+    "id": "ms-MY~gDDUN",
+    "name": "menormalkan",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "me.nor.mal.kan"
+    ],
+    "means": [
+      {
+        "means_id": "20",
+        "type": "v",
+        "mean": "menjadikan normal"
+      },
+      {
+        "means_id": "73",
+        "type": "v",
+        "mean": "menjadikan akur dengan sesuatu standard"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~Jnm9C",
     "name": "menurut (urutan) abjad",
     "stem": "ms-MY~tQKM7",
@@ -2147,6 +2336,43 @@
         "type": "n",
         "mean": "menurut urutan huruf dalam abjad"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~AuvSa",
+    "name": "normal",
+    "pronounce": [
+      "nor.mal"
+    ],
+    "means": [
+      {
+        "means_id": "80",
+        "type": "adj",
+        "mean": "menurut aturan, keadaan, atau pola yang lazim"
+      },
+      {
+        "means_id": "21",
+        "type": "adj",
+        "mean": "biasa"
+      },
+      {
+        "means_id": "97",
+        "type": "adj",
+        "mean": "garisan (pancaran cahaya dan lain-lain) yang bertemu lurus dengan sesuatu permukaan"
+      }
+    ],
+    "antonym": [
+      "ms-MY~M7oDU"
+    ],
+    "affix": [
+      "ms-MY~gDDUN",
+      "ms-MY~swosp",
+      "ms-MY~nrVpd",
+      "ms-MY~7Og4k"
+    ],
+    "phrase": [
+      "ms-MY~92Led",
+      "ms-MY~HoAbP"
     ]
   },
   {
@@ -2240,6 +2466,21 @@
         "means_id": "50",
         "type": "n",
         "mean": "perihal mengabjadkan, penyusunan perkataan (senarai nama dan lain-lain) mengikut urutan abjad"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~7Og4k",
+    "name": "penormalan",
+    "stem": "ms-MY~AuvSa",
+    "pronounce": [
+      "pe.nor.ma.lan"
+    ],
+    "means": [
+      {
+        "means_id": "71",
+        "type": "n",
+        "mean": "proses menormalkan"
       }
     ]
   },
