@@ -741,7 +741,10 @@
       {
         "means_id": "96",
         "type": "n",
-        "mean": "kep air batu campur"
+        "mean": "air batu campur",
+        "tag": [
+          "abbr"
+        ]
       }
     ],
     "example": [
@@ -1143,6 +1146,86 @@
         "type": "n",
         "mean": "sayatan daging yang dibubuh rempah dan digoreng",
         "source": "jw"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~JGPS2",
+    "name": "abonemen",
+    "pronounce": [
+      "a.bo.ne.mén"
+    ],
+    "means": [
+      {
+        "means_id": "49",
+        "type": "n",
+        "mean": "langganan",
+        "source": "idnl"
+      },
+      {
+        "means_id": "02",
+        "type": "n",
+        "mean": "wang langganan",
+        "source": "idnl"
+      },
+      {
+        "means_id": "98",
+        "type": "n",
+        "mean": "berlanggan",
+        "source": "idnl"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~nq3S2",
+    "name": "abrak",
+    "pronounce": [
+      "ab.ra/"
+    ],
+    "means": [
+      {
+        "means_id": "08",
+        "type": "n",
+        "mean": "batu cermin, mika",
+        "tag": [
+          "cl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~tfdLD",
+    "name": "abrar",
+    "pronounce": [
+      "ab.rar"
+    ],
+    "means": [
+      {
+        "means_id": "42",
+        "type": "adj",
+        "mean": "golongan orang yang soleh",
+        "source": "ar"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~9yljN",
+    "name": "abras",
+    "pronounce": [
+      "ab.ras"
+    ],
+    "means": [
+      {
+        "means_id": "82",
+        "type": "n",
+        "mean": "menghidapi penyakit kusta",
+        "source": "ar"
+      },
+      {
+        "means_id": "93",
+        "type": "n",
+        "mean": "penyakit kusta",
+        "source": "ar"
       }
     ]
   },
@@ -1620,6 +1703,22 @@
         "means_id": "07",
         "type": "n",
         "mean": "mandi hadas"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~tlDtH",
+    "name": "berabonemen",
+    "stem": "ms-MY~JGPS2",
+    "pronounce": [
+      "be.ra.bo.ne.mén"
+    ],
+    "means": [
+      {
+        "means_id": "48",
+        "type": "v",
+        "mean": "berlanggan",
+        "source": "idnl"
       }
     ]
   },
