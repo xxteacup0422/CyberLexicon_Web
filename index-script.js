@@ -5,16 +5,22 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const menu_bar_title = document.querySelector('.menu-bar .title');
     const aboutButton = document.querySelector(".menu-bar .button-list #about-button");
+    const wordcountButton = document.querySelector(".menu-bar .button-list #wordcount-button");
 
     searchInput.addEventListener("keyup", () => {
+        if (searchInput.value === "") {
+            searchList.classList.remove("show");
+            searchInput_clearButton.classList.remove("show");
+            return;
+        }
         searchInput_clearButton.classList.add("show");
-        fetch("dictionary/ms-MY.json")
+        fetch("dictionary/Words/ms-MY.json")
         .then((response) => response.json())
         .then((data) => {
             const searchValue = searchInput.value.toLowerCase();
             const filteredWords = data.filter((word) => {
-                return word.name.toLowerCase().includes(searchValue);
-            });
+                return word.name.toLowerCase().startsWith(searchValue);
+            }).slice(0, 10);
 
             searchList.innerHTML = "";
 
@@ -37,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.addEventListener("keypress", (event) => {
         if (event.key === "Enter") {
             event.preventDefault();
-            fetch("dictionary/ms-MY.json")
+            fetch("dictionary/Words/ms-MY.json")
             .then((response) => response.json())
             .then((data) => {
                 const searchValue = searchInput.value.toLowerCase();
@@ -68,5 +74,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     aboutButton.addEventListener("click", () => {
         window.location.href = "about.html";
+    });
+
+    wordcountButton.addEventListener("click", () => {
+        fetch("dictionary/WordCount/ms-MY.txt")
+        .then(response => response.text())
+        .then(text => {
+            alert(text);
+        });
     });
 });

@@ -1,3 +1,7 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
 body {
     height: 100vh;
     max-width: 100%;
@@ -58,7 +62,7 @@ body {
     margin-left: 7px;
 }
 
-.menu-bar .button-list #about-button {
+.menu-bar .button-list .menu-button {
     color: rgb(255, 255, 255);
     background: none;
     border: none;
@@ -74,7 +78,7 @@ body {
     height: 100%;
 }
 
-.menu-bar .button-list #about-button:hover {
+.menu-bar .button-list .menu-button:hover {
     background: #00000023;
 }
 
@@ -183,6 +187,13 @@ body {
     background: #d6d6d6;
 }
 
+@media screen and (max-width: 640px) {
+    .menu-bar .button-list .menu-button p {
+        display: none;
+        transition: all 0.5s ease;
+    }
+}
+
 @media screen and (max-width: 525px) {
     .main img {
         width: 90px;
@@ -235,5 +246,12 @@ body {
 
     .main .search-input span {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .menu-bar .title h1 {
+        display: none;
+        transition: all 0.3s ease;
     }
 }
