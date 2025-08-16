@@ -1,3 +1,7 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
 body {
     height: 100vh;
     max-width: 100%;
@@ -58,7 +62,7 @@ body {
     margin-left: 7px;
 }
 
-.menu-bar .button-list #about-button {
+.menu-bar .button-list .menu-button {
     color: rgb(255, 255, 255);
     background: none;
     border: none;
@@ -72,10 +76,13 @@ body {
     margin-left: 10px;
     padding: 0 10px;
     height: 100%;
+}
+
+.menu-bar .button-list #about-button {
     border-bottom: 3px solid rgba(0, 0, 0, 0.267);
 }
 
-.menu-bar .button-list #about-button:hover {
+.menu-bar .button-list .menu-button:hover {
     background: #00000023;
 }
 
@@ -141,15 +148,44 @@ body {
     }
 }
 
-@media screen and (max-width: 457px) {
-    .menu-bar .title img {
-        width: 54px;
-        height: 54px;
+@media screen and (max-width: 724px) {
+    .main img {
+        width: 75px;
+        height: 75px;
     }
 
+    .main h1 {
+        font-size: 1.7rem;
+    }
+    .about {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .menu-bar .button-list .menu-button p {
+        display: none;
+        transition: all 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .main img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main h1 {
+        font-size: 1.6rem;
+    }
+    .about {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
     .menu-bar .title h1 {
-        font-size: 1.3rem;
-        color: white;
-        margin-left: 5px;
+        display: none;
+        transition: all 0.3s ease;
     }
 }
