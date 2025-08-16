@@ -1,0 +1,440 @@
+[
+  {
+    "word_id": "ms-MY~H0he9",
+    "means": [
+      {
+        "means_id": "08",
+        "mean": "“亚洲-非洲”的简称"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~FHBXg",
+    "means": [
+      {
+        "means_id": "32",
+        "mean": "“财政预算”的简称"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~dCTrZ",
+    "means": [
+      {
+        "means_id": "38",
+        "mean": "微菌，细菌"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~kToQ8",
+    "means": [
+      {
+        "means_id": "02",
+        "mean": "方向，方位"
+      },
+      {
+        "means_id": "82",
+        "mean": "爸爸，父亲"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "20",
+        "sentence": "不固定的方向。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~RGdHl",
+    "means": [
+      {
+        "means_id": "94",
+        "mean": "工具，器具，仪器；绳索"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~OZGqa",
+    "means": [
+      {
+        "means_id": "28",
+        "mean": "船绳"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~ApOCV",
+    "means": [
+      {
+        "means_id": "43",
+        "mean": "粗心的，大意的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~PeMyw",
+    "means": [
+      {
+        "means_id": "49",
+        "mean": "肛门，尿道，阴部"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~Vhztm",
+    "means": [
+      {
+        "means_id": "66",
+        "mean": "麻蕉（俗称马尼拉麻）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~RipaO",
+    "means": [
+      {
+        "means_id": "31",
+        "mean": "无细菌的环境"
+      },
+      {
+        "means_id": "14",
+        "mean": "无菌的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~b0bnW",
+    "means": [
+      {
+        "means_id": "60",
+        "mean": "罗马字母"
+      },
+      {
+        "means_id": "96",
+        "mean": "八宝冰"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "39",
+        "sentence": "那儿童已经能够阅读ABC（罗马字母）。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~WvKCQ",
+    "means": [
+      {
+        "means_id": "39",
+        "mean": "“阿都”的缩写"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~V4Ujw",
+    "means": [
+      {
+        "means_id": "26",
+        "mean": "（祈祷前的）净身"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~YxGOq",
+    "means": [
+      {
+        "means_id": "97",
+        "mean": "（国王）自愿退位，逊位"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~35KMz",
+    "means": [
+      {
+        "means_id": "81",
+        "mean": "罗马字母"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~fbUEO",
+    "means": [
+      {
+        "means_id": "06",
+        "mean": "白色的"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "51",
+        "sentence": "白色的银，纯洁的银。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~ZuSE8",
+    "means": [
+      {
+        "means_id": "70",
+        "mean": "善男信女（复数）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~iGFYg",
+    "means": [
+      {
+        "means_id": "57",
+        "mean": "水痘"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~ayP72",
+    "means": [
+      {
+        "means_id": "86",
+        "mean": "“马来西亚伊斯兰青年阵线”的简称"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~A0NIg",
+    "means": [
+      {
+        "means_id": "64",
+        "mean": "传令官，待从"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~RLT64",
+    "means": [
+      {
+        "means_id": "68",
+        "mean": "无生源说，自然发生（论）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~0iUCK",
+    "means": [
+      {
+        "means_id": "77",
+        "mean": "乌木，火炭木（一种乔木）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~dD4mO",
+    "means": [
+      {
+        "means_id": "27",
+        "mean": "（华人）总管，阿倍"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~nq3S2",
+    "means": [
+      {
+        "means_id": "08",
+        "mean": "云母"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~tfdLD",
+    "means": [
+      {
+        "means_id": "42",
+        "mean": "虔诚的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~mdtvU",
+    "means": [
+      {
+        "means_id": "07",
+        "mean": "（祈祷前的）净身"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~tlDtH",
+    "means": [
+      {
+        "means_id": "48",
+        "mean": "订阅"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~5SbgS",
+    "means": [
+      {
+        "means_id": "71",
+        "mean": "（鸭）嘎嘎声"
+      },
+      {
+        "means_id": "65",
+        "mean": "哈哈大笑的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~n1yOs",
+    "means": [
+      {
+        "means_id": "71",
+        "mean": "姐姐"
+      },
+      {
+        "means_id": "16",
+        "mean": "哥哥"
+      },
+      {
+        "means_id": "17",
+        "mean": "大姐（对年纪较大的人的称呼）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~TUD05",
+    "means": [
+      {
+        "means_id": "98",
+        "mean": "疏忽，大意"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~Wynej",
+    "means": [
+      {
+        "means_id": "78",
+        "mean": "畸形状况，反常状况，变态，非正态性"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~0Z6nn",
+    "means": [
+      {
+        "means_id": "46",
+        "mean": "朝向，指向"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~fjKbr",
+    "means": [
+      {
+        "means_id": "49",
+        "mean": "使朝向，使走向"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "44",
+        "sentence": "把船朝向到特定的地方。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~jv7p4",
+    "means": [
+      {
+        "means_id": "77",
+        "mean": "（鸭）嘎嘎声"
+      },
+      {
+        "means_id": "42",
+        "mean": "哈哈大笑的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~LQkI0",
+    "means": [
+      {
+        "means_id": "52",
+        "mean": "（鸭）嘎嘎声"
+      },
+      {
+        "means_id": "65",
+        "mean": "哈哈大笑的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~gDDUN",
+    "means": [
+      {
+        "means_id": "20",
+        "mean": "正规化，使中常，使正规"
+      },
+      {
+        "means_id": "73",
+        "mean": "标准化"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~fdbTZ",
+    "means": [
+      {
+        "means_id": "32",
+        "mean": "永久，永恒"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~I5cjC",
+    "means": [
+      {
+        "means_id": "88",
+        "mean": "忽视，忽略（的做法）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~X6ISK",
+    "means": [
+      {
+        "means_id": "50",
+        "mean": "依照字母编排次序"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~7Og4k",
+    "means": [
+      {
+        "means_id": "71",
+        "mean": "正常化，标准化"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~cluIj",
+    "means": [
+      {
+        "means_id": "63",
+        "mean": "被忽视的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~zBtOq",
+    "means": [
+      {
+        "means_id": "13",
+        "mean": "哈哈大笑的"
+      }
+    ]
+  }
+]
