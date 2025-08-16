@@ -5,20 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const menu_bar_title = document.querySelector('.menu-bar .title');
     const aboutButton = document.querySelector(".menu-bar .button-list #about-button");
-    
+    const wordcountButton = document.querySelector(".menu-bar .button-list #wordcount-button");
+
     const showDictionary = document.querySelector(".main .dictionary");
 
     const params = new URLSearchParams(window.location.search);
 
     searchInput.addEventListener("keyup", () => {
+        if (searchInput.value === "") {
+            searchList.classList.remove("show");
+            searchInput_clearButton.classList.remove("show");
+            return;
+        }
         searchInput_clearButton.classList.add("show");
-        fetch("dictionary/ms-MY.json")
+        fetch("dictionary/Words/ms-MY.json")
         .then((response) => response.json())
         .then((data) => {
             const searchValue = searchInput.value.toLowerCase();
             const filteredWords = data.filter((word) => {
-                return word.name.toLowerCase().includes(searchValue);
-            });
+                return word.name.toLowerCase().startsWith(searchValue);
+            }).slice(0, 10);
 
             searchList.innerHTML = "";
 
@@ -47,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.addEventListener("keypress", (event) => {
         if (event.key === "Enter") {
             event.preventDefault();
-            fetch("dictionary/ms-MY.json")
+            fetch("dictionary/Words/ms-MY.json")
             .then((response) => response.json())
             .then((data) => {
                 const searchValue = searchInput.value.toLowerCase();
@@ -74,8 +80,16 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "about.html";
     });
 
+    wordcountButton.addEventListener("click", () => {
+        fetch("dictionary/WordCount/ms-MY.txt")
+        .then(response => response.text())
+        .then(text => {
+            alert(text);
+        });
+    });
+
     if (params.has("id")) {
-        fetch("dictionary/ms-MY.json")
+        fetch("dictionary/Words/ms-MY.json")
         .then((response) => response.json())
         .then((data) => {
             const filteredWords = data.filter((word) => word.id.includes(params.get("id")));
@@ -86,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (word.stem) {
                     showDictionary.querySelector(".word-stem").classList.add("show");
                     showDictionary.querySelector(".label-stem").classList.add("show");
-                    fetch("dictionary/ms-MY.json")
+                    fetch("dictionary/Words/ms-MY.json")
                     .then((response) => response.json())
                     .then((data) => {
                         const stemWords = data.filter((item) => item.id == word.stem);
@@ -103,11 +117,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 word.means.forEach((means) => {
+                    let means_id = means.means_id;
                     let type = means.type;
                     let source = means.source;
                     let tag = means.tag;
                     let meansList = means.mean;
                     let meansElement = document.createElement("li");
+                    let meansMain = document.createElement("div");
+                    meansMain.classList.add("means-main");
                     let meansType = document.createElement("span");
                     meansType.classList.add("means_type");
                     let meansSource = document.createElement("span");
@@ -127,11 +144,37 @@ document.addEventListener("DOMContentLoaded", () => {
                             meansTag.appendChild(tagElement);
                         });
                     }
+
                     meansMeaning.innerHTML = meansList;
-                    meansElement.appendChild(meansTag);
-                    meansElement.appendChild(meansSource);
-                    meansElement.appendChild(meansType);
-                    meansElement.appendChild(meansMeaning);
+                    meansMain.appendChild(meansTag);
+                    meansMain.appendChild(meansSource);
+                    meansMain.appendChild(meansType);
+                    meansMain.appendChild(meansMeaning);
+                    meansElement.appendChild(meansMain);
+
+                    let meansAnnontate = document.createElement("div");
+                    meansAnnontate.classList.add("means-annontate");
+                    fetch("dictionary/Annontate/zh-Hans/ms-MY.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        const filteredAnnontate = data.filter((word) => word.word_id.includes(params.get("id")));
+                        if (filteredAnnontate.length != 0) {
+                            let annontateLanguage = document.createElement("span");
+                            annontateLanguage.innerHTML = "Chinese (Simplified)"
+                            annontateLanguage.classList.add("annontate_language");
+                            meansAnnontate.appendChild(annontateLanguage);
+                            let annontateMeaning = document.createElement("span");
+                            annontateMeaning.classList.add("annontate_meaning");
+                            meansAnnontate.appendChild(annontateMeaning);
+                            for (let item = 0; item < filteredAnnontate[0].means.length; item++) {
+                                if (filteredAnnontate[0].means[item].means_id == means_id) {
+                                    annontateMeaning.innerHTML = filteredAnnontate[0].means[item].mean;
+                                }
+                            }
+                            meansElement.appendChild(meansAnnontate);
+                        }
+                    });
+
                     showDictionary.querySelector(".word-means").appendChild(meansElement);
 
                     meansType.addEventListener("click", () => {
@@ -167,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         } else if (source == "br") {
                             fullText = "文莱 | Brunei | Brunei";
                         } else if (source == "cn") {
-                            fullText = "中文 | China | China";
+                            fullText = "华人 | Chinese | Cina";
                         } else if (source == "idnl") {
                             fullText = "印尼-荷属 | Indonesia-Netherlands | Indonesia-Belanda";
                         } else if (source == "id") {
@@ -275,10 +318,38 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
                 if (word.example) {
                     word.example.forEach((item) => {
+                        let example_id = item.example_id;
                         showDictionary.querySelector(".word-example").classList.add("show");
                         showDictionary.querySelector(".label-example").classList.add("show");
                         let itemElement = document.createElement("li");
-                        itemElement.innerHTML = `${item["sentence"]}`;
+                        let exampleMain = document.createElement("span");
+                        exampleMain.classList.add("example-main");
+                        exampleMain.innerHTML = `${item["sentence"]}`;
+                        itemElement.appendChild(exampleMain);
+
+                        let exampleAnnontate = document.createElement("span");
+                        exampleAnnontate.classList.add("example-annontate");
+                        fetch("dictionary/Annontate/zh-Hans/ms-MY.json")
+                        .then(response => response.json())
+                        .then(data => {
+                            const filteredAnnontate = data.filter((word) => word.word_id.includes(params.get("id")));
+                            if (filteredAnnontate.length != 0) {
+                                let annontateLanguage = document.createElement("span");
+                                annontateLanguage.innerHTML = "Chinese (Simplified)"
+                                annontateLanguage.classList.add("annontate_language");
+                                exampleAnnontate.appendChild(annontateLanguage);
+                                let annontateSentence = document.createElement("span");
+                                annontateSentence.classList.add("annontate_Sentence");
+                                exampleAnnontate.appendChild(annontateSentence);
+                                for (let item = 0; item < filteredAnnontate[0].example.length; item++) {
+                                    if (filteredAnnontate[0].example[item].example_id == example_id) {
+                                        annontateSentence.innerHTML = filteredAnnontate[0].example[item].sentence;
+                                    }
+                                }
+                                itemElement.appendChild(exampleAnnontate);
+                            }
+                        });
+
                         showDictionary.querySelector(".word-example").appendChild(itemElement);
                     });
                 }
@@ -286,7 +357,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     word.synonym.forEach((id) => {
                         showDictionary.querySelector(".word-synonym").classList.add("show");
                         showDictionary.querySelector(".label-synonym").classList.add("show");
-                        fetch("dictionary/ms-MY.json")
+                        fetch("dictionary/Words/ms-MY.json")
                         .then((response) => response.json())
                         .then((data) => {
                             const basicWords = data.filter((item) => item.id == id);
@@ -303,7 +374,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     word.antonym.forEach((id) => {
                         showDictionary.querySelector(".word-antonym").classList.add("show");
                         showDictionary.querySelector(".label-antonym").classList.add("show");
-                        fetch("dictionary/ms-MY.json")
+                        fetch("dictionary/Words/ms-MY.json")
                         .then((response) => response.json())
                         .then((data) => {
                             const basicWords = data.filter((item) => item.id == id);
@@ -320,7 +391,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     word.affix.forEach((id) => {
                         showDictionary.querySelector(".word-affix").classList.add("show");
                         showDictionary.querySelector(".label-affix").classList.add("show");
-                        fetch("dictionary/ms-MY.json")
+                        fetch("dictionary/Words/ms-MY.json")
                         .then((response) => response.json())
                         .then((data) => {
                             const basicWords = data.filter((item) => item.id == id);
@@ -337,7 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     word.phrase.forEach((id) => {
                         showDictionary.querySelector(".word-phrase").classList.add("show");
                         showDictionary.querySelector(".label-phrase").classList.add("show");
-                        fetch("dictionary/ms-MY.json")
+                        fetch("dictionary/Words/ms-MY.json")
                         .then((response) => response.json())
                         .then((data) => {
                             const basicWords = data.filter((item) => item.id == id);

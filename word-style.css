@@ -1,3 +1,7 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
 body {
     height: 100vh;
     background: white;
@@ -59,7 +63,7 @@ body::-webkit-scrollbar {
     margin-left: 7px;
 }
 
-.menu-bar .button-list #about-button {
+.menu-bar .button-list .menu-button {
     color: rgb(255, 255, 255);
     background: none;
     border: none;
@@ -75,7 +79,7 @@ body::-webkit-scrollbar {
     height: 100%;
 }
 
-.menu-bar .button-list #about-button:hover {
+.menu-bar .button-list .menu-button:hover {
     background: #00000023;
 }
 
@@ -127,7 +131,7 @@ body::-webkit-scrollbar {
     max-height: 150px;
     overflow-y: auto;
     list-style: none;
-    background: #3459ff;
+    background: #dfdfdf;
     padding: 10px;
     border-radius: 5px;
     display: none;
@@ -139,7 +143,7 @@ body::-webkit-scrollbar {
 }
 
 .main .search-list::-webkit-scrollbar-track {
-    background: #3459ff;
+    background: #cfcfcf;
     border-radius: 0 10px 10px 0;
 }
 
@@ -195,14 +199,31 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     transition: all 0.3s ease;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .main .dictionary .word-means li:hover {
     background: #d6d6d634;
 }
 
-.main .dictionary .word-means li .means_source {
+.main .dictionary .word-means li .means-main {
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.main .dictionary .word-means li .means-annontate {
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    background: #c4c4c433;
+}
+
+.main .dictionary .word-means li .means-main .means_source {
     padding: 8px;
     border-radius: 5px;
     margin: 5px;
@@ -211,11 +232,11 @@ body::-webkit-scrollbar {
     transition: all 0.3s ease;
 }
 
-.main .dictionary .word-means li .means_source:hover {
+.main .dictionary .word-means li .means-main .means_source:hover {
     background: #bf51d4;
 }
 
-.main .dictionary .word-means li .means_type {
+.main .dictionary .word-means li .means-main .means_type {
     padding: 8px;
     border-radius: 5px;
     margin: 5px;
@@ -224,11 +245,11 @@ body::-webkit-scrollbar {
     transition: all 0.3s ease;
 }
 
-.main .dictionary .word-means li .means_type:hover {
+.main .dictionary .word-means li .means-main .means_type:hover {
     background: #ce2a46;
 }
 
-.main .dictionary .word-means li .means_tag {
+.main .dictionary .word-means li .means-main .means_tag {
     padding: 3px;
     border-radius: 5px;
     margin: 5px;
@@ -237,7 +258,7 @@ body::-webkit-scrollbar {
     display: flex;
 }
 
-.main .dictionary .word-means li .means_tag span {
+.main .dictionary .word-means li .means-main .means_tag span {
     padding: 2px;
     border-radius: 5px;
     margin: 5px;
@@ -247,8 +268,22 @@ body::-webkit-scrollbar {
     border: 1px solid #53da70;
 }
 
-.main .dictionary .word-means li .means_tag span:hover {
+.main .dictionary .word-means li .means-main .means_tag span:hover {
     background: #53da70;
+}
+
+.main .dictionary .word-means li .means-annontate .annontate_language {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    background: #7ce2d5;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+
+.main .dictionary .word-means li .means-annontate .annontate_language:hover {
+    background: #68b9af;
 }
 
 .main .dictionary .word-example {
@@ -269,7 +304,37 @@ body::-webkit-scrollbar {
     border-radius: 5px;
     transition: all 0.3s ease;
     display: flex;
+    flex-direction: column;
+}
+
+.main .dictionary .word-example li .example-main {
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
     align-items: center;
+}
+.main .dictionary .word-example li .example-annontate {
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    background: #c4c4c433;
+}
+
+.main .dictionary .word-example li .example-annontate .annontate_language {
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    background: #7ce2d5;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    font-size: 0.8rem;
+}
+
+.main .dictionary .word-example li .example-annontate .annontate_language:hover {
+    background: #68b9af;
 }
 
 .main .dictionary .word-example li:hover {
@@ -415,6 +480,12 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (max-width: 640px) {
+    .menu-bar .button-list .menu-button p {
+        display: none;
+        transition: all 0.5s ease;
+    }
+}
 
 @media screen and (max-width: 457px) {
     .menu-bar .title img {
@@ -426,5 +497,12 @@ body::-webkit-scrollbar {
         font-size: 1.3rem;
         color: white;
         margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .menu-bar .title h1 {
+        display: none;
+        transition: all 0.3s ease;
     }
 }
