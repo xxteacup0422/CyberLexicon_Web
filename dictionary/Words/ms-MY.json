@@ -718,12 +718,8 @@
         "mean": "sejenis kura-kura, labi-labi"
       }
     ],
-    "example": [
-      {
-        "example_id": "74",
-        "meaning_source": "15",
-        "sentence": "Main abau main tampuk labu."
-      }
+    "phrase": [
+      "ms-MY~ah9yH"
     ]
   },
   {
@@ -809,6 +805,9 @@
         "meaning_source": "34",
         "sentence": "Abdi negara Indonesia pegawai kerajaan."
       }
+    ],
+    "antonym": [
+      "ms-MY~6pKHK"
     ],
     "affix": [
       "ms-MY~PXqc1",
@@ -1233,6 +1232,42 @@
     ]
   },
   {
+    "id": "ms-MY~jDNi4",
+    "name": "abrit",
+    "pronounce": [
+      "ab.rit"
+    ],
+    "means": [
+      {
+        "means_id": "79",
+        "type": "adv",
+        "mean": "berlari tunggang-langgang",
+        "source": "jk"
+      }
+    ],
+    "synonym": [
+      "ms-MY~6nu2A"
+    ]
+  },
+  {
+    "id": "ms-MY~6nu2A",
+    "name": "abrit-abritan",
+    "pronounce": [
+      "ab.rit.ab.ri.tan"
+    ],
+    "means": [
+      {
+        "means_id": "54",
+        "type": "adv",
+        "mean": "berlari tunggang-langgang",
+        "source": "jk"
+      }
+    ],
+    "synonym": [
+      "ms-MY~jDNi4"
+    ]
+  },
+  {
     "id": "ms-MY~9aEDh",
     "name": "adik",
     "pronounce": [
@@ -1509,6 +1544,51 @@
     ],
     "synonym": [
       "ms-MY~Okkun"
+    ]
+  },
+  {
+    "id": "ms-MY~V70AM",
+    "name": "anak tuan-tuan",
+    "stem": "ms-MY~1uoDo",
+    "pronounce": [
+      "a.na/.tuan.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "92",
+        "type": "n",
+        "mean": "anak raja-raja"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Ty5kI",
+    "name": "anak tuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "a.na/.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "03",
+        "type": "n",
+        "mean": "anak tuan-tuan"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~b6b0q",
+    "name": "bangsa Yang Dipertuan",
+    "stem": "ms-MY~V4O5M",
+    "pronounce": [
+      "bang.sa.yang.di.per.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "66",
+        "type": "n",
+        "mean": "bangsa yang menganggap dirinya lebih tinggi atau mulia daripada bangsa lain"
+      }
     ]
   },
   {
@@ -1844,6 +1924,85 @@
     ]
   },
   {
+    "id": "ms-MY~opy8Y",
+    "name": "bertuan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "ber.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "58",
+        "type": "v",
+        "mean": "ada tuannya (pemiliknya), mempunyai penguasa"
+      },
+      {
+        "means_id": "70",
+        "type": "v",
+        "mean": "bertindak (bersikap) sebagai tuan"
+      },
+      {
+        "means_id": "63",
+        "type": "v",
+        "mean": "memanggil atau menyebut tuan (kepada)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "85",
+        "meaning_source": "58",
+        "sentence": "Semua tanah yang dulunya hutan di kawasan itu sekarang sudah bertuan dan akan diusahakan."
+      },
+      {
+        "example_id": "58",
+        "meaning_source": "70",
+        "sentence": "Semenjak kematian bapanya dia bertuan di sini."
+      },
+      {
+        "example_id": "70",
+        "meaning_source": "63",
+        "sentence": "Janganlah bertuan lagi kepada saya, panggillah saya 'abang' sahaja."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~zV0In",
+    "name": "bertuankan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "ber.tuan.kan"
+    ],
+    "means": [
+      {
+        "means_id": "93",
+        "type": "v",
+        "mean": "mempunyai sebagai tuan, berketuakan"
+      },
+      {
+        "means_id": "64",
+        "type": "v",
+        "mean": "menghamba kepada, menganggap sebagai tuan kepada"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "23",
+        "meaning_source": "93",
+        "sentence": "Kalaulah ini benar bermakna bukan sahaja kita masih bertuankan mereka dari segi teknologi bahkan juga dari segi pengurusan."
+      },
+      {
+        "example_id": "43",
+        "meaning_source": "64",
+        "sentence": "Pada bicara dinda tiada mahu dinda bertuankan lain daripada Yang Dipertuan"
+      },
+      {
+        "example_id": "17",
+        "meaning_source": "64",
+        "sentence": "Janganlah kita bertuankan anak raja seorang ini."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~scJw7",
     "name": "bisa abet",
     "stem": "ms-MY~BKGzw",
@@ -1859,6 +2018,21 @@
     ]
   },
   {
+    "id": "ms-MY~1LwMz",
+    "name": "Dewan Pertuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "dé.wan.per.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "52",
+        "type": "n",
+        "mean": "dewan yang dianggotai oleh orang bangsawan dalam parlimen Inggeris"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~HoAbP",
     "name": "guru normal",
     "stem": "ms-MY~AuvSa",
@@ -1870,6 +2044,39 @@
         "means_id": "89",
         "type": "n",
         "mean": "guru yang terlatih dengan cara menghadiri kursus tertentu (tidak memasuki maktab latihan tertentu)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~wzn2f",
+    "name": "hak pertuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "ha/.per.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "19",
+        "type": "n",
+        "mean": "kedaulatan"
+      }
+    ],
+    "synonym": [
+      "ms-MY~bbSiz"
+    ]
+  },
+  {
+    "id": "ms-MY~ZG5At",
+    "name": "hak Yang Dipertuan",
+    "stem": "ms-MY~V4O5M",
+    "pronounce": [
+      "ha/.yang.di.per.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "37",
+        "type": "n",
+        "mean": "hak atau kedaulatan ke atas sesuatu daerah (negeri)"
       }
     ]
   },
@@ -2070,6 +2277,65 @@
     ]
   },
   {
+    "id": "ms-MY~yubXW",
+    "name": "ketuan-tuanan",
+    "stem": "ms-MY~1uoDo",
+    "pronounce": [
+      "ke.tuan.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "66",
+        "type": "adj",
+        "mean": "seperti seorang tuan (ketua, orang berpangkat, dan lain-lain)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "51",
+        "meaning_source": "66",
+        "sentence": "\"Saya pegawai Kerajaan\", Encik Ramli berkata ketuan-tuanan."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~KzdFS",
+    "name": "ketuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "ke.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "08",
+        "type": "n",
+        "mean": "hak menguasai dan memerintah sebuah (negeri, daerah, dan lain-lain), kedaulatan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "68",
+        "meaning_source": "08",
+        "sentence": "Untuk menjamin ketuanan politik Melayu, maka dunia politik Melayu harus dirombak."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~ah9yH",
+    "name": "main abau",
+    "stem": "ms-MY~iEnUf",
+    "pronounce": [
+      "main.a.bu"
+    ],
+    "means": [
+      {
+        "means_id": "08",
+        "type": "n",
+        "mean": "main tampuk labu"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~sqIWp",
     "name": "memperadik",
     "stem": "ms-MY~9aEDh",
@@ -2083,6 +2349,71 @@
         "type": "v",
         "mean": "memandang (memanggil, menyebut) adik"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~xz6UP",
+    "name": "mempertuan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "mem.per.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "10",
+        "type": "v",
+        "mean": "menganggap (mengakui) tuan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "94",
+        "meaning_source": "10",
+        "sentence": "Mempertuan yang mana baik berkenan ke bawah duli tuanku akan ganti duli tuanku itulah patik sekalian sembah dan pertuan."
+      }
+    ],
+    "synonym": [
+      "ms-MY~Lp9uA"
+    ]
+  },
+  {
+    "id": "ms-MY~UOszf",
+    "name": "mempertuani",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "mem.per.tua.ni"
+    ],
+    "means": [
+      {
+        "means_id": "72",
+        "type": "v",
+        "mean": "arkaik menguasai"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Lp9uA",
+    "name": "mempertuankan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "mem.per.tuan.kan"
+    ],
+    "means": [
+      {
+        "means_id": "80",
+        "type": "v",
+        "mean": "menganggap (mengakui) tuan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "98",
+        "meaning_source": "80",
+        "sentence": "Mempertahankan yang mana baik berkenan ke bawah duli tuanku akan ganti duli tuanku itulah patik sekalian sembah dan pertuan."
+      }
+    ],
+    "synonym": [
+      "ms-MY~xz6UP"
     ]
   },
   {
@@ -2426,6 +2757,43 @@
     ]
   },
   {
+    "id": "ms-MY~66MA6",
+    "name": "menuani",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "me.nua.ni"
+    ],
+    "means": [
+      {
+        "means_id": "71",
+        "type": "v",
+        "mean": "menguasai, memiliki"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~OjCwG",
+    "name": "menuankan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "me.nuan.kan"
+    ],
+    "means": [
+      {
+        "means_id": "30",
+        "type": "v",
+        "mean": "menjadikan tuan, memanggil tuan (kepada orang yang dilawan bercakap)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "61",
+        "meaning_source": "30",
+        "sentence": "Tuan Bob dituankan oleh orang-orang suruhannya, diayahkan oleh peringkat anak-anak."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~Jnm9C",
     "name": "menurut (urutan) abjad",
     "stem": "ms-MY~tQKM7",
@@ -2587,6 +2955,46 @@
     ]
   },
   {
+    "id": "ms-MY~bbSiz",
+    "name": "pertuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "per.tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "33",
+        "type": "n",
+        "mean": "golongan orang bangsawan, kaum ningrat"
+      },
+      {
+        "means_id": "89",
+        "type": "n",
+        "mean": "kuasa pemerintahan (ke atas negara dan lain-lain)"
+      },
+      {
+        "means_id": "45",
+        "type": "n",
+        "mean": "kedaulatan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "40",
+        "meaning_source": "33",
+        "sentence": "Tatkala itu Bendahara pun hendak masuk menghadap baginda diiringkan oleh segala pegawai dan pertuanan."
+      },
+      {
+        "example_id": "82",
+        "meaning_source": "89",
+        "sentence": "Dengan itu pemerintahan atau pertuanan Siam di atas kedua-dua negeri itu pun diiktiraf."
+      }
+    ],
+    "synonym": [
+      "ms-MY~wzn2f"
+    ]
+  },
+  {
     "id": "ms-MY~j0ePF",
     "name": "sementara",
     "pronounce": [
@@ -2721,6 +3129,22 @@
     ]
   },
   {
+    "id": "ms-MY~rB47z",
+    "name": "sepeda tuan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "se.pé.da.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "80",
+        "type": "n",
+        "mean": "basikal untuk orang laki-laki",
+        "source": "id"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~xDErg",
     "name": "terabadi",
     "stem": "ms-MY~2KJwU",
@@ -2794,6 +3218,371 @@
         "type": "v",
         "mean": "tidak cuai (lalai) dari"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~6pKHK",
+    "name": "tuan",
+    "pronounce": [
+      "tuan"
+    ],
+    "means": [
+      {
+        "means_id": "26",
+        "type": "n",
+        "mean": "orang tempat menghambakan diri"
+      },
+      {
+        "means_id": "13",
+        "type": "n",
+        "mean": "pemilik (kedai, perusahaan, dan lain-lain)"
+      },
+      {
+        "means_id": "75",
+        "type": "n",
+        "mean": "kepala atau pengurus (pejabat, perusahaan, dan lain-lain)"
+      },
+      {
+        "means_id": "37",
+        "type": "n",
+        "mean": "orang laki-laki (yang dihormati)"
+      },
+      {
+        "means_id": "01",
+        "type": "n",
+        "mean": "panggilan bagi orang laki-laki yang berpangkat atau yang patut dhormati"
+      },
+      {
+        "means_id": "22",
+        "type": "n",
+        "mean": "panggilan (sebutan) bagi wanita bangsawan",
+        "tag": [
+          "cl"
+        ]
+      },
+      {
+        "means_id": "09",
+        "type": "n",
+        "mean": "kata ganti yang halus bagi orang laki-laki atau perempuan yang dilawan bercakap (engkau atau awak yang lebih halus)"
+      },
+      {
+        "means_id": "71",
+        "type": "n",
+        "mean": "panggilan bagi orang laki-laki bangsa Eropah"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "22",
+        "meaning_source": "26",
+        "sentence": "Orang kulit putih di Amerika masa itu banyak yang menjadi tuan kepada hamba abdi daripada bangsa Negro."
+      },
+      {
+        "example_id": "70",
+        "meaning_source": "13",
+        "sentence": "Jika kereta yang dipandu itu tidak mempunyai lesen, tuan punya kereta itu akan didakwa."
+      },
+      {
+        "example_id": "78",
+        "meaning_source": "75",
+        "sentence": "Tuan yang datang semalam datang lagi pagi tadi."
+      },
+      {
+        "example_id": "77",
+        "meaning_source": "01",
+        "sentence": "Tuan doktor."
+      },
+      {
+        "example_id": "90",
+        "meaning_source": "01",
+        "sentence": "Tuan hakim."
+      },
+      {
+        "example_id": "23",
+        "meaning_source": "01",
+        "sentence": "Tuan Syed Nasir."
+      },
+      {
+        "example_id": "10",
+        "meaning_source": "22",
+        "sentence": "Tuan puteri."
+      },
+      {
+        "example_id": "69",
+        "meaning_source": "22",
+        "sentence": "Mengapatah maka tuan hamil maka dibuangkan."
+      },
+      {
+        "example_id": "28",
+        "meaning_source": "09",
+        "sentence": "Tuan sendiri sudah tahu asal saya dari Kampung Balimbing."
+      },
+      {
+        "example_id": "88",
+        "meaning_source": "71",
+        "sentence": "Tuan dan memnya tidak meninggalkan pesan apa-apa ketika mereka keluar tadi."
+      }
+    ],
+    "antonym": [
+      "ms-MY~qvxrl"
+    ],
+    "affix": [
+      "ms-MY~opy8Y",
+      "ms-MY~zV0In",
+      "ms-MY~66MA6",
+      "ms-MY~OjCwG",
+      "ms-MY~xz6UP",
+      "ms-MY~Lp9uA",
+      "ms-MY~UOszf",
+      "ms-MY~vtW5C",
+      "ms-MY~KzdFS",
+      "ms-MY~bbSiz"
+    ],
+    "phrase": [
+      "ms-MY~OvFcA",
+      "ms-MY~SSmDy",
+      "ms-MY~p3HOo",
+      "ms-MY~rB47z",
+      "ms-MY~FycLM",
+      "ms-MY~QcCAv",
+      "ms-MY~DVpvJ",
+      "ms-MY~6dz5O",
+      "ms-MY~mZX8M",
+      "ms-MY~V4O5M",
+      "ms-MY~Ty5kI",
+      "ms-MY~1LwMz",
+      "ms-MY~wzn2f"
+    ]
+  },
+  {
+    "id": "ms-MY~FycLM",
+    "name": "tuan besar",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.be.sar"
+    ],
+    "means": [
+      {
+        "means_id": "08",
+        "type": "n",
+        "mean": "ketua perusahaan (ladang dan lain-lain)"
+      },
+      {
+        "means_id": "91",
+        "type": "n",
+        "mean": "arkaik Gabenor Jeneral",
+        "source": "id"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~OvFcA",
+    "name": "tuan hamba",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.ham.ba"
+    ],
+    "means": [
+      {
+        "means_id": "22",
+        "type": "n",
+        "mean": "tuan",
+        "tag": [
+          "cl"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~p3HOo",
+    "name": "tuan kebun",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.ke.bun"
+    ],
+    "means": [
+      {
+        "means_id": "79",
+        "type": "n",
+        "mean": "pengusaha (pengurus) kebun"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~QcCAv",
+    "name": "tuan kecil",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.ke.cil"
+    ],
+    "means": [
+      {
+        "means_id": "35",
+        "type": "n",
+        "mean": "anak sulung laki-laki dalam sesuatu keluarga atau adik laki-laki tuan rumah"
+      },
+      {
+        "means_id": "76",
+        "type": "n",
+        "mean": "penolong (wakil) tuan besar (perusahaan dan lain-lain)"
+      }
+    ],
+    "synonym": [
+      "ms-MY~DVpvJ"
+    ]
+  },
+  {
+    "id": "ms-MY~DVpvJ",
+    "name": "tuan muda",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.mu.da"
+    ],
+    "means": [
+      {
+        "means_id": "10",
+        "type": "n",
+        "mean": "anak sulung laki-laki dalam sesuatu keluarga atau adik laki-laki tuan rumah"
+      }
+    ],
+    "synonym": [
+      "ms-MY~QcCAv"
+    ]
+  },
+  {
+    "id": "ms-MY~SSmDy",
+    "name": "tuan punya",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.pu.nya"
+    ],
+    "means": [
+      {
+        "means_id": "61",
+        "type": "n",
+        "mean": "pemilik (kedai, perusahaan, dan lain-lain)"
+      },
+      {
+        "means_id": "06",
+        "type": "n",
+        "mean": "kepala atau pengurus (pejabat, perusahaan, dan lain-lain)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "94",
+        "meaning_source": "61",
+        "sentence": "Jika kereta yang dipandu itu tidak mempunyai lesen, tuan punya kereta itu akan didakwa."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~6dz5O",
+    "name": "tuan rumah",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.ru.mah"
+    ],
+    "means": [
+      {
+        "means_id": "67",
+        "type": "n",
+        "mean": "orang yang memiliki rumah, ketua rumah (keluarga)"
+      },
+      {
+        "means_id": "30",
+        "type": "n",
+        "mean": "orang yang meraikan tetamu (biasanya pada majlis yang diadakan di rumahnya atau yang dianjurkannya"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~mZX8M",
+    "name": "tuan tanah",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tuan.ta.nah"
+    ],
+    "means": [
+      {
+        "means_id": "25",
+        "type": "n",
+        "mean": "pemilik tanah"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~1uoDo",
+    "name": "tuan-tuan",
+    "pronounce": [
+      "tuan.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "44",
+        "type": "n",
+        "mean": "orang laki-laki (sekalian yang hadir)"
+      },
+      {
+        "means_id": "61",
+        "type": "n",
+        "mean": "orang bangsawan, ningrat",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "35",
+        "meaning_source": "44",
+        "sentence": "Tuan-tuan yang dihormati silalah duduk."
+      },
+      {
+        "example_id": "42",
+        "meaning_source": "61",
+        "sentence": "Maka tuan-tuan itu pun nak ke darat dengan segala persembahannya, lalu berjalan ke Bukit Siguntang."
+      }
+    ],
+    "affix": [
+      "ms-MY~yubXW"
+    ],
+    "phrase": [
+      "ms-MY~V70AM"
+    ]
+  },
+  {
+    "id": "ms-MY~vtW5C",
+    "name": "tuanan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "tua.nan"
+    ],
+    "means": [
+      {
+        "means_id": "41",
+        "type": "n",
+        "mean": "bangsawan, ningrat"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~V4O5M",
+    "name": "Yang Dipertuan",
+    "stem": "ms-MY~6pKHK",
+    "pronounce": [
+      "yang.di.per.tuan"
+    ],
+    "means": [
+      {
+        "means_id": "36",
+        "type": "n",
+        "mean": "(gelaran kepada) raja atau sultan yang memerintah"
+      }
+    ],
+    "phrase": [
+      "ms-MY~b6b0q",
+      "ms-MY~ZG5At"
     ]
   }
 ]

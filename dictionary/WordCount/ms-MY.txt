@@ -1,6 +1,6 @@
-Word Total: 126
- - Stem Total: 50
- - Affix Total: 42
- - Phrase Total: 34
+Word Total: 158
+ - Stem Total: 54
+ - Affix Total: 53
+ - Phrase Total: 51
  - Language Annotation: 
-  - zh-Hans: 42/126 (33.33%)
+  - zh-Hans: 50/158 (31.65%)

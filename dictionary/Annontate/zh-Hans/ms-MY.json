@@ -104,6 +104,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~iEnUf",
+    "means": [
+      {
+        "means_id": "15",
+        "mean": "一种沼泽的大龟"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~b0bnW",
     "means": [
       {
@@ -237,6 +246,23 @@
     ]
   },
   {
+    "word_id": "ms-MY~JGPS2",
+    "means": [
+      {
+        "means_id": "49",
+        "mean": "订阅"
+      },
+      {
+        "means_id": "02",
+        "mean": "订阅费"
+      },
+      {
+        "means_id": "98",
+        "mean": "订阅"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~nq3S2",
     "means": [
       {
@@ -251,6 +277,37 @@
       {
         "means_id": "42",
         "mean": "虔诚的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~9yljN",
+    "means": [
+      {
+        "means_id": "82",
+        "mean": "患麻风病"
+      },
+      {
+        "means_id": "93",
+        "mean": "麻风"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~jDNi4",
+    "means": [
+      {
+        "means_id": "79",
+        "mean": "狼狈地逃窜地"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~6nu2A",
+    "means": [
+      {
+        "means_id": "54",
+        "mean": "狼狈地逃窜地"
       }
     ]
   },
@@ -321,6 +378,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~UOszf",
+    "means": [
+      {
+        "means_id": "72",
+        "mean": "据有，控制"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~0Z6nn",
     "means": [
       {
@@ -384,6 +450,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~66MA6",
+    "means": [
+      {
+        "means_id": "71",
+        "mean": "拥有，据有"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~fdbTZ",
     "means": [
       {
@@ -420,6 +495,21 @@
     ]
   },
   {
+    "word_id": "ms-MY~CiDo1",
+    "means": [
+      {
+        "means_id": "31",
+        "mean": "当...的时候"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "48",
+        "sentence": "当船又启程的时候，愈长愈快。"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~cluIj",
     "means": [
       {
@@ -434,6 +524,15 @@
       {
         "means_id": "13",
         "mean": "哈哈大笑的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~vtW5C",
+    "means": [
+      {
+        "means_id": "41",
+        "mean": "贵族"
       }
     ]
   }
