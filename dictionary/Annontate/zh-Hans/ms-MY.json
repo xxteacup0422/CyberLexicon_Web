@@ -27,6 +27,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~ELdC8",
+    "means": [
+      {
+        "means_id": "11",
+        "mean": "二十世纪（从1901年到2000年期间）"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~kToQ8",
     "means": [
       {
@@ -312,6 +321,21 @@
     ]
   },
   {
+    "word_id": "ms-MY~y5g3m",
+    "means": [
+      {
+        "means_id": "74",
+        "mean": "以...作为隔墙"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "72",
+        "sentence": "以竹作为隔墙的房子。"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~mdtvU",
     "means": [
       {
@@ -407,6 +431,29 @@
       {
         "example_id": "44",
         "sentence": "把船朝向到特定的地方。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~2O7jO",
+    "means": [
+      {
+        "means_id": "40",
+        "mean": "减轻，缓和"
+      },
+      {
+        "means_id": "90",
+        "mean": "阻止，阻碍"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "61",
+        "sentence": "药品即是能够缓和病人危急的情况。"
+      },
+      {
+        "example_id": "07",
+        "sentence": "多场战役阻碍它谈判的手段。"
       }
     ]
   },

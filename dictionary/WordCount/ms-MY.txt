@@ -3,4 +3,4 @@ Word Total: 158
  - Affix Total: 53
  - Phrase Total: 51
  - Language Annotation: 
-  - zh-Hans: 50/158 (31.65%)
+  - zh-Hans: 54/158 (34.18%)
