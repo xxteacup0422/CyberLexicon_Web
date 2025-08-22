@@ -94,7 +94,6 @@
   {
     "id": "ms-MY~Rbt5W",
     "name": "aba-aba",
-    "stem": "ms-MY~iZqIp",
     "pronounce": [
       "a.ba.a.ba"
     ],
@@ -2572,7 +2571,7 @@
       {
         "example_id": "07",
         "meaning_source": "90",
-        "sentence": "Pertempuran-pertempuran mengabar jalanya mesyuarat."
+        "sentence": "Pertempuran-pertempuran mengabar jalannya mesyuarat."
       }
     ]
   },

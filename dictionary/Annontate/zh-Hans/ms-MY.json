@@ -18,6 +18,36 @@
     ]
   },
   {
+    "word_id": "ms-MY~iZqIp",
+    "means": [
+      {
+        "means_id": "47",
+        "mean": "（军队与其他练习的）口令"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "94",
+        "sentence": "“一 ...，” Wit 从他的席位上口令。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~Rbt5W",
+    "means": [
+      {
+        "means_id": "52",
+        "mean": "（军队与其他练习的）多次口令"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "34",
+        "sentence": "“一 ...，” Wit 从他的席位上多次口令。"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~dCTrZ",
     "means": [
       {
@@ -64,11 +94,29 @@
     ]
   },
   {
+    "word_id": "ms-MY~6IsBn",
+    "means": [
+      {
+        "means_id": "45",
+        "mean": "马具（如缰绳，马鞍等等）"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~OZGqa",
     "means": [
       {
         "means_id": "28",
         "mean": "船绳"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~BtiyV",
+    "means": [
+      {
+        "means_id": "65",
+        "mean": "纺织工具"
       }
     ]
   },
@@ -109,6 +157,44 @@
       {
         "means_id": "14",
         "mean": "无菌的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~Jt8iR",
+    "means": [
+      {
+        "means_id": "30",
+        "mean": "隔板"
+      },
+      {
+        "means_id": "62",
+        "mean": "障碍物，阻挡者，反对者"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "41",
+        "sentence": "障碍社会进步。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~7ZAzR",
+    "means": [
+      {
+        "means_id": "76",
+        "mean": "隔板"
+      },
+      {
+        "means_id": "37",
+        "mean": "障碍物，阻挡者，反对者"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "79",
+        "sentence": "障碍社会进步。"
       }
     ]
   },
