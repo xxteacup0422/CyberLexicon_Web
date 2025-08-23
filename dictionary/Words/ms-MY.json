@@ -846,6 +846,26 @@
     ]
   },
   {
+    "id": "ms-MY~LpxZd",
+    "name": "abduktor",
+    "pronounce": [
+      "ab.duk.tor"
+    ],
+    "means": [
+      {
+        "means_id": "54",
+        "type": "n",
+        "mean": "otot yang mengabdukkan sesuatu",
+        "tag": [
+          "med"
+        ]
+      }
+    ],
+    "antonym": [
+      "ms-MY~hHauc"
+    ]
+  },
+  {
     "id": "ms-MY~35KMz",
     "name": "abese",
     "pronounce": [
@@ -1543,6 +1563,34 @@
     ],
     "synonym": [
       "ms-MY~Okkun"
+    ]
+  },
+  {
+    "id": "ms-MY~hHauc",
+    "name": "aduktor",
+    "pronounce": [
+      "a.duk.tor"
+    ],
+    "means": [
+      {
+        "means_id": "64",
+        "type": "n",
+        "mean": "otot yang menarik apendaj atau sesuatu bahagian ke arah dalam atau ke bahagian yang lain",
+        "tag": [
+          "bio"
+        ]
+      },
+      {
+        "means_id": "00",
+        "type": "n",
+        "mean": "otot yang mengadukkan sesuatu",
+        "tag": [
+          "med"
+        ]
+      }
+    ],
+    "antonym": [
+      "ms-MY~LpxZd"
     ]
   },
   {
