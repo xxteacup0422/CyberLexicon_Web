@@ -846,6 +846,34 @@
     ]
   },
   {
+    "id": "ms-MY~lwqAM",
+    "name": "abduk",
+    "pronounce": [
+      "ab.du/"
+    ],
+    "means": [
+      {
+        "means_id": "18",
+        "type": "v",
+        "mean": "menggerakkan sesuatu anggota dari arah paksi median tubuh, atau jari-jari dari garis paksi anggota",
+        "tag": [
+          "med"
+        ]
+      },
+      {
+        "means_id": "53",
+        "type": "v",
+        "mean": "menggerakkan sesuatu anggota dari arah satah median tubuh, atau jari-jari dari garis paksi anggota",
+        "tag": [
+          "med"
+        ]
+      }
+    ],
+    "antonym": [
+      "ms-MY~6Np76"
+    ]
+  },
+  {
     "id": "ms-MY~LpxZd",
     "name": "abduktor",
     "pronounce": [
@@ -1198,6 +1226,31 @@
     ]
   },
   {
+    "id": "ms-MY~7Ecgb",
+    "name": "abortifasien",
+    "pronounce": [
+      "a.bor.ti.fa.sien"
+    ],
+    "means": [
+      {
+        "means_id": "06",
+        "type": "n",
+        "mean": "agen yang menyebabkan keguguran kandungan",
+        "tag": [
+          "med"
+        ]
+      },
+      {
+        "means_id": "24",
+        "type": "n",
+        "mean": "agen, ubat atau lain-lain yang menyebabkan keguguran",
+        "tag": [
+          "med"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ms-MY~nq3S2",
     "name": "abrak",
     "pronounce": [
@@ -1251,6 +1304,39 @@
     ]
   },
   {
+    "id": "ms-MY~1WCnV",
+    "name": "abreaksi",
+    "pronounce": [
+      "ab.ré.ak.si"
+    ],
+    "means": [
+      {
+        "means_id": "35",
+        "type": "n",
+        "mean": "penghayatan semula sesuatu pengalaman supaya emosi yang tertekan akibat pengalaman itu dapat dilepaskan",
+        "tag": [
+          "med"
+        ]
+      },
+      {
+        "means_id": "62",
+        "type": "n",
+        "mean": "proses psikoananlisis yang digunakan untuk meluahkan perasaan pesakit berhubung dengan pengalaman buruk yang terpendam dengan mengulangi pengalaman berkenaan melalui pertuturan ataupun perbuatan",
+        "tag": [
+          "med"
+        ]
+      },
+      {
+        "means_id": "29",
+        "type": "n",
+        "mean": "psikoanalisis yang digunakan supaya pesakit meluahkan perasaannya berhubung dengan pengalaman buruk yang terpendam",
+        "tag": [
+          "med"
+        ]
+      }
+    ]
+  },
+  {
     "id": "ms-MY~jDNi4",
     "name": "abrit",
     "pronounce": [
@@ -1284,6 +1370,89 @@
     ],
     "synonym": [
       "ms-MY~jDNi4"
+    ]
+  },
+  {
+    "id": "ms-MY~lD88e",
+    "name": "absah",
+    "pronounce": [
+      "ab.sah"
+    ],
+    "means": [
+      {
+        "means_id": "01",
+        "type": "adj",
+        "mean": "sah (berkenaan dengan surat keterangan dan lain-lain)",
+        "source": "id"
+      }
+    ],
+    "affix": [
+      "ms-MY~fQ9kR",
+      "ms-MY~XM8Rw",
+      "ms-MY~uop3k"
+    ]
+  },
+  {
+    "id": "ms-MY~LUCzd",
+    "name": "absen",
+    "pronounce": [
+      "ab.sen"
+    ],
+    "means": [
+      {
+        "means_id": "62",
+        "type": "v",
+        "mean": "tidak hadir (di sekolah, di tempat kerja, dan lain-lain)",
+        "tag": [
+          "ous"
+        ]
+      }
+    ],
+    "affix": [
+      "ms-MY~ezntz"
+    ]
+  },
+  {
+    "id": "ms-MY~W4hKn",
+    "name": "abses",
+    "pronounce": [
+      "ab.sés"
+    ],
+    "means": [
+      {
+        "means_id": "76",
+        "type": "n",
+        "mean": "bengkak yang bernanah"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~HEBEn",
+    "name": "absolusi",
+    "pronounce": [
+      "ab.so.lu.si"
+    ],
+    "means": [
+      {
+        "means_id": "39",
+        "type": "n",
+        "mean": "pengampunan dosa (dalam agama Roman Katolik)",
+        "source": "id"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~xtlqv",
+    "name": "absolutisme",
+    "pronounce": [
+      "ab.so.lu.tis.me"
+    ],
+    "means": [
+      {
+        "means_id": "55",
+        "type": "n",
+        "mean": "prinsip yang menekankan bahawa pemerintah (raja, pemimpin dan sebagainya) mestilah mempunyai kuasa yang mutlak atau tidak terbatas"
+      }
     ]
   },
   {
@@ -1563,6 +1732,92 @@
     ],
     "synonym": [
       "ms-MY~Okkun"
+    ]
+  },
+  {
+    "id": "ms-MY~6Np76",
+    "name": "aduk",
+    "pronounce": [
+      "a.du/"
+    ],
+    "means": [
+      {
+        "means_id": "38",
+        "type": "v",
+        "mean": "mengacau, mengarau"
+      },
+      {
+        "means_id": "19",
+        "type": "v",
+        "mean": "membongkar-bongkar dengan tidak tentu"
+      },
+      {
+        "means_id": "78",
+        "type": "n",
+        "mean": "menggerakkan anggota ke arah satah median tubuh, atau jari-jari ke arah garis paski anggota",
+        "tag": [
+          "med"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "35",
+        "meaning_source": "38",
+        "sentence": "Tidak perlu aduk atau menggoncang tangki penyumbat setiap masa."
+      },
+      {
+        "example_id": "71",
+        "meaning_source": "38",
+        "sentence": "aduk gulai."
+      },
+      {
+        "example_id": "30",
+        "meaning_source": "19",
+        "sentence": "aduk buku"
+      }
+    ],
+    "antonym": [
+      "ms-MY~lwqAM"
+    ],
+    "affix": [
+      "ms-MY~xOag3",
+      "ms-MY~vmy26",
+      "ms-MY~YYRU9",
+      "ms-MY~pvtD9",
+      "ms-MY~fKItR"
+    ]
+  },
+  {
+    "id": "ms-MY~fKItR",
+    "name": "aduk-adukan",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "a.du/.a.du.kan",
+      "a.du/.a.du/.kan"
+    ],
+    "means": [
+      {
+        "means_id": "36",
+        "type": "adj",
+        "mean": "campur aduk"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~pvtD9",
+    "name": "adukan",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "a.du.kan",
+      "a.du/.kan"
+    ],
+    "means": [
+      {
+        "means_id": "47",
+        "type": "n",
+        "mean": "barang yang (telah) diaduk, campuran (simen dan lain-lain)"
+      }
     ]
   },
   {
@@ -1936,12 +2191,6 @@
         "meaning_source": "93",
         "sentence": "Ia tidak pernah lupa berkakak apabila bercakap dengan perempuan-perempuan yang lebih tua sedikit daripadanya."
       }
-    ],
-    "synonym": [
-      "ms-MY~5SbgS",
-      "ms-MY~jv7p4",
-      "ms-MY~LQkI0",
-      "ms-MY~zBtOq"
     ]
   },
   {
@@ -1962,12 +2211,6 @@
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
-    ],
-    "synonym": [
-      "ms-MY~BVCx8",
-      "ms-MY~jv7p4",
-      "ms-MY~LQkI0",
-      "ms-MY~zBtOq"
     ]
   },
   {
@@ -2220,6 +2463,28 @@
     ]
   },
   {
+    "id": "ms-MY~XM8Rw",
+    "name": "keabsahan",
+    "stem": "ms-MY~lD88e",
+    "pronounce": [
+      "ke.ab.sa.han"
+    ],
+    "means": [
+      {
+        "means_id": "56",
+        "type": "n",
+        "mean": "keadaan sah, kedudukan yang sah, kesahan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "77",
+        "meaning_source": "56",
+        "sentence": "Keabsahan dan legitimasi politik itu sendiri secara yang berkesan harus berdasarkan kemahuan rakyat dan pengikut umumnya."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~92Led",
     "name": "keadaan normal",
     "stem": "ms-MY~AuvSa",
@@ -2418,9 +2683,6 @@
         "meaning_source": "10",
         "sentence": "Mempertuan yang mana baik berkenan ke bawah duli tuanku akan ganti duli tuanku itulah patik sekalian sembah dan pertuan."
       }
-    ],
-    "synonym": [
-      "ms-MY~Lp9uA"
     ]
   },
   {
@@ -2458,9 +2720,6 @@
         "meaning_source": "80",
         "sentence": "Mempertahankan yang mana baik berkenan ke bawah duli tuanku akan ganti duli tuanku itulah patik sekalian sembah dan pertuan."
       }
-    ],
-    "synonym": [
-      "ms-MY~xz6UP"
     ]
   },
   {
@@ -2732,6 +2991,103 @@
     ]
   },
   {
+    "id": "ms-MY~fQ9kR",
+    "name": "mengabsahkan",
+    "stem": "ms-MY~lD88e",
+    "pronounce": [
+      "meng.ab.sah.kan"
+    ],
+    "means": [
+      {
+        "means_id": "22",
+        "type": "v",
+        "mean": "mengesahkan (keputusan, persetujuan, dan lain-lain)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~ezntz",
+    "name": "mengabsen",
+    "stem": "ms-MY~LUCzd",
+    "pronounce": [
+      "me.ngab.sen"
+    ],
+    "means": [
+      {
+        "means_id": "55",
+        "type": "v",
+        "mean": "memanggil nama-nama orang untuk mengetahui atau menentukan siapa yang tidak hadir (di sekolah, di tempat kerja, dan lain-lain)",
+        "source": "id"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "50",
+        "meaning_source": "55",
+        "sentence": "Guru mengabsen murid-murid pada waktu masuk sekolah."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~xOag3",
+    "name": "mengaduk",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "me.nga.du/"
+    ],
+    "means": [
+      {
+        "means_id": "11",
+        "type": "v",
+        "mean": "mengacau, mengarau"
+      },
+      {
+        "means_id": "98",
+        "type": "v",
+        "mean": "membongkar-bongkar dengan tidak tentu"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "29",
+        "meaning_source": "11",
+        "sentence": "Tidak perlu mengaduk atau menggoncang tangki penyumbat setiap masa."
+      },
+      {
+        "example_id": "86",
+        "meaning_source": "11",
+        "sentence": "Mengaduk gulai"
+      },
+      {
+        "example_id": "17",
+        "meaning_source": "98",
+        "sentence": "Mengaduk buku"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~vmy26",
+    "name": "mengaduk-aduk",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "me.nga.du/.nga.du/"
+    ],
+    "means": [
+      {
+        "means_id": "13",
+        "type": "v",
+        "mean": "membongkar-bongkar dengan tidak tentu"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "41",
+        "meaning_source": "13",
+        "sentence": "Mengaduk-aduk buku"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~jv7p4",
     "name": "mengakak",
     "stem": "ms-MY~n1yOs",
@@ -2749,12 +3105,6 @@
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
-    ],
-    "synonym": [
-      "ms-MY~BVCx8",
-      "ms-MY~5SbgS",
-      "ms-MY~LQkI0",
-      "ms-MY~zBtOq"
     ]
   },
   {
@@ -2775,12 +3125,6 @@
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
-    ],
-    "synonym": [
-      "ms-MY~BVCx8",
-      "ms-MY~5SbgS",
-      "ms-MY~jv7p4",
-      "ms-MY~zBtOq"
     ]
   },
   {
@@ -2983,6 +3327,66 @@
         "means_id": "50",
         "type": "n",
         "mean": "perihal mengabjadkan, penyusunan perkataan (senarai nama dan lain-lain) mengikut urutan abjad"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~uop3k",
+    "name": "pengabsahan",
+    "stem": "ms-MY~lD88e",
+    "pronounce": [
+      "pe.ngab.sa.han"
+    ],
+    "means": [
+      {
+        "means_id": "59",
+        "type": "n",
+        "mean": "pengesahan"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~BdUNb",
+    "name": "pengaduk",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "pe.nga.du/"
+    ],
+    "means": [
+      {
+        "means_id": "69",
+        "type": "n",
+        "mean": "alat untuk mengaduk"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "71",
+        "meaning_source": "69",
+        "sentence": "Sampel dan campuran penyejuk diaduk selalu dengan pengaduk."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~lZjKk",
+    "name": "pengadukan",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "pe.nga.du.kan",
+      "pe.nga.du/.kan"
+    ],
+    "means": [
+      {
+        "means_id": "42",
+        "type": "n",
+        "mean": "perihal (proses atau perbuatan) mengaduk"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "22",
+        "meaning_source": "42",
+        "sentence": "Pengacauan boleh dibuat secara pengadukan atau penggoncangan."
       }
     ]
   },
@@ -3232,6 +3636,22 @@
     ]
   },
   {
+    "id": "ms-MY~YYRU9",
+    "name": "teraduk-aduk",
+    "stem": "ms-MY~6Np76",
+    "pronounce": [
+      "te.ra.du/.ra.du/",
+      "ter.a.du/.a.du/"
+    ],
+    "means": [
+      {
+        "means_id": "50",
+        "type": "adj",
+        "mean": "kacau (tidak rapi atau kemas), tidak berketentuan (berkenaan dengan seperai dan lain-lain)"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~zBtOq",
     "name": "terkakak-kakak",
     "stem": "ms-MY~n1yOs",
@@ -3244,12 +3664,6 @@
         "type": "adj",
         "mean": "tertawa kak-kak-kak, ketawa gelak-gelak"
       }
-    ],
-    "synonym": [
-      "ms-MY~BVCx8",
-      "ms-MY~5SbgS",
-      "ms-MY~jv7p4",
-      "ms-MY~LQkI0"
     ]
   },
   {

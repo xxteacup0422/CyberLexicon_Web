@@ -452,6 +452,33 @@
     ]
   },
   {
+    "word_id": "ms-MY~lD88e",
+    "means": [
+      {
+        "means_id": "01",
+        "mean": "合法的，有效的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~W4hKn",
+    "means": [
+      {
+        "means_id": "76",
+        "mean": "脓肿"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~HEBEn",
+    "means": [
+      {
+        "means_id": "39",
+        "mean": "解罪（天主教会）"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~CFHrP",
     "means": [
       {
@@ -634,6 +661,30 @@
     ]
   },
   {
+    "word_id": "ms-MY~Cfi90",
+    "means": [
+      {
+        "means_id": "70",
+        "mean": "依照字母编排次序"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "93",
+        "sentence": "全体参加者依照名字的字母编排次序。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~fQ9kR",
+    "means": [
+      {
+        "means_id": "22",
+        "mean": "使有效，使合法"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~jv7p4",
     "means": [
       {
@@ -705,6 +756,15 @@
       {
         "means_id": "50",
         "mean": "依照字母编排次序"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~uop3k",
+    "means": [
+      {
+        "means_id": "59",
+        "mean": "合法化，有效化"
       }
     ]
   },
