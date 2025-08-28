@@ -605,6 +605,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~AY2Rg",
+    "means": [
+      {
+        "means_id": "42",
+        "mean": "麦加回教堂"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~UOszf",
     "means": [
       {
@@ -789,6 +798,15 @@
       {
         "example_id": "48",
         "sentence": "当船又启程的时候，愈长愈快。"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~PqKFm",
+    "means": [
+      {
+        "means_id": "02",
+        "mean": "麦加和麦地那（回教徒朝圣地）"
       }
     ]
   },

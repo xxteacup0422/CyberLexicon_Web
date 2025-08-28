@@ -1386,6 +1386,9 @@
         "source": "id"
       }
     ],
+    "antonym": [
+      "ms-MY~GP79c"
+    ],
     "affix": [
       "ms-MY~fQ9kR",
       "ms-MY~XM8Rw",
@@ -2371,6 +2374,137 @@
     ]
   },
   {
+    "id": "ms-MY~GP79c",
+    "name": "haram",
+    "pronounce": [
+      "ha.ram",
+      "ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "17",
+        "type": "adj",
+        "mean": "hukum tegahan (dalam Islam) yang dijanjikan ganjaran pahala bagi orang yang mematuhinya dan dosa bagi orang yang mengingkarinya"
+      },
+      {
+        "means_id": "26",
+        "type": "adj",
+        "mean": "ditegah (terlarang) oleh undang-undang, tidak sah (di sisi undang-undang)"
+      },
+      {
+        "means_id": "28",
+        "type": "adj",
+        "mean": "suci, tidak boleh dikerjakan hal-hal yang menentu"
+      },
+      {
+        "means_id": "66",
+        "type": "adv",
+        "mean": "sungguh-sungguh, benar-benar, betul-betul",
+        "tag": [
+          "ous"
+        ]
+      },
+      {
+        "means_id": "38",
+        "type": "adv",
+        "mean": "sedikit pun, langsung (tidak), sama sekali (tidak)",
+        "tag": [
+          "ous"
+        ]
+      },
+      {
+        "means_id": "36",
+        "type": "adv",
+        "mean": "tidak ada, tiada (satu antara yang banyak)",
+        "tag": [
+          "ous"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "17",
+        "meaning_source": "17",
+        "sentence": "Babi haram dimakan oleh orang Islam."
+      },
+      {
+        "example_id": "08",
+        "meaning_source": "26",
+        "sentence": "Dia ditangkap kerana masuk secara haram ke negeri ini."
+      },
+      {
+        "example_id": "47",
+        "meaning_source": "66",
+        "sentence": "haram, aku tidak tahu-menahu langsung mengenai perkara itu."
+      },
+      {
+        "example_id": "76",
+        "meaning_source": "38",
+        "sentence": "Ia lari terus, haram tidak menoleh ke belakang."
+      },
+      {
+        "example_id": "33",
+        "meaning_source": "38",
+        "sentence": "Sehingga hampir waktu senja, jejak babi tunggal tidak juga ditemui, malah berbau pun haram."
+      },
+      {
+        "example_id": "57",
+        "meaning_source": "36",
+        "sentence": "Haram seorang pun di antara pengunjung kamar itu tahu bahawa mereka sedang dikepung."
+      }
+    ],
+    "antonym": [
+      "ms-MY~lD88e"
+    ],
+    "affix": [
+      "ms-MY~cG07Q",
+      "ms-MY~rUC7y"
+    ],
+    "phrase": [
+      "ms-MY~gpSmx",
+      "ms-MY~uGDGe",
+      "ms-MY~tLF4b",
+      "ms-MY~KmrTS",
+      "ms-MY~PqKFm",
+      "ms-MY~AY2Rg",
+      "ms-MY~a25c8"
+    ]
+  },
+  {
+    "id": "ms-MY~a25c8",
+    "name": "haram jadah (zadah)",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "ha.ram.ja.dah.(za.dah)",
+      "ḥa.ram.ja.dah.(za.dah)"
+    ],
+    "means": [
+      {
+        "means_id": "37",
+        "type": "n",
+        "mean": "(kata makian) anak yang tidak sah (lahir di luar nikah)",
+        "tag": [
+          "ful"
+        ]
+      },
+      {
+        "means_id": "89",
+        "type": "n",
+        "mean": "(kata makian secara am) celaka",
+        "tag": [
+          "ful"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "17",
+        "meaning_source": "89",
+        "sentence": "Lori haram jadah itu bukan kenal jenis makhluk."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~n1yOs",
     "name": "kakak",
     "pronounce": [
@@ -2633,6 +2767,22 @@
     ]
   },
   {
+    "id": "ms-MY~uGDGe",
+    "name": "kumpulan haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "kum.pu.lan.ha.ram",
+      "kum.pu.lan.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "85",
+        "type": "num",
+        "mean": "kumpulan yang melakukan gerakan (atau mempunyai tujuan) yang salah di sisi undang-undang"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~ah9yH",
     "name": "main abau",
     "stem": "ms-MY~iEnUf",
@@ -2644,6 +2794,22 @@
         "means_id": "08",
         "type": "n",
         "mean": "main tampuk labu"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~AY2Rg",
+    "name": "Masjidil haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "Mas.ji.dil.ha.ram",
+      "Mas.ji.dil.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "42",
+        "type": "n",
+        "mean": "masjid Mekah"
       }
     ]
   },
@@ -3128,6 +3294,48 @@
     ]
   },
   {
+    "id": "ms-MY~cG07Q",
+    "name": "mengharamkan",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "meng.ha.ram.kan"
+    ],
+    "means": [
+      {
+        "means_id": "09",
+        "type": "v",
+        "mean": "memandang (menganggap, menyatakan) haram (tidak halal), melarang, menegah"
+      },
+      {
+        "means_id": "01",
+        "type": "v",
+        "mean": "tidak membenarkan (mengizinkan, meluluskan, dan sebagainya), menetapkan (mengisytiharkan) sebagai melanggar undang-undang, menegah"
+      },
+      {
+        "means_id": "27",
+        "type": "v",
+        "mean": "berteguh hati (berazam) untuk tidak melakukan sesuatu"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "01",
+        "meaning_source": "09",
+        "sentence": "Agama Islam mengharamkan penganut-penganutnya minum arak, berjudi dan melakukan beberapa perbuatan lain."
+      },
+      {
+        "example_id": "29",
+        "meaning_source": "01",
+        "sentence": "Kerajaan telah mengharamkan penerbitan buku itu."
+      },
+      {
+        "example_id": "18",
+        "meaning_source": "27",
+        "sentence": "Dia mengharamkan dirinya daripada memasuki tempat yang terkutuk itu lagi."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~gDDUN",
     "name": "menormalkan",
     "stem": "ms-MY~AuvSa",
@@ -3391,6 +3599,33 @@
     ]
   },
   {
+    "id": "ms-MY~rUC7y",
+    "name": "pengharaman",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "peng.ha.ra.man"
+    ],
+    "means": [
+      {
+        "means_id": "18",
+        "type": "n",
+        "mean": "tindakan atau ketetapan mengharamkan (melarang, menegah, menolak), pelarangan, penegahan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "71",
+        "meaning_source": "18",
+        "sentence": "Pengharaman minuman keras adalah atas sebab-sebab moral dan kesihatan."
+      },
+      {
+        "example_id": "69",
+        "meaning_source": "18",
+        "sentence": "Beberapa buah negara mencadangkan pengharaman senjata-senjata atom."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~7Og4k",
     "name": "penormalan",
     "stem": "ms-MY~AuvSa",
@@ -3443,6 +3678,22 @@
     ],
     "synonym": [
       "ms-MY~wzn2f"
+    ]
+  },
+  {
+    "id": "ms-MY~tLF4b",
+    "name": "rumah haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "ru.mah.ha.ram",
+      "ru.mah.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "06",
+        "type": "n",
+        "mean": "rumah yang didirikan di atas tanah kerajaan atau milik orang lain tanpa kebenaran, rumah kilat"
+      }
     ]
   },
   {
@@ -3596,6 +3847,38 @@
     ]
   },
   {
+    "id": "ms-MY~KmrTS",
+    "name": "tanah haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "ta.nah.ha.ram",
+      "ta.nah.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "78",
+        "type": "n",
+        "mean": "tanah yang diduduki atau dikerjakan tidak dengan izin kerajaan (tuannya)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~PqKFm",
+    "name": "Tanah haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "Ta.nah.ha.ram",
+      "Ta.nah.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "02",
+        "type": "n",
+        "mean": "Mekah dan Madinah"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~xDErg",
     "name": "terabadi",
     "stem": "ms-MY~2KJwU",
@@ -3678,6 +3961,22 @@
         "means_id": "56",
         "type": "v",
         "mean": "tidak cuai (lalai) dari"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~gpSmx",
+    "name": "tidak peduli halal haram",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "ti.da/.pe.du.li.ha.lal.ha.ram",
+      "ti.da/.pe.du.li.ha.lal.ḥa.ram"
+    ],
+    "means": [
+      {
+        "means_id": "64",
+        "type": "adj",
+        "mean": "tidak mengendahkan hukum"
       }
     ]
   },
