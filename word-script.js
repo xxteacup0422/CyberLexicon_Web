@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         window.location.href = `?id=${word.id}`;
                     });
                 } else if (filteredWords.length > 1) {
-                    alert("The system found two identical word names. Please click on the word in the purple area.")
+                    alert("The system found two identical word names. Please click on the word in the search list area.")
                 } else {
                     alert("No Find The Word.")
                 }
@@ -92,9 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
         fetch("dictionary/Words/ms-MY.json")
         .then((response) => response.json())
         .then((data) => {
-            const filteredWords = data.filter((word) => word.id.includes(params.get("id")));
+            const filteredWords = data.filter((word) => word.id == params.get("id"));
 
-            if (filteredWords.length != 0) {
+            if (filteredWords.length == 1) {
                 const word = filteredWords[0];
                 showDictionary.querySelector(".word-name").innerHTML = word.name;
                 if (word.stem) {
@@ -421,6 +421,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         });
                     });
                 }
+            } else {
+                window.location.href = 'index.html';
             }
         });
     } else {
