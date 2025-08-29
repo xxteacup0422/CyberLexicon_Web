@@ -183,9 +183,69 @@ body {
     }
 }
 
+@media screen and (max-width: 457px) {
+    .menu-bar .title img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .menu-bar .title h1 {
+        font-size: 1.3rem;
+        color: white;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .menu-bar .title img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .menu-bar .title h1 {
+        font-size: 1rem;
+        color: white;
+        margin-left: 5px;
+    }
+    .main img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .main h1 {
+        font-size: 1.3rem;
+        color: #ececec;
+    }
+
+    .main .search-input input {
+        font-size: 1.3rem;
+    }
+
+    .main .search-input span {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 385px) {
     .menu-bar .title h1 {
         display: none;
         transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-height: 366px) {
+    .main {
+        padding: 25px;
+        top: 30px;
+    }
+
+    .main img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .main h1 {
+        font-size: 1.2rem;
+        color: #ececec;
     }
 }

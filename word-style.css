@@ -424,7 +424,7 @@ body::-webkit-scrollbar {
 
 .main .dictionary .word-phrase {
     border-radius: 5px;
-    background:rgb(214, 250, 56);
+    background:rgb(149, 211, 79);
     padding: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     display: none;
@@ -497,6 +497,27 @@ body::-webkit-scrollbar {
         font-size: 1.3rem;
         color: white;
         margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .menu-bar .title img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .menu-bar .title h1 {
+        font-size: 1rem;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .main .search-input input {
+        font-size: 1.3rem;
+    }
+
+    .main .search-input span {
+        font-size: 1.5rem;
     }
 }
 
