@@ -1411,6 +1411,9 @@
         ]
       }
     ],
+    "antonym": [
+      "ms-MY~X93pc"
+    ],
     "affix": [
       "ms-MY~ezntz"
     ]
@@ -1426,6 +1429,39 @@
         "means_id": "76",
         "type": "n",
         "mean": "bengkak yang bernanah"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~LEQjl",
+    "name": "absisa",
+    "pronounce": [
+      "ab.si.sa"
+    ],
+    "means": [
+      {
+        "means_id": "03",
+        "type": "n",
+        "mean": "koordinat-x dalam sistem koordinat Cartesan",
+        "tag": [
+          "math"
+        ]
+      },
+      {
+        "means_id": "29",
+        "type": "n",
+        "mean": "koordinat yang digunakan sebagai rujukan dan biasanya mengufuk",
+        "tag": [
+          "math"
+        ]
+      },
+      {
+        "means_id": "89",
+        "type": "n",
+        "mean": "salah satu koordinat pada sistem koordinat Cartesan",
+        "tag": [
+          "math"
+        ]
       }
     ]
   },
@@ -2160,6 +2196,36 @@
     ]
   },
   {
+    "id": "ms-MY~sj6a5",
+    "name": "berhadir",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "ber.ha.dir"
+    ],
+    "means": [
+      {
+        "means_id": "22",
+        "type": "adj",
+        "mean": "bersedia, menyediakan",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "11",
+        "meaning_source": "22",
+        "sentence": "Segala orang Singapura itu pun sudah berhadir dengan segala persembahannya."
+      },
+      {
+        "example_id": "37",
+        "meaning_source": "22",
+        "sentence": "Makan Sultan Ahmand pun menghimpunkan orang, dan disuruh berhadir senjata."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~BVCx8",
     "name": "berkakak",
     "stem": "ms-MY~n1yOs",
@@ -2311,6 +2377,36 @@
     ]
   },
   {
+    "id": "ms-MY~Wkb4V",
+    "name": "daftar hadir",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "daf.tar.ha.dir"
+    ],
+    "means": [
+      {
+        "means_id": "58",
+        "type": "n",
+        "mean": "daftar yang mengandungi nama orang yang hadir (datang)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~EXzpa",
+    "name": "daftar kehadiran",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "daf.tar.ke.ha.di.ran"
+    ],
+    "means": [
+      {
+        "means_id": "50",
+        "type": "n",
+        "mean": "daftar nama orang yang hadir (di mesyuarat, kursus dan lain-lain), daftar hadir"
+      }
+    ]
+  },
+  {
     "id": "ms-MY~1LwMz",
     "name": "Dewan Pertuanan",
     "stem": "ms-MY~6pKHK",
@@ -2338,6 +2434,41 @@
         "type": "n",
         "mean": "guru yang terlatih dengan cara menghadiri kursus tertentu (tidak memasuki maktab latihan tertentu)"
       }
+    ]
+  },
+  {
+    "id": "ms-MY~X93pc",
+    "name": "hadir",
+    "pronounce": [
+      "ha.dir"
+    ],
+    "means": [
+      {
+        "means_id": "26",
+        "type": "v",
+        "mean": "ada, ada datang (di sekolah, mesyuarat, dan lain-lain)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "79",
+        "meaning_source": "26",
+        "sentence": "Wakil kami tidak hadir dalam persidangan itu."
+      }
+    ],
+    "antonym": [
+      "ms-MY~LUCzd"
+    ],
+    "affix": [
+      "ms-MY~sj6a5",
+      "ms-MY~uhZ8X",
+      "ms-MY~mLxvj",
+      "ms-MY~TMQZ4"
+    ],
+    "phrase": [
+      "ms-MY~Wkb4V",
+      "ms-MY~Vjqfr",
+      "ms-MY~EXzpa"
     ]
   },
   {
@@ -2370,6 +2501,93 @@
         "means_id": "37",
         "type": "n",
         "mean": "hak atau kedaulatan ke atas sesuatu daerah (negeri)"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~hR8gh",
+    "name": "halal",
+    "pronounce": [
+      "ha.lal"
+    ],
+    "means": [
+      {
+        "means_id": "99",
+        "type": "adj",
+        "mean": "hukum membenarkan sesuatu perbuatan dilakukan (dalam Islam), diperbolehkan (tidak ditegah oleh syarak), diizinkan, dibenarkan, lawan haram"
+      },
+      {
+        "means_id": "11",
+        "type": "adj",
+        "mean": "ki (yang diperdapat, diperoleh atau diperbuat) dengan jalan yang sah"
+      },
+      {
+        "means_id": "10",
+        "type": "adj",
+        "mean": "arkaik ampun, maaf, (me)relakan"
+      },
+      {
+        "means_id": "65",
+        "type": "adj",
+        "mean": "arkaik izin"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "15",
+        "meaning_source": "99",
+        "sentence": "Makanlah makanan yang halal dan minumlah minuman yang halal."
+      },
+      {
+        "example_id": "79",
+        "meaning_source": "99",
+        "sentence": "Daging lembu halal dimakan oleh orang-orang Islam."
+      },
+      {
+        "example_id": "25",
+        "meaning_source": "11",
+        "sentence": "Anak halal."
+      },
+      {
+        "example_id": "92",
+        "meaning_source": "11",
+        "sentence": "Wang halal."
+      },
+      {
+        "example_id": "14",
+        "meaning_source": "10",
+        "sentence": "Yang hutang tuan hamba sekati emas itu halallah dunia akhirat."
+      },
+      {
+        "example_id": "24",
+        "meaning_source": "65",
+        "sentence": "Menyembah minta halallah segala pengajarannya."
+      }
+    ],
+    "antonym": [
+      "ms-MY~GP79c"
+    ],
+    "affix": [
+      "ms-MY~bPSNe",
+      "ms-MY~B9Lvu",
+      "ms-MY~gNuwJ"
+    ],
+    "phrase": [
+      "ms-MY~3Nk3R"
+    ]
+  },
+  {
+    "id": "ms-MY~3Nk3R",
+    "name": "halal nikah",
+    "stem": "ms-MY~hR8gh",
+    "pronounce": [
+      "ha.lal.ni.kah"
+    ],
+    "means": [
+      {
+        "means_id": "37",
+        "type": "adj",
+        "mean": "dibenarkan menikahi seseorang"
       }
     ]
   },
@@ -2454,7 +2672,8 @@
       }
     ],
     "antonym": [
-      "ms-MY~lD88e"
+      "ms-MY~lD88e",
+      "ms-MY~hR8gh"
     ],
     "affix": [
       "ms-MY~cG07Q",
@@ -2630,6 +2849,55 @@
         "means_id": "87",
         "type": "n",
         "mean": "keadaan biasa"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~TMQZ4",
+    "name": "kehadiran",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "ke.ha.di.ran"
+    ],
+    "means": [
+      {
+        "means_id": "60",
+        "type": "n",
+        "mean": "perihal hadir (di sesuatu perjumpaan, mesyuarat, dan sebagainya), perihal berada (di sesuatu tempat dan lain-lain), adanya, kedatangan"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "69",
+        "meaning_source": "60",
+        "sentence": "Kehadiran golongan muda amat penting dalam perjumpaan itu."
+      },
+      {
+        "example_id": "40",
+        "meaning_source": "60",
+        "sentence": "Kehadiran kuasa besar boleh membawa kesan buruk kepada negara-negara Asia Tenggara."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~B9Lvu",
+    "name": "kehalalan",
+    "stem": "ms-MY~hR8gh",
+    "pronounce": [
+      "ke.ha.la.lan"
+    ],
+    "means": [
+      {
+        "means_id": "90",
+        "type": "n",
+        "mean": "perihal (sifat, taraf, dan sebagainya) halal"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "55",
+        "meaning_source": "90",
+        "sentence": "Kalau hati masih waswas tentang kehalalannya, apa yang kita makan itu akan menjadi haram."
       }
     ]
   },
@@ -3294,6 +3562,125 @@
     ]
   },
   {
+    "id": "ms-MY~uhZ8X",
+    "name": "menghadiri",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "meng.ha.di.ri"
+    ],
+    "means": [
+      {
+        "means_id": "50",
+        "type": "v",
+        "mean": "hadir di (persidangan, majlis, kursus, dan lain-lain) menyertai, mengikuti"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "43",
+        "meaning_source": "50",
+        "sentence": "Lebih 100 orang peserta dari negara-negara Asia Tenggara, Australia, dan New Zealand telah menghadiri seminar antarabangsa tersebut."
+      },
+      {
+        "example_id": "02",
+        "meaning_source": "50",
+        "sentence": "Menghadiri persidangan Parlimen."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~mLxvj",
+    "name": "menghadirkan",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "meng.ha.dir.kan"
+    ],
+    "means": [
+      {
+        "means_id": "13",
+        "type": "v",
+        "mean": "membuat supaya hadir (ada di sesuatu tempat)"
+      },
+      {
+        "means_id": "55",
+        "type": "v",
+        "mean": "menghimpunkan, mengadakan, menyediakan",
+        "tag": [
+          "cl"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "43",
+        "meaning_source": "13",
+        "sentence": "Ketua rombongan hendaklah menghadirkan semua ahli rombongan pada waktu yang ditetapkan."
+      },
+      {
+        "example_id": "12",
+        "meaning_source": "55",
+        "sentence": "Maka Sultan Ahmand pun mengerahkan segala rakyat menghadirkan kelengkapan perang."
+      },
+      {
+        "example_id": "75",
+        "meaning_source": "55",
+        "sentence": "Tuanku, baiklah persilakan turun ke kenaikan, telah sedia patik hadirkan."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~Vjqfr",
+    "name": "menghadirkan diri",
+    "stem": "ms-MY~X93pc",
+    "pronounce": [
+      "meng.ha.dir.kan.di.ri"
+    ],
+    "means": [
+      {
+        "means_id": "87",
+        "type": "v",
+        "mean": "datang menunjukkan diri"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~bPSNe",
+    "name": "menghalalkan",
+    "stem": "ms-MY~hR8gh",
+    "pronounce": [
+      "meng.ha.lal.kan"
+    ],
+    "means": [
+      {
+        "means_id": "57",
+        "type": "v",
+        "mean": "membenarkan (membolehkan, memperkenankan, mengizinkan), memandang atau menganggap halal"
+      },
+      {
+        "means_id": "72",
+        "type": "v",
+        "mean": "menganggap selesai atau jelas (hutang dan lain-lain)"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "73",
+        "meaning_source": "57",
+        "sentence": "Adalah salah besar menghalalkan sesuatu yang haram."
+      },
+      {
+        "example_id": "44",
+        "meaning_source": "57",
+        "sentence": "Ada kemungkinan besar bahawa kegiatan tersebut yang selama ini diharamkan di negeri itu akan dihalalkan."
+      },
+      {
+        "example_id": "88",
+        "meaning_source": "72",
+        "sentence": "Baki hutangnya itu sudah dihalalkan."
+      }
+    ]
+  },
+  {
     "id": "ms-MY~cG07Q",
     "name": "mengharamkan",
     "stem": "ms-MY~GP79c",
@@ -3595,6 +3982,28 @@
         "example_id": "22",
         "meaning_source": "42",
         "sentence": "Pengacauan boleh dibuat secara pengadukan atau penggoncangan."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~gNuwJ",
+    "name": "penghalalan",
+    "stem": "ms-MY~hR8gh",
+    "pronounce": [
+      "peng.ha.la.lan"
+    ],
+    "means": [
+      {
+        "means_id": "72",
+        "type": "n",
+        "mean": "perbuatan dan sebagainya menghalalkan, perihal menjadikan halal atau sah"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "77",
+        "meaning_source": "72",
+        "sentence": "Marx mengambil ideologi borjuis sebagai satu gambaran sistem, idea, despotisme moden mencari ketaakulan dan penghalalan menjalankan kuasa."
       }
     ]
   },

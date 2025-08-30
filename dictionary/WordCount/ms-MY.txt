@@ -1,6 +1,6 @@
-Word Total: 190
- - Stem Total: 67
- - Affix Total: 65
- - Phrase Total: 58
+Word Total: 204
+ - Stem Total: 70
+ - Affix Total: 72
+ - Phrase Total: 62
  - Languages Annontate: 
-  - Chinese Simplified Annontate: 76/190 (40.00%)
+  - Chinese Simplified Annontate: 83/204 (40.69%)

@@ -461,6 +461,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~LUCzd",
+    "means": [
+      {
+        "means_id": "62",
+        "mean": "缺席，逃课，缺勤"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~W4hKn",
     "means": [
       {
@@ -475,6 +484,24 @@
       {
         "means_id": "39",
         "mean": "解罪（天主教会）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~fKItR",
+    "means": [
+      {
+        "means_id": "36",
+        "mean": "杂乱的，什锦"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~pvtD9",
+    "means": [
+      {
+        "means_id": "47",
+        "mean": "混合，混合物"
       }
     ]
   },
@@ -523,6 +550,15 @@
       {
         "means_id": "48",
         "mean": "订阅"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~RH6gZ",
+    "means": [
+      {
+        "means_id": "05",
+        "mean": "像兄弟姐妹"
       }
     ]
   },
@@ -614,6 +650,15 @@
     ]
   },
   {
+    "word_id": "ms-MY~sqIWp",
+    "means": [
+      {
+        "means_id": "23",
+        "mean": "把...当作弟妹，像亲弟妹一样对待"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~UOszf",
     "means": [
       {
@@ -690,6 +735,21 @@
       {
         "means_id": "22",
         "mean": "使有效，使合法"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~ezntz",
+    "means": [
+      {
+        "means_id": "55",
+        "mean": "点名"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "50",
+        "sentence": "同学们在进入学校的时候老师点名。"
       }
     ]
   },
@@ -816,6 +876,15 @@
       {
         "means_id": "63",
         "mean": "被忽视的"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~YYRU9",
+    "means": [
+      {
+        "means_id": "50",
+        "mean": "混乱的，搅乱的，扰乱的"
       }
     ]
   },
