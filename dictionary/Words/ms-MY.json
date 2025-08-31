@@ -1095,7 +1095,8 @@
       "ms-MY~X6ISK"
     ],
     "phrase": [
-      "ms-MY~Jnm9C"
+      "ms-MY~Jnm9C",
+      "ms-MY~OD2cO"
     ]
   },
   {
@@ -1813,7 +1814,7 @@
       {
         "example_id": "30",
         "meaning_source": "19",
-        "sentence": "aduk buku"
+        "sentence": "aduk buku."
       }
     ],
     "antonym": [
@@ -2352,7 +2353,7 @@
       {
         "example_id": "43",
         "meaning_source": "64",
-        "sentence": "Pada bicara dinda tiada mahu dinda bertuankan lain daripada Yang Dipertuan"
+        "sentence": "Pada bicara dinda tiada mahu dinda bertuankan lain daripada Yang Dipertuan."
       },
       {
         "example_id": "17",
@@ -2686,16 +2687,17 @@
       "ms-MY~KmrTS",
       "ms-MY~PqKFm",
       "ms-MY~AY2Rg",
-      "ms-MY~a25c8"
+      "ms-MY~a25c8",
+      "ms-MY~XL67Y"
     ]
   },
   {
     "id": "ms-MY~a25c8",
-    "name": "haram jadah (zadah)",
+    "name": "haram jadah",
     "stem": "ms-MY~GP79c",
     "pronounce": [
-      "ha.ram.ja.dah.(za.dah)",
-      "ḥa.ram.ja.dah.(za.dah)"
+      "ha.ram.ja.dah",
+      "ḥa.ram.ja.dah"
     ],
     "means": [
       {
@@ -2720,6 +2722,40 @@
         "example_id": "17",
         "meaning_source": "89",
         "sentence": "Lori haram jadah itu bukan kenal jenis makhluk."
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~XL67Y",
+    "name": "haram zadah",
+    "stem": "ms-MY~GP79c",
+    "pronounce": [
+      "ha.ram.za.dah",
+      "ḥa.ram.za.dah"
+    ],
+    "means": [
+      {
+        "means_id": "98",
+        "type": "n",
+        "mean": "(kata makian) anak yang tidak sah (lahir di luar nikah)",
+        "tag": [
+          "ful"
+        ]
+      },
+      {
+        "means_id": "94",
+        "type": "n",
+        "mean": "(kata makian secara am) celaka",
+        "tag": [
+          "ful"
+        ]
+      }
+    ],
+    "example": [
+      {
+        "example_id": "39",
+        "meaning_source": "94",
+        "sentence": "Lori haram zadah itu bukan kenal jenis makhluk."
       }
     ]
   },
@@ -3191,7 +3227,7 @@
       {
         "example_id": "46",
         "meaning_source": "92",
-        "sentence": "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban"
+        "sentence": "Sebuah tugu untuk mengabaikan jasa askar-askar yang terkorban."
       }
     ]
   },
@@ -3270,7 +3306,7 @@
       {
         "example_id": "57",
         "meaning_source": "94",
-        "sentence": "Mengabaikan tunjuk ajar dan nasihat orang"
+        "sentence": "Mengabaikan tunjuk ajar dan nasihat orang."
       },
       {
         "example_id": "75",
@@ -3490,12 +3526,12 @@
       {
         "example_id": "86",
         "meaning_source": "11",
-        "sentence": "Mengaduk gulai"
+        "sentence": "Mengaduk gulai."
       },
       {
         "example_id": "17",
         "meaning_source": "98",
-        "sentence": "Mengaduk buku"
+        "sentence": "Mengaduk buku."
       }
     ]
   },
@@ -3517,7 +3553,7 @@
       {
         "example_id": "41",
         "meaning_source": "13",
-        "sentence": "Mengaduk-aduk buku"
+        "sentence": "Mengaduk-aduk buku."
       }
     ]
   },
@@ -3781,10 +3817,10 @@
   },
   {
     "id": "ms-MY~Jnm9C",
-    "name": "menurut (urutan) abjad",
+    "name": "menurut abjad",
     "stem": "ms-MY~tQKM7",
     "pronounce": [
-      "me.nu.rut.(u.ru.tan).ab.jad"
+      "me.nu.rut.ab.jad"
     ],
     "means": [
       {
@@ -4307,7 +4343,7 @@
       {
         "example_id": "47",
         "meaning_source": "10",
-        "sentence": "Dengan usahanya itu terabadi terus cerita-cerita rakyat"
+        "sentence": "Dengan usahanya itu terabadi terus cerita-cerita rakyat."
       }
     ]
   },
@@ -4732,6 +4768,21 @@
         "means_id": "41",
         "type": "n",
         "mean": "bangsawan, ningrat"
+      }
+    ]
+  },
+  {
+    "id": "ms-MY~OD2cO",
+    "name": "urutan abjad",
+    "stem": "ms-MY~tQKM7",
+    "pronounce": [
+      "u.ru.tan.ab.jad"
+    ],
+    "means": [
+      {
+        "means_id": "14",
+        "type": "n",
+        "mean": "menurut urutan huruf dalam abjad"
       }
     ]
   },

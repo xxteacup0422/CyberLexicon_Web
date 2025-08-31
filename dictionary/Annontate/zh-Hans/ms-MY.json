@@ -576,6 +576,21 @@
     ]
   },
   {
+    "word_id": "ms-MY~X93pc",
+    "means": [
+      {
+        "means_id": "26",
+        "mean": "有，有来，在场"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "79",
+        "sentence": "那会议里面我们的代表没有在场。"
+      }
+    ]
+  },
+  {
     "word_id": "ms-MY~n1yOs",
     "means": [
       {
@@ -589,6 +604,25 @@
       {
         "means_id": "17",
         "mean": "大姐（对年纪较大的人的称呼）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~5F5Jh",
+    "means": [
+      {
+        "means_id": "09",
+        "mean": "永存，永恒"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "30",
+        "sentence": "一位母亲永恒的爱。"
+      },
+      {
+        "example_id": "62",
+        "sentence": "和平与安宁永存。"
       }
     ]
   },
@@ -867,6 +901,21 @@
       {
         "means_id": "02",
         "mean": "麦加和麦地那（回教徒朝圣地）"
+      }
+    ]
+  },
+  {
+    "word_id": "ms-MY~xDErg",
+    "means": [
+      {
+        "means_id": "10",
+        "mean": "使永存的，使不朽的"
+      }
+    ],
+    "example": [
+      {
+        "example_id": "47",
+        "sentence": "那以他的努力直接让人民的故事使永存的。"
       }
     ]
   },
