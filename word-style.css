@@ -142,6 +142,10 @@ body::-webkit-scrollbar {
     transition: all 1s ease;
 }
 
+.main .search-list .highlight {
+    font-weight: 900;
+}
+
 .main .search-list::-webkit-scrollbar-track {
     background: #cfcfcf;
     border-radius: 0 10px 10px 0;

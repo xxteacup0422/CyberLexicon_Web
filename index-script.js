@@ -26,7 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
             filteredWords.forEach((word) => {
                 const wordElement = document.createElement("li");
-                wordElement.innerHTML = word.name;
+                const regex = new RegExp(`(${searchInput.value})`, "i");
+                const highlightedName = word.name.replace(regex, `<span class="highlight">$1</span>`);
+                wordElement.innerHTML = highlightedName;
                 searchList.appendChild(wordElement);
                 wordElement.addEventListener("click", () => {
                     window.location.href = `word.html?id=${word.id}`;
