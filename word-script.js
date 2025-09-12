@@ -268,8 +268,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                     fullText = "粗鲁的语文 | Foul Language | Bahasa Kasar";
                                 } else if (tag_abbr == "ous") {
                                     fullText = "口语 | Oral Usage | Bahasa Percakapan";
-                                } else if (tag_abbr == "prov") {
-                                    fullText = "谚语 | Proverb | Peribahasa";
                                 } else if (tag_abbr == "rus") {
                                     fullText = "宫廷用语 | Royal Usage | Bahasa Istana/Dalam";
                                 } else if (tag_abbr == "ant") {
