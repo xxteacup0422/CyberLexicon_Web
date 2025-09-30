@@ -3,4 +3,4 @@ Word Total: 206
  - Affix Total: 72
  - Phrase Total: 64
  - Languages Annontate: 
-  - Chinese Simplified Annontate: 86/206 (41.75%)
+  - Chinese Simplified Annontate: 88/206 (42.72%)

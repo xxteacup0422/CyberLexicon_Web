@@ -9,29 +9,29 @@
       {
         "means_id": "49",
         "type": "n",
-        "mean": "huruf pertama abjad Rumi"
+        "mean": "huruf abjad Rumi yang pertama"
       },
       {
         "means_id": "54",
-        "type": "intrj",
-        "mean": "untuk melahirkan kegirangan atau menyatakan persetujuan"
+        "type": "adj",
+        "mean": "untuk melahirkan kegembiraan atau menyatakan setuju"
       },
       {
         "means_id": "55",
-        "type": "intrj",
-        "mean": "untuk menunjukkan terlupa akan sesuatu"
+        "type": "adj",
+        "mean": "untuk menunjukkan terlupa akan sesuatu hal"
       }
     ],
     "example": [
       {
         "example_id": "30",
         "meaning_source": "54",
-        "sentence": "Itu dia, a,macam itulah caranya!"
+        "sentence": "A, kerja sekolah sudah siapkan!"
       },
       {
         "example_id": "40",
         "meaning_source": "55",
-        "sentence": "Nama bukunya ... a, nanti saya cuba ingatkan!"
+        "sentence": "A, saya terlupa memulangkan buku kepada orang!"
       }
     ]
   },
@@ -79,7 +79,7 @@
       {
         "means_id": "47",
         "type": "n",
-        "mean": "kata perintah dalam latihan tentera dan lain-lain",
+        "mean": "kata perintah yang digunakan dalam latihan tentera dan lain-lain",
         "source": "id"
       }
     ],
@@ -87,7 +87,7 @@
       {
         "example_id": "94",
         "meaning_source": "47",
-        "sentence": "\"Satu ...,\" aba Wit daripada kerusinya."
+        "sentence": "\"Satu dua satu dua...,\" aba Pegawai Wit di padang."
       }
     ]
   },
@@ -101,7 +101,7 @@
       {
         "means_id": "52",
         "type": "n",
-        "mean": "kata-kata perintah dalam latihan tentera senaman dan lain-lain",
+        "mean": "kata-kata perintah yang digunakan dalam latihan tentera senaman dan lain-lain",
         "source": "id"
       }
     ],
@@ -109,7 +109,7 @@
       {
         "example_id": "34",
         "meaning_source": "52",
-        "sentence": "\"Satu ...,\" aba-aba Wit daripada kerusinya."
+        "sentence": "\"Satu dua satu dua ...,\" aba-aba Pegawai Wit di padang."
       }
     ]
   },
@@ -138,19 +138,19 @@
       {
         "means_id": "56",
         "type": "n",
-        "mean": "jangka masa seratus tahun (atau satu daripada jangka masa seratus tahun yang berurutan yang dimulai dengan kejadian yang terpenting, iaitu Hihrah Nabi Muhammad SAW bagi Tahun Hijrah atau kelahiran Nabi Isa bagi Tahun Masihi), kurun"
+        "mean": "tempoh seratus tahun atau satu daripada siri seratus tahun yang bermula dengan peristiwa yang penting (contohnya, Hijrah Nabi Muhammad SAW bagi Tahun Hijrah atau kelahiran Nabi Isa bagi Tahun Masihi), kurun"
       },
       {
         "means_id": "29",
         "type": "n",
-        "mean": "beberapa abad yang lampau beberapa ratus tahun yang lalu"
+        "mean": "beberapa abad yang berlalu, beberapa ratus tahun yang berlalu"
       }
     ],
     "example": [
       {
         "example_id": "11",
         "meaning_source": "56",
-        "sentence": "Dalam abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) Melaka berkuasa di Asia Tenggara."
+        "sentence": "Pada abad ke-15 tarikh Masihi (abad ke-9 tarikh Hijrah) wilayah Kesultana Melaka Melayu meliputi Semenjung Tanah Melayu, Kepuluan Riau dan kawasan utara pulau Sumatera."
       }
     ],
     "affix": [
@@ -175,7 +175,7 @@
       {
         "means_id": "27",
         "type": "n",
-        "mean": "kekal selama-lamanya."
+        "mean": "selama-lamanya, kekal tanpa penghujung"
       }
     ]
   },
@@ -190,7 +190,7 @@
       {
         "means_id": "56",
         "type": "n",
-        "mean": "zaman sesuatu bangsa atau negara mencapai puncak kejayaan, zaman kegemilangan (gemilang)"
+        "mean": "zaman ketika sesuatu bangsa atau negara mencapai puncak kejayaan, zaman kegemilangan"
       }
     ]
   },
@@ -205,7 +205,7 @@
       {
         "means_id": "11",
         "type": "n",
-        "mean": "jangka masa daripada tahun 1901 hingga ke tahun 2000"
+        "mean": "jangka masa dari tahun 1901 hingga tahun 2000"
       }
     ]
   },
@@ -220,7 +220,7 @@
       {
         "means_id": "29",
         "type": "n",
-        "mean": "abad tengah zaman dalam sejarah Eropah antara zaman purbakala dan zaman baru (meliputi jangka masa antara kira-kira tahun 476 hingga 1453M)",
+        "mean": "zaman dalam sejarah Eropah antara zaman purbakala dan zaman baru, meliputi jangka masa kira-kira dari tahun 476 hingga 1453 Mahisi",
         "tag": [
           "cl"
         ]
