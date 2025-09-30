@@ -51,6 +51,7 @@ body {
 }
 
 .menu-bar .button-list {
+    user-select: none;
     display: flex;
     justify-self: right;
     align-items: right;
