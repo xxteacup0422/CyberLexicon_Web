@@ -52,6 +52,7 @@ body::-webkit-scrollbar {
 }
 
 .menu-bar .button-list {
+    user-select: none;
     display: flex;
     justify-self: right;
     align-items: right;
@@ -192,7 +193,7 @@ body::-webkit-scrollbar {
 
 .main .dictionary .word-means {
     border-radius: 5px;
-    background: #38acfa;
+    background: #35a4ee;
     padding: 15px;
     list-style: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
@@ -475,6 +476,52 @@ body::-webkit-scrollbar {
 
 .main .dictionary .word-pronounce {
     margin: 0;
+}
+
+.bottom-bar {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right,#5d1d91, #f0b3ff);
+    color: white;
+    margin-top: 60px;
+    box-shadow: 2px -1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-bar .licenses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bottom-bar .licenses .ccby,
+.bottom-bar .licenses .gpl {
+    border-radius: 5px;
+    padding: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px 25px 15px 15px;
+    width: 280px;
+    transition: all 0.3s ease;
+}
+
+.bottom-bar .licenses .ccby:hover,
+.bottom-bar .licenses .gpl:hover {
+    background: rgba(255, 255, 255, 0.062);
+}
+
+.bottom-bar .licenses .ccby img {
+    width: 32px;
+    height: 32px;
+    user-select: none;
+    margin-right: 8px;
+}
+
+.bottom-bar .licenses .gpl img {
+    width: 64px;
+    height: 32px;
+    user-select: none;
 }
 
 @media (prefers-color-scheme: dark) { 
