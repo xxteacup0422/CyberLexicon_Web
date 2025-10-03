@@ -237,13 +237,13 @@
       {
         "means_id": "13",
         "type": "adj",
-        "mean": "ada permulaan yang tiada pengakhiran (berkenaan dengan masa, kehidupan, kenangan dan sebagainya)",
+        "mean": "ada permulaan tetapi tiada pengakhiran (berhubung dengan masa, kehidupan, kenangan dan sebagainya)",
         "source": "ar"
       },
       {
         "means_id": "54",
         "type": "adj",
-        "mean": "wujud atau berterusan untuk selama-lamanya (sepanjang hayat dan sebagainya), tidak berkesudahan, kekal",
+        "mean": "wujud atau berterusan untuk selama-lamanya (sepanjang hayat dan sebagainya), tidak berkeputusan, kekal",
         "source": "ar"
       }
     ],
@@ -251,17 +251,12 @@
       {
         "example_id": "31",
         "meaning_source": "13",
-        "sentence": "Kehidupan akhirat adalah kehidupan yang abadi."
+        "sentence": "Kenangan zaman kanak-kanak itu abadi dalam hatinya."
       },
       {
         "example_id": "63",
         "meaning_source": "54",
-        "sentence": "Keamanan yang abadi."
-      },
-      {
-        "example_id": "65",
-        "meaning_source": "54",
-        "sentence": "Kasih sayang yang abadi."
+        "sentence": "Kita juga berharap akan keamanan yang abadi."
       }
     ],
     "antonym": [
